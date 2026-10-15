@@ -1,0 +1,22 @@
+﻿中文术语,英文术语,统一用法
+检测单元,inspection unit,统计与排程对象为59个检测单元，不直接写59座独立桥梁。
+全桥技术状况评分,whole-bridge condition score,本文连续预测及状态递推对象，记S，单位为分。
+上部结构技术状况评分,superstructure condition score,仅用预测时点之前的历史观测作为特征。
+时间外验证,temporal holdout validation,按目标检测年份分割；具体采用扩展训练窗。
+规划初始状态,planning initial condition,2024年状态输入，不称全部为真实状态。
+末次观测延续,last observation carried forward (LOCF),缺测项沿用最近一次真实全桥评分。
+预防性养护,preventive maintenance,本文为情景化建模，不代表实际施工处方。
+养护时机,maintenance timing,养护行动发生的规划年份。
+养护排程,maintenance schedule,检测单元与年份组成的行动集合。
+归一化养护资源,normalized maintenance resource,面积占比与评分形状项构成的无量纲指标。
+归一化养护资源水平,normalized maintenance resource level,记ρ；相对于LOCF参考情景的资源区间定位。
+技术状态等级,condition grade,仅依据所提供2026文本的评分区间映射。
+管理约束,management constraint,本文设置的评分和人数要求。
+年退化量,annual deterioration rate,记d，单位分/年；为规划情景参数。
+养护恢复量,condition improvement,记R，单位分；为规划情景参数。
+长期平均评分,long-term mean condition score,记J；59个单元20年年末评分的算术平均。
+最好已知最低可行资源需求,best-known minimum feasible resource requirement,有限搜索中已知最低可行资源，不是全局最小值。
+高资源参考水平,high-resource reference level,最好已知高状态方案所需资源，不是最大预算。
+累计归一化养护资源,cumulative normalized maintenance resource,20年行动资源之和，不折现。
+可行率,feasible-run rate,找到可行最终解的运行数/总运行数，不是安全概率。
+行动集合Jaccard指数,action-set Jaccard index,两套排程交集行动数除以并集行动数。
