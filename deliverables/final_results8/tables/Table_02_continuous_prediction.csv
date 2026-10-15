@@ -1,0 +1,4 @@
+﻿dataset,scope,test_year,model,n,RMSE,MAE,R2,Pearson_r
+next_observation,pooled,all,LOCF,216,4.99713899628,3.71277777778,-0.0103773548826,0.586190139696
+next_observation,pooled,all,Ridge,216,4.07711610845,3.03317662649,0.327415423713,0.581952004794
+next_observation,pooled,all,XGBoost,216,4.61459606743,3.61215225926,0.138395163582,0.54864479525

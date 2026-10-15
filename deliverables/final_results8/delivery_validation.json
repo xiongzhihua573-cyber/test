@@ -1,0 +1,26 @@
+{
+  "all_passed": true,
+  "new_optimization_runs": 0,
+  "new_prediction_model_fits": 0,
+  "existing_optimization_runs_used": 490,
+  "main_runs_used": 420,
+  "same_seed_pairs": 210,
+  "pairs_per_resource_level": 30,
+  "unit_pair_details": 12390,
+  "independent_numeric_comparisons": 41454,
+  "final_chinese_figures_png_320_dpi_and_svg": 8,
+  "figures_1_to_3_png_byte_identical_to_previous": true,
+  "main_table_groups": 6,
+  "table6_panels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "report_sections": 9,
+  "report_pdf_pages": 10,
+  "no_blank_pages": true,
+  "original_files_unchanged": 2067,
+  "new_full_manuscript_generated": false,
+  "stop_after_final_note": true,
+  "supplementary_tables": 20
+}
