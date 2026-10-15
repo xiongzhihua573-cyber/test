@@ -1,0 +1,3 @@
+﻿initial,d,first_violation_types,feasible,violation,J,resource,terminal_mean,minimum_score,min_good_count,min_good_ratio,min_management_count,maintenance_count,annual_mean_count,max_annual_count,max_unit_count,min_gap,first_violation_year,violation_types
+LOCF,0.65,management_count,False,0.19298245614035087,83.81669491525417,0.0,77.64169491525413,68.1799999999999,46,0.7796610169491526,46,0,0.0,0,0,,2036,management_count
+Ridge,0.65,management_count,False,0.08771929824561403,85.47073668132536,0.0,79.29573668132531,71.63999999999989,52,0.8813559322033898,52,0,0.0,0,0,,2043,management_count
