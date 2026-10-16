@@ -1,0 +1,32 @@
+{
+  "all_passed": true,
+  "required_result_tables": 13,
+  "supplementary_tables_hash_verified": 21,
+  "new_main_figures_verified": 4,
+  "PNG_dpi": {
+    "Figure_04_15y.png": [
+      319.9892,
+      319.9892
+    ],
+    "Figure_06_15y.png": [
+      319.9892,
+      319.9892
+    ],
+    "Figure_07_15y.png": [
+      319.9892,
+      319.9892
+    ],
+    "Figure_08_15y.png": [
+      319.9892,
+      319.9892
+    ]
+  },
+  "report_sections": 15,
+  "report_inline_figures": 4,
+  "report_native_tables": 13,
+  "all_saved_searches_independently_verified": 570,
+  "common_endpoint_checks": 48,
+  "derived_assertions": 64418,
+  "old_project_files_preserved": 3361,
+  "full_manuscript_overwritten": false
+}

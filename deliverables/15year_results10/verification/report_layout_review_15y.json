@@ -1,0 +1,29 @@
+{
+  "title": "小论文_15年规划期重跑结果报告",
+  "pages": 12,
+  "heading1_count": 15,
+  "ordered_sections": [
+    "1 为什么改为15年",
+    "2 15年LOCF/Ridge无养护基线",
+    "3 15年三个资源端点",
+    "4 新的7档共同资源上限",
+    "5 7档资源主结果",
+    "6 LOCF/Ridge的J与ΔJ",
+    "7 30组同随机种子排程Jaccard",
+    "8 首次养护年份差异",
+    "9 15年代表方案",
+    "10 年评分下降量d敏感性",
+    "11 面积—养护次数诊断",
+    "12 15年与20年结果的主要变化",
+    "13 新的Figure 4、6、7、8",
+    "14 新的Table 4、5、6",
+    "15 RQ2和RQ3的判断及停止点"
+  ],
+  "inline_figures": 4,
+  "native_tables": 13,
+  "all_tables_have_rows": true,
+  "minimum_page_text_characters": 179,
+  "contact_sheet": "metadata/report_contact_sheet_15y.jpg",
+  "visual_review": "All 12 pages inspected as a contact sheet; page 7 enlarged: readable Chinese labels, figures contained in margins, captions attached, tables editable and no blank pages.",
+  "new_manuscript_generated": false
+}
