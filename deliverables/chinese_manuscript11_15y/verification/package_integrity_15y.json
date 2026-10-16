@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "project_files_in_archive": 744,
+  "archive_bytes": 13468042,
+  "archive_sha256": "b35cabfd6434fad103c501a13ff12ab977898898312b547214af781dc9d60c57",
+  "zip_crc_and_entry_bytes_verified": true,
+  "manuscript_pages": 15,
+  "revision_note_pages": 5,
+  "new_optimization_runs": 0,
+  "new_prediction_model_fits": 0,
+  "new_references_added": 0,
+  "branch": "deliverables/chinese-manuscript11-15y"
+}

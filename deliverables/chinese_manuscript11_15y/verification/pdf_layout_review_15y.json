@@ -1,0 +1,122 @@
+{
+  "all_text_within_page": true,
+  "reports": {
+    "小论文_中文第二稿_15年版": {
+      "pages": 15,
+      "sha256": "1e0a0dd30693f1b535f43269ed9c52e7505e5d312b8ba504f2cdf4a2ff3723c0",
+      "page_checks": [
+        {
+          "page": 1,
+          "text_characters": 1863,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 2,
+          "text_characters": 1658,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 3,
+          "text_characters": 1569,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 4,
+          "text_characters": 1773,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 5,
+          "text_characters": 1321,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 6,
+          "text_characters": 708,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 7,
+          "text_characters": 612,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 8,
+          "text_characters": 1566,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 9,
+          "text_characters": 1507,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 10,
+          "text_characters": 1174,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 11,
+          "text_characters": 705,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 12,
+          "text_characters": 974,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 13,
+          "text_characters": 1727,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 14,
+          "text_characters": 1755,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 15,
+          "text_characters": 2923,
+          "text_blocks_outside_safe_page": []
+        }
+      ],
+      "contact_sheet": "metadata/manuscript_contact_sheet.jpg"
+    },
+    "小论文_15年版修改说明": {
+      "pages": 5,
+      "sha256": "0f1233ba3ff157dc547cd11b486d3798550062d50ce0e97aab9bcf4188d4c6a1",
+      "page_checks": [
+        {
+          "page": 1,
+          "text_characters": 925,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 2,
+          "text_characters": 1287,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 3,
+          "text_characters": 1038,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 4,
+          "text_characters": 1070,
+          "text_blocks_outside_safe_page": []
+        },
+        {
+          "page": 5,
+          "text_characters": 1565,
+          "text_blocks_outside_safe_page": []
+        }
+      ],
+      "contact_sheet": "metadata/revision_note_contact_sheet.jpg"
+    }
+  },
+  "visual_review_pending": false,
+  "visual_review": "All 15 manuscript pages and 5 revision-note pages inspected as contact sheets; dense manuscript page12 and note page2 enlarged; no clipped text, figures or table columns, no blank pages.",
+  "main_pdf_old_results_scan_passed": true
+}

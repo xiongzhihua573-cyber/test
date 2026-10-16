@@ -1,0 +1,2471 @@
+{
+  "all_passed": true,
+  "checks_total": 142,
+  "checks_passed": 142,
+  "new_optimization_runs": 0,
+  "new_prediction_model_fits": 0,
+  "search_model_imported": false,
+  "body_Han_count": 10074,
+  "abstract_Han_count": 366,
+  "section_Han_counts": {
+    "abstract": 366,
+    "introduction": 1359,
+    "methods": 3021,
+    "results": 2759,
+    "discussion": 2415,
+    "conclusion": 520
+  },
+  "numeric_claims": 84,
+  "numeric_claims_passed": 84,
+  "frozen_inputs_verified": 701,
+  "actual_reference_count": 9,
+  "document": {
+    "path": "manuscript/小论文_中文第二稿_15年版.docx",
+    "sha256": "528daa55a35365a7ed320a97a53f4e1daa23f723c3dac922c3b6c6065dad5db2",
+    "inline_figures": 7,
+    "physical_tables": 8,
+    "figure_captions": [
+      1,
+      2,
+      3,
+      6,
+      4,
+      7,
+      8
+    ],
+    "table_captions": [
+      1,
+      3,
+      2,
+      4,
+      5,
+      6
+    ],
+    "editable_equations": 5,
+    "missing_authored_blocks": [],
+    "visible_Han_including_tables_references_captions": 12119
+  },
+  "manuscript_content_sha256": {
+    "content/abstract.md": "5c1729a6de456af61c5a6ef24d63dc5f20cbe0545520a870faf6eeeb342c6d05",
+    "content/conclusion.md": "f5351ebf147007e7a46051271a2a1f66126187490ae4381e45aba06a3b8eab6c",
+    "content/discussion.md": "2e5f474e0067434aa1cdd1ee956f3be86ae493b36e381cad216ab17279a68ded",
+    "content/introduction.md": "4b888c02575eab016130c714a469869bee7309d11b9cb36a1d3bd373ec803df6",
+    "content/keywords.md": "4285a14835ccd53702150ec3deb5232eb7ad9815b40dd806e1ab1f1c890afe59",
+    "content/methods.md": "be7a8c6e7c5054815cb439b61aea00a10c830d0f454d4ad712b73560455cae50",
+    "content/results.md": "7990ea847412401b6448043f00e5fea29f1e0c9876734dfcf6e213419ba4d20f",
+    "content/supplementary_note.md": "c9f3bb67d232d1d6f70e7787066fc590d69b799b5cd5ebdfc829dc847d0b19e6"
+  },
+  "numeric_claim_checks": [
+    {
+      "claim": "LOCF_prediction_RMSE",
+      "value": 4.99713899628,
+      "displayed": "4.9971",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_prediction_MAE",
+      "value": 3.71277777778,
+      "displayed": "3.7128",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_prediction_R2",
+      "value": -0.0103773548826,
+      "displayed": "-0.0104",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_prediction_Pearson_r",
+      "value": 0.586190139696,
+      "displayed": "0.5862",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_prediction_RMSE",
+      "value": 4.07711610845,
+      "displayed": "4.0771",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_prediction_MAE",
+      "value": 3.03317662649,
+      "displayed": "3.0332",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_prediction_R2",
+      "value": 0.327415423713,
+      "displayed": "0.3274",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_prediction_Pearson_r",
+      "value": 0.581952004794,
+      "displayed": "0.5820",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "XGBoost_prediction_RMSE",
+      "value": 4.61459606743,
+      "displayed": "4.6146",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "XGBoost_prediction_MAE",
+      "value": 3.61215225926,
+      "displayed": "3.6122",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "XGBoost_prediction_R2",
+      "value": 0.138395163582,
+      "displayed": "0.1384",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "XGBoost_prediction_Pearson_r",
+      "value": 0.54864479525,
+      "displayed": "0.5486",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_initial_mean",
+      "value": 90.64169491525425,
+      "displayed": "90.6417",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_initial_SD",
+      "value": 3.839822711668166,
+      "displayed": "3.8398",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_initial_mean",
+      "value": 92.29573668132542,
+      "displayed": "92.2957",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_initial_SD",
+      "value": 3.002375736620517,
+      "displayed": "3.0024",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_15y_zero_J",
+      "value": 85.4416949152542,
+      "displayed": "85.441695",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_15y_zero_terminal",
+      "value": 80.89169491525413,
+      "displayed": "80.8917",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_15y_zero_minimum",
+      "value": 71.42999999999992,
+      "displayed": "71.43",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_15y_zero_J",
+      "value": 87.09573668132538,
+      "displayed": "87.095737",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_15y_zero_terminal",
+      "value": 82.54573668132535,
+      "displayed": "82.5457",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_15y_zero_minimum",
+      "value": 74.88999999999992,
+      "displayed": "74.89",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "B_min_known_LOCF_15",
+      "value": 0.013815331415313641,
+      "displayed": "0.0138153314",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "B_ref_LOCF_15",
+      "value": 2.2956417860207874,
+      "displayed": "2.2956417860",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "new_B_level_0",
+      "value": 0.013815331415313641,
+      "displayed": "0.013815",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "new_B_level_1",
+      "value": 0.39411974051622595,
+      "displayed": "0.394120",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "new_B_level_2",
+      "value": 0.7744241496171382,
+      "displayed": "0.774424",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "new_B_level_3",
+      "value": 1.1547285587180505,
+      "displayed": "1.154729",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "new_B_level_4",
+      "value": 1.5350329678189627,
+      "displayed": "1.535033",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "new_B_level_5",
+      "value": 1.9153373769198752,
+      "displayed": "1.915337",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "new_B_level_6",
+      "value": 2.2956417860207874,
+      "displayed": "2.295642",
+      "sections": [
+        "methods",
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_middle_J_mean",
+      "value": 91.25341393596982,
+      "displayed": "91.2534",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_middle_J_sd",
+      "value": 0.1433428758259924,
+      "displayed": "0.1433",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_middle_Delta_J_mean",
+      "value": 5.81171902071562,
+      "displayed": "5.8117",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_middle_2039_mean_score_mean",
+      "value": 89.85256497175136,
+      "displayed": "89.8526",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_middle_maintenance_count_mean",
+      "value": 89.36666666666666,
+      "displayed": "89.37",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_resource_low_J",
+      "value": 85.74677966101687,
+      "displayed": "85.7468",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_resource_high_J",
+      "value": 91.90949152542368,
+      "displayed": "91.9095",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_resource_J_increase",
+      "value": 6.162711864406802,
+      "displayed": "6.1627",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_middle_J_mean",
+      "value": 92.84184557570129,
+      "displayed": "92.8418",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_middle_J_sd",
+      "value": 0.1454980829473006,
+      "displayed": "0.1455",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_middle_Delta_J_mean",
+      "value": 5.746108894375923,
+      "displayed": "5.7461",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_middle_2039_mean_score_mean",
+      "value": 91.30944097822109,
+      "displayed": "91.3094",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_middle_maintenance_count_mean",
+      "value": 88.43333333333334,
+      "displayed": "88.43",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_resource_low_J",
+      "value": 87.45243688209776,
+      "displayed": "87.4524",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_resource_high_J",
+      "value": 93.55402177211174,
+      "displayed": "93.5540",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "Ridge_resource_J_increase",
+      "value": 6.1015848900139815,
+      "displayed": "6.1016",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_absolute_J_difference",
+      "value": 1.5884316397314677,
+      "displayed": "1.5884",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_relative_DeltaJ_difference",
+      "value": -0.06561012633969732,
+      "displayed": "-0.0656",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_nonmonotonic_next_level_mean",
+      "value": 91.15520903954797,
+      "displayed": "91.1552",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_Jaccard_mean",
+      "value": 0.07038776290304186,
+      "displayed": "0.0704",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_Jaccard_SD",
+      "value": 0.021441241447213526,
+      "displayed": "0.0214",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_Jaccard_median",
+      "value": 0.07080200501253132,
+      "displayed": "0.0708",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_Jaccard_Q25",
+      "value": 0.05544425087108014,
+      "displayed": "0.0554",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_Jaccard_Q75",
+      "value": 0.08460410557184751,
+      "displayed": "0.0846",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_first_year_MAE_mean",
+      "value": 2.661112798113861,
+      "displayed": "2.66",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_first_year_MAE_SD",
+      "value": 0.3354655051901313,
+      "displayed": "0.34",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_first_year_MAE_median",
+      "value": 2.707977207977208,
+      "displayed": "2.71",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_first_year_MAE_Q25",
+      "value": 2.487034574468085,
+      "displayed": "2.49",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_first_year_MAE_Q75",
+      "value": 2.877173091458806,
+      "displayed": "2.88",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_n_both_maintained_mean",
+      "value": 49.9,
+      "displayed": "49.90",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_n_both_maintained_SD",
+      "value": 2.3096499212263075,
+      "displayed": "2.31",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_n_same_first_year_mean",
+      "value": 6.5,
+      "displayed": "6.50",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "middle_pair_n_same_first_year_SD",
+      "value": 2.8617573573616952,
+      "displayed": "2.86",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_representative_J",
+      "value": 91.46458757062142,
+      "displayed": "91.4646",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_representative_Delta_J",
+      "value": 6.022892655367215,
+      "displayed": "6.0229",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_representative_B_used",
+      "value": 1.1498854480945604,
+      "displayed": "1.149885",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_representative_2039_mean_score",
+      "value": 90.30966101694906,
+      "displayed": "90.3097",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "LOCF_representative_minimum_score",
+      "value": 74.88999999999992,
+      "displayed": "74.89",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.45_J_mean",
+      "value": 92.76474877589453,
+      "displayed": "92.7647",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.45_J_sd",
+      "value": 0.14394069415491292,
+      "displayed": "0.1439",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.45_Delta_J_mean",
+      "value": 5.7230538606403085,
+      "displayed": "5.7231",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.45_2039_mean_score_mean",
+      "value": 92.58251977401125,
+      "displayed": "92.5825",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.45_maintenance_count_mean",
+      "value": 88.4,
+      "displayed": "88.40",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.65_J_mean",
+      "value": 91.25341393596982,
+      "displayed": "91.2534",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.65_J_sd",
+      "value": 0.1433428758259924,
+      "displayed": "0.1433",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.65_Delta_J_mean",
+      "value": 5.81171902071562,
+      "displayed": "5.8117",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.65_2039_mean_score_mean",
+      "value": 89.85256497175136,
+      "displayed": "89.8526",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.65_maintenance_count_mean",
+      "value": 89.36666666666666,
+      "displayed": "89.37",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.85_J_mean",
+      "value": 89.7064512241055,
+      "displayed": "89.7065",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.85_J_sd",
+      "value": 0.17205957409592562,
+      "displayed": "0.1721",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.85_Delta_J_mean",
+      "value": 5.864756308851228,
+      "displayed": "5.8648",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.85_2039_mean_score_mean",
+      "value": 86.99757627118655,
+      "displayed": "86.9976",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "d0.85_maintenance_count_mean",
+      "value": 89.9,
+      "displayed": "89.90",
+      "sections": [
+        "results"
+      ],
+      "passed": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "formal_second_draft_Word_exists",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "formal_second_draft_MD_exists",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_701_frozen_inputs_unchanged",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "22_prediction_initial_data_display_inputs_frozen",
+      "passed": true,
+      "evidence": [
+        "source_data/bridge_group_mapping.csv",
+        "source_data/initial_state_statistics.csv",
+        "source_data/continuous_predictions.csv",
+        "source_data/yearly_observation_count.csv",
+        "source_data/leakage_checks.csv",
+        "source_data/continuous_model_comparison.csv",
+        "source_data/data_audit.csv",
+        "source_data/initial_state_2024.csv",
+        "source_data/initial_state_difference.csv",
+        "source_data/temporal_validation_splits.csv",
+        "source_data/grade_distribution.csv",
+        "source_data/feature_dictionary.csv",
+        "source_data/initial_state_ridge_features.csv",
+        "source_data/observations_long.csv",
+        "figures/Figure_01_observation_coverage.png",
+        "figures/Figure_01_observation_coverage.svg",
+        "figures/Figure_02_continuous_prediction.png",
+        "figures/Figure_02_continuous_prediction.svg",
+        "figures/Figure_03_initial_conditions.png",
+        "figures/Figure_03_initial_conditions.svg",
+        "tables/Table_01_data_audit.csv",
+        "tables/Table_02_continuous_prediction.csv"
+      ]
+    },
+    {
+      "name": "body_8000_to_12000_Han",
+      "passed": true,
+      "evidence": 10074
+    },
+    {
+      "name": "abstract_350_to_500_Han",
+      "passed": true,
+      "evidence": 366
+    },
+    {
+      "name": "FIG_markers_exact",
+      "passed": true,
+      "evidence": [
+        1,
+        2,
+        3,
+        6,
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "TABLE_markers_exact",
+      "passed": true,
+      "evidence": [
+        1,
+        3,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "rho_limited_to_methods_prose",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "authored_prose_no_old_period_or_old_metrics",
+      "passed": true,
+      "evidence": {
+        "values": {},
+        "years": []
+      }
+    },
+    {
+      "name": "no_AP_KELM_old_solver_control_or_RMB_budgets",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "exact_existing_9_actual_references",
+      "passed": true,
+      "evidence": [
+        "frangopol2012",
+        "dhada2020",
+        "roberts2017",
+        "wei2024",
+        "pedregosa2011",
+        "chen2016",
+        "jtg2026",
+        "chopra2022",
+        "deb2000"
+      ]
+    },
+    {
+      "name": "reference_schema_hash_frozen",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "numeric_claim:LOCF_prediction_RMSE",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_prediction_RMSE",
+        "value": 4.99713899628,
+        "displayed": "4.9971",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_prediction_MAE",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_prediction_MAE",
+        "value": 3.71277777778,
+        "displayed": "3.7128",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_prediction_R2",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_prediction_R2",
+        "value": -0.0103773548826,
+        "displayed": "-0.0104",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_prediction_Pearson_r",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_prediction_Pearson_r",
+        "value": 0.586190139696,
+        "displayed": "0.5862",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_prediction_RMSE",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_prediction_RMSE",
+        "value": 4.07711610845,
+        "displayed": "4.0771",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_prediction_MAE",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_prediction_MAE",
+        "value": 3.03317662649,
+        "displayed": "3.0332",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_prediction_R2",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_prediction_R2",
+        "value": 0.327415423713,
+        "displayed": "0.3274",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_prediction_Pearson_r",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_prediction_Pearson_r",
+        "value": 0.581952004794,
+        "displayed": "0.5820",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:XGBoost_prediction_RMSE",
+      "passed": true,
+      "evidence": {
+        "claim": "XGBoost_prediction_RMSE",
+        "value": 4.61459606743,
+        "displayed": "4.6146",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:XGBoost_prediction_MAE",
+      "passed": true,
+      "evidence": {
+        "claim": "XGBoost_prediction_MAE",
+        "value": 3.61215225926,
+        "displayed": "3.6122",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:XGBoost_prediction_R2",
+      "passed": true,
+      "evidence": {
+        "claim": "XGBoost_prediction_R2",
+        "value": 0.138395163582,
+        "displayed": "0.1384",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:XGBoost_prediction_Pearson_r",
+      "passed": true,
+      "evidence": {
+        "claim": "XGBoost_prediction_Pearson_r",
+        "value": 0.54864479525,
+        "displayed": "0.5486",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "216_real_time_out_records",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "59_units_6_real_53_estimated",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "numeric_claim:LOCF_initial_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_initial_mean",
+        "value": 90.64169491525425,
+        "displayed": "90.6417",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_initial_SD",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_initial_SD",
+        "value": 3.839822711668166,
+        "displayed": "3.8398",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_initial_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_initial_mean",
+        "value": 92.29573668132542,
+        "displayed": "92.2957",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_initial_SD",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_initial_SD",
+        "value": 3.002375736620517,
+        "displayed": "3.0024",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_15y_zero_J",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_15y_zero_J",
+        "value": 85.4416949152542,
+        "displayed": "85.441695",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_15y_zero_terminal",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_15y_zero_terminal",
+        "value": 80.89169491525413,
+        "displayed": "80.8917",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_15y_zero_minimum",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_15y_zero_minimum",
+        "value": 71.42999999999992,
+        "displayed": "71.43",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_15y_zero_J",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_15y_zero_J",
+        "value": 87.09573668132538,
+        "displayed": "87.095737",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_15y_zero_terminal",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_15y_zero_terminal",
+        "value": 82.54573668132535,
+        "displayed": "82.5457",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_15y_zero_minimum",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_15y_zero_minimum",
+        "value": 74.88999999999992,
+        "displayed": "74.89",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "LOCF_first_management_violation_2036",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Ridge_zero_action_feasible",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "numeric_claim:B_min_known_LOCF_15",
+      "passed": true,
+      "evidence": {
+        "claim": "B_min_known_LOCF_15",
+        "value": 0.013815331415313641,
+        "displayed": "0.0138153314",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:B_ref_LOCF_15",
+      "passed": true,
+      "evidence": {
+        "claim": "B_ref_LOCF_15",
+        "value": 2.2956417860207874,
+        "displayed": "2.2956417860",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "endpoint_action_counts_3_114_0",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Ridge_minimum_resource_zero",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "numeric_claim:new_B_level_0",
+      "passed": true,
+      "evidence": {
+        "claim": "new_B_level_0",
+        "value": 0.013815331415313641,
+        "displayed": "0.013815",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:new_B_level_1",
+      "passed": true,
+      "evidence": {
+        "claim": "new_B_level_1",
+        "value": 0.39411974051622595,
+        "displayed": "0.394120",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:new_B_level_2",
+      "passed": true,
+      "evidence": {
+        "claim": "new_B_level_2",
+        "value": 0.7744241496171382,
+        "displayed": "0.774424",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:new_B_level_3",
+      "passed": true,
+      "evidence": {
+        "claim": "new_B_level_3",
+        "value": 1.1547285587180505,
+        "displayed": "1.154729",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:new_B_level_4",
+      "passed": true,
+      "evidence": {
+        "claim": "new_B_level_4",
+        "value": 1.5350329678189627,
+        "displayed": "1.535033",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:new_B_level_5",
+      "passed": true,
+      "evidence": {
+        "claim": "new_B_level_5",
+        "value": 1.9153373769198752,
+        "displayed": "1.915337",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:new_B_level_6",
+      "passed": true,
+      "evidence": {
+        "claim": "new_B_level_6",
+        "value": 2.2956417860207874,
+        "displayed": "2.295642",
+        "sections": [
+          "methods",
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_middle_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_middle_J_mean",
+        "value": 91.25341393596982,
+        "displayed": "91.2534",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_middle_J_sd",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_middle_J_sd",
+        "value": 0.1433428758259924,
+        "displayed": "0.1433",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_middle_Delta_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_middle_Delta_J_mean",
+        "value": 5.81171902071562,
+        "displayed": "5.8117",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_middle_2039_mean_score_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_middle_2039_mean_score_mean",
+        "value": 89.85256497175136,
+        "displayed": "89.8526",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_middle_maintenance_count_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_middle_maintenance_count_mean",
+        "value": 89.36666666666666,
+        "displayed": "89.37",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_resource_low_J",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_resource_low_J",
+        "value": 85.74677966101687,
+        "displayed": "85.7468",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_resource_high_J",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_resource_high_J",
+        "value": 91.90949152542368,
+        "displayed": "91.9095",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_resource_J_increase",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_resource_J_increase",
+        "value": 6.162711864406802,
+        "displayed": "6.1627",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_middle_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_middle_J_mean",
+        "value": 92.84184557570129,
+        "displayed": "92.8418",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_middle_J_sd",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_middle_J_sd",
+        "value": 0.1454980829473006,
+        "displayed": "0.1455",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_middle_Delta_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_middle_Delta_J_mean",
+        "value": 5.746108894375923,
+        "displayed": "5.7461",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_middle_2039_mean_score_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_middle_2039_mean_score_mean",
+        "value": 91.30944097822109,
+        "displayed": "91.3094",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_middle_maintenance_count_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_middle_maintenance_count_mean",
+        "value": 88.43333333333334,
+        "displayed": "88.43",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_resource_low_J",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_resource_low_J",
+        "value": 87.45243688209776,
+        "displayed": "87.4524",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_resource_high_J",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_resource_high_J",
+        "value": 93.55402177211174,
+        "displayed": "93.5540",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:Ridge_resource_J_increase",
+      "passed": true,
+      "evidence": {
+        "claim": "Ridge_resource_J_increase",
+        "value": 6.1015848900139815,
+        "displayed": "6.1016",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_absolute_J_difference",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_absolute_J_difference",
+        "value": 1.5884316397314677,
+        "displayed": "1.5884",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_relative_DeltaJ_difference",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_relative_DeltaJ_difference",
+        "value": -0.06561012633969732,
+        "displayed": "-0.0656",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_nonmonotonic_next_level_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_nonmonotonic_next_level_mean",
+        "value": 91.15520903954797,
+        "displayed": "91.1552",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_Jaccard_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_Jaccard_mean",
+        "value": 0.07038776290304186,
+        "displayed": "0.0704",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_Jaccard_SD",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_Jaccard_SD",
+        "value": 0.021441241447213526,
+        "displayed": "0.0214",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_Jaccard_median",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_Jaccard_median",
+        "value": 0.07080200501253132,
+        "displayed": "0.0708",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_Jaccard_Q25",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_Jaccard_Q25",
+        "value": 0.05544425087108014,
+        "displayed": "0.0554",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_Jaccard_Q75",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_Jaccard_Q75",
+        "value": 0.08460410557184751,
+        "displayed": "0.0846",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_first_year_MAE_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_first_year_MAE_mean",
+        "value": 2.661112798113861,
+        "displayed": "2.66",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_first_year_MAE_SD",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_first_year_MAE_SD",
+        "value": 0.3354655051901313,
+        "displayed": "0.34",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_first_year_MAE_median",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_first_year_MAE_median",
+        "value": 2.707977207977208,
+        "displayed": "2.71",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_first_year_MAE_Q25",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_first_year_MAE_Q25",
+        "value": 2.487034574468085,
+        "displayed": "2.49",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_first_year_MAE_Q75",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_first_year_MAE_Q75",
+        "value": 2.877173091458806,
+        "displayed": "2.88",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_n_both_maintained_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_n_both_maintained_mean",
+        "value": 49.9,
+        "displayed": "49.90",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_n_both_maintained_SD",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_n_both_maintained_SD",
+        "value": 2.3096499212263075,
+        "displayed": "2.31",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_n_same_first_year_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_n_same_first_year_mean",
+        "value": 6.5,
+        "displayed": "6.50",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:middle_pair_n_same_first_year_SD",
+      "passed": true,
+      "evidence": {
+        "claim": "middle_pair_n_same_first_year_SD",
+        "value": 2.8617573573616952,
+        "displayed": "2.86",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "highest_B_paired_Jaccard_one",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "representative_seed20261039",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "numeric_claim:LOCF_representative_J",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_representative_J",
+        "value": 91.46458757062142,
+        "displayed": "91.4646",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_representative_Delta_J",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_representative_Delta_J",
+        "value": 6.022892655367215,
+        "displayed": "6.0229",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_representative_B_used",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_representative_B_used",
+        "value": 1.1498854480945604,
+        "displayed": "1.149885",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_representative_2039_mean_score",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_representative_2039_mean_score",
+        "value": 90.30966101694906,
+        "displayed": "90.3097",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:LOCF_representative_minimum_score",
+      "passed": true,
+      "evidence": {
+        "claim": "LOCF_representative_minimum_score",
+        "value": 74.88999999999992,
+        "displayed": "74.89",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "representative_93_actions_56_units_good58",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "representative_15_years_no2040",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "representative_capacity10_of15",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "numeric_claim:d0.45_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.45_J_mean",
+        "value": 92.76474877589453,
+        "displayed": "92.7647",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.45_J_sd",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.45_J_sd",
+        "value": 0.14394069415491292,
+        "displayed": "0.1439",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.45_Delta_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.45_Delta_J_mean",
+        "value": 5.7230538606403085,
+        "displayed": "5.7231",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.45_2039_mean_score_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.45_2039_mean_score_mean",
+        "value": 92.58251977401125,
+        "displayed": "92.5825",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.45_maintenance_count_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.45_maintenance_count_mean",
+        "value": 88.4,
+        "displayed": "88.40",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.65_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.65_J_mean",
+        "value": 91.25341393596982,
+        "displayed": "91.2534",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.65_J_sd",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.65_J_sd",
+        "value": 0.1433428758259924,
+        "displayed": "0.1433",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.65_Delta_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.65_Delta_J_mean",
+        "value": 5.81171902071562,
+        "displayed": "5.8117",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.65_2039_mean_score_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.65_2039_mean_score_mean",
+        "value": 89.85256497175136,
+        "displayed": "89.8526",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.65_maintenance_count_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.65_maintenance_count_mean",
+        "value": 89.36666666666666,
+        "displayed": "89.37",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.85_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.85_J_mean",
+        "value": 89.7064512241055,
+        "displayed": "89.7065",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.85_J_sd",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.85_J_sd",
+        "value": 0.17205957409592562,
+        "displayed": "0.1721",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.85_Delta_J_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.85_Delta_J_mean",
+        "value": 5.864756308851228,
+        "displayed": "5.8648",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.85_2039_mean_score_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.85_2039_mean_score_mean",
+        "value": 86.99757627118655,
+        "displayed": "86.9976",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "numeric_claim:d0.85_maintenance_count_mean",
+      "passed": true,
+      "evidence": {
+        "claim": "d0.85_maintenance_count_mean",
+        "value": 89.9,
+        "displayed": "89.90",
+        "sections": [
+          "results"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "name": "planning_horizon_reason_requested_sentence",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "methods_15y_decoder_and_J",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "methods_57_of59_research_target",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "methods_no_10paired_solver_control",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "zero_action_caution_15y_estimates_not_real_no_maintenance",
+      "passed": true,
+      "evidence": [
+        "参考年评分下降量下，LOCF和Ridge的15年无养护J分别为85.441695和87.095737分，2039年平均评分分别为80.8917和82.5457分（表4）。LOCF在2036年首次不满足至少57个单元>75的管理目标，全期最少54个；其15年最低评分71.43分，所有单元>60的条件始终满足。Ridge无养护最低评分为74.89分，最少58个单元>75，两项管理条件在15年内均未违反。Ridge规划初值下的零行动方案在本文15年情景和管理条件下仍可行，但该结果建立在估计初值和情景参数基础上，不能解释为实际桥梁15年无需养护。",
+        "15年LOCF最好已知最低可行资源为0.0138153314，对应3次行动；LOCF高资源参考为2.2956417860，对应114次行动。Ridge最低可行资源诊断为0，原因是其零行动方案已满足本文管理条件；该值不单独生成Ridge资源轴。两套规划统一使用LOCF端点定义的七档绝对上限B=0.013815、0.394120、0.774424、1.154729、1.535033、1.915337和2.295642。最低共同B不是零资源，端点也只表示当前有限搜索和情景下的最好已知参考。",
+        "两套初值还影响最低养护需求的判断。LOCF零行动方案在2036年首次不能满足每年至少57/59个单元大于75分的条件，说明2025—2039年规划覆盖了管理约束开始发挥作用的阶段。Ridge规划初值下的零行动方案在本文15年情景和管理条件下仍可行，但该结果建立在估计初值和情景参数基础上，不能解释为实际桥梁15年无需养护。缺测单元初值没有同期真值，最低需求差异应促使管理者重视起点核实，而不是以模型结果替代实际检测。所选规划期的分析意义在于观察到约束生效及行动配置过程，其适用性仍依赖数据、管理目标和情景设定，不能由这一结果判定15年为唯一合理期限。"
+      ]
+    },
+    {
+      "name": "highest_B_shared_candidate_capacity_finite_search_caution",
+      "passed": true,
+      "evidence": [
+        "图6保留所有七档分布。最高B=2.295642下，Jaccard均值达到1.0000，首次年MAE为0；两套初值使用相同的114次行动。该高状态参考排程使用了15年年度能力理论上限120次中的114次，且两套规划共享高状态已知可行候选。最高资源档出现高度一致的行动安排，但该结果同时受到共同高状态候选、较高行动使用程度和有限搜索的影响，不用于判断规划初值影响完全消失。问题的离散多解和有限随机搜索也会影响其他档位，不能将全部差异均归因于初值。",
+        "15年LOCF最好已知最低可行资源为0.0138153314，对应3次行动；LOCF高资源参考为2.2956417860，对应114次行动。Ridge最低可行资源诊断为0，原因是其零行动方案已满足本文管理条件；该值不单独生成Ridge资源轴。两套规划统一使用LOCF端点定义的七档绝对上限B=0.013815、0.394120、0.774424、1.154729、1.535033、1.915337和2.295642。最低共同B不是零资源，端点也只表示当前有限搜索和情景下的最好已知参考。",
+        "最高资源档B=2.295642的Jaccard为1.0000，需要结合计算条件解释。该档高状态参考排程含114次行动，接近15年年度能力合计上限120次；两套初值又共享同一个已核验高状态候选作为公共初始成员。较高行动使用程度、共同候选和有限搜索都可能促进排程一致。因此，最高档结果不用于判断规划初值影响完全消失，其他资源档的配对差异仍是评价初值响应的重要依据。"
+      ]
+    },
+    {
+      "name": "minimum74_89_below75_not_all_units_floor",
+      "passed": true,
+      "evidence": [
+        "参考年评分下降量下，LOCF和Ridge的15年无养护J分别为85.441695和87.095737分，2039年平均评分分别为80.8917和82.5457分（表4）。LOCF在2036年首次不满足至少57个单元>75的管理目标，全期最少54个；其15年最低评分71.43分，所有单元>60的条件始终满足。Ridge无养护最低评分为74.89分，最少58个单元>75，两项管理条件在15年内均未违反。Ridge规划初值下的零行动方案在本文15年情景和管理条件下仍可行，但该结果建立在估计初值和情景参数基础上，不能解释为实际桥梁15年无需养护。",
+        "代表方案全期最低评分为74.89分，最少58个单元>75。74.89分低于75并不违反本文管理条件，因为模型要求全部单元>60且至少57/59个>75，并未要求全部单元始终>75。图7中75和60为评分区间参考线，75不是所有单元最低允许评分。这个方案的57个单元数量下限没有取等号，但年度能力上限多次活跃，说明不同约束在同一排程中的作用程度并不相同。"
+      ]
+    },
+    {
+      "name": "first_year_missing_not_year_zero",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "sensitivity_own_d_baseline_caution",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Word_exact_7_approved_PNG_image_bytes",
+      "passed": true,
+      "evidence": {
+        "actual_images": 7,
+        "expected_figures": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "approved_paths": {
+          "1": "figures/Figure_01_observation_coverage.png",
+          "2": "figures/Figure_02_continuous_prediction.png",
+          "3": "figures/Figure_03_initial_conditions.png",
+          "4": "figures_display/Figure_04_15y.png",
+          "6": "figures_display/Figure_06_15y.png",
+          "7": "figures/Figure_07_15y.png",
+          "8": "figures/Figure_08_15y.png"
+        }
+      }
+    },
+    {
+      "name": "figure_display_changes_audit_recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "figure_display_changes_independently_approved",
+      "passed": true,
+      "evidence": {
+        "all_passed": true,
+        "scope": "display_label_only",
+        "label_change": "Replace rho=0 note with lowest absolute B; all plotted data, statistics, scales and styles unchanged",
+        "no_new_optimization": true,
+        "no_new_prediction_training": true,
+        "numeric_inputs": {
+          "results/resource_level_runs_15y.csv": "072ca030a284668f08fc156d817ebe53a0ce285d05eb837708111ccdda50f4cb",
+          "results/paired_schedule_comparison_runs_15y.csv": "456cad2a77c25544e8fec205df6e48f1cf5445771a36b260f32b2a9fef941bb1",
+          "results/horizon_comparison_15y_vs_20y.csv": "c49ce6a299d16744306968a585ad38529554d97097e13b2aeb4c3802f37775b3",
+          "results/endpoint_initial_candidate_checks_15y.csv": "a4e065cde1470088febb7ea57cb6ebf2707f1c03950696f6e0d1f4d7c425ef3d",
+          "results/resource_level_summary_15y.csv": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00",
+          "results/paired_schedule_comparison_summary_15y.csv": "3c363a28862d59ddc8e05cf9f42f8fd79e03ce11f71cdb711b92ec640d71fc1a",
+          "results/all_runs_analyzed_15y.csv": "0a72766219330ed8294de05d74bd21dbb62cb9ba2f0ad4aec001c133a4d761ef",
+          "results/representative_action_matrix_Ridge_15y.csv": "570f20c403d2370a80ad69017c9f28e2e6d25431f974b64aaa375bb62151b577",
+          "results/representative_schedule_Ridge_15y.csv": "ad67348b2c1f05394a9e584a756abee5bc6404dbaa6697d803e12493b214a42a",
+          "results/no_maintenance_baselines_annual_15y.csv": "91abe9444897a27af8161a36c4bbb7dc3e263416d2049574f9eb8d68b3c8df7e",
+          "results/resource_lower_bound_summary_15y.csv": "8476b991b56d25502664b9be347284908f283bb68fb0996fcd22803fe12ef5e8",
+          "results/deterioration_timing_15y.csv": "4c5e3db52c9bf75cc5b097865aaba88f9f1af39260dcf0221d7be0ceb433d262",
+          "results/public_rule_candidates_15y.csv": "e741b8e3bef8971865dab7935c605ca34dc3b8d0e22cb8fe9dc3c78d3f26c592",
+          "results/deterioration_annual_15y.csv": "acad130a3fbc5cae9a417d5d08362f2fef5dc7db4989cb336256fa07a5981a90",
+          "results/area_maintenance_diagnostic_15y.csv": "3d4bd87f586cb5707b3f5cb10495a4e782c3c6bcc139bf7c7d1d225ea6feda90",
+          "results/representative_action_matrix_LOCF_15y.csv": "fd85bafa02dacc15484ec5baf6ae5b245eff01f441496b7d74471216b246b743",
+          "results/no_maintenance_baselines_analyzed_15y.csv": "df88bbd6cf7f42bbb35dd6ccaeaca03d05f628e249e178d786335e6c0b2a812a",
+          "results/area_maintenance_unit_details_15y.csv": "06ae216c9fc3ef7443acdac8f6702d658e5e44eebe5a6466066b4716b3f11eb2",
+          "results/representative_schedule_15y.csv": "1bb7b5d19809b5a7df452e1c1114c6fda3cbba8302faa1fca62aa21443afa0d8",
+          "results/paired_initial_summary_15y.csv": "83e126a8e3d210c89e04069457c4593b16f4bbe4dbf8c2ae7f35d8b05a5f3324",
+          "results/common_candidate_checks_15y.csv": "1be1acfb5b252489afb493989ce5a2b45c4e4478a44af42b156c5ce9cdcade0f",
+          "results/deterioration_runs_15y.csv": "5841954f0e0d36243f8738ef9052f3db0c3cdb81a90334092dba02c9255606fe",
+          "results/resource_endpoint_summary_15y.csv": "7eb83415396c5fa5fb50c1fce024d13549d785424e32f70593a182e046896a91",
+          "results/resource_representative_annual_15y.csv": "1403a0ba88744a7464e448cb378b97347a56740228309660376f5bed53c3a331",
+          "results/representatives_15y.csv": "56fd5baab44137dd83588c5ad25737e3a80f09af11d2dcc844f61844e7593995",
+          "results/resource_endpoint_runs_15y.csv": "df4b5bf0ef729c71e1b1f4390b774ab1b1000c05ea64e0d55d219b5b98079d30",
+          "results/all_runs_15y.csv": "55b1ad17f73587643014f935414a556d523cb4f3251fb0578fbb95714aab63b9",
+          "results/resource_interval_15y.csv": "1937a4b3665f40e07eacbeb5f52cb707b20a7bc3c5ec8039e8b655b93a529424",
+          "results/no_maintenance_annual_analyzed_15y.csv": "5f077e401084fea250bbe836f5b35fcfa1996fe1cee3c58435865d2dce5e3975",
+          "results/representative_schedule_comparison_15y.csv": "76dd9a48fc3073c3821063de40be3565686ebe3f041abf598a55419bb0e14330",
+          "results/representative_schedule_LOCF_15y.csv": "1bb7b5d19809b5a7df452e1c1114c6fda3cbba8302faa1fca62aa21443afa0d8",
+          "results/paired_initial_runs_15y.csv": "072b31d73e226ac53d7d581c2b50a304dfbfb126d01d472ff178b303b1d14eee",
+          "results/initialization_selections_15y.csv": "b3cd74725a53480cfa706e8f81f2b1cf6730488cab48c16260a4a8e52c1a69c6",
+          "results/resource_lower_bound_transfers_15y.csv": "3838333c81e0ed6e9772eeeb1f93adab839b9e7202d4d703090448f9159c22c5",
+          "results/deterioration_runs_analyzed_15y.csv": "bc557bdc66d17ee1559b55db2e430ee92ec33670181ac6d2a0c44ff84185f8e4",
+          "results/resource_levels_15y.csv": "0ff42442f6cf6673fe769fe0818317950ca6ff8b89994ebd761cb9f851ef2076",
+          "results/marginal_gain_15y.csv": "1c2bea8cc3e88739a5e93a2042790395bfae1a80711a45daa0b764592b531a11",
+          "results/deterioration_summary_15y.csv": "85c3792847f1d04986345f9121c0734244f89806c5aaf171fef89d4da9a54575",
+          "results/no_maintenance_baselines_15y.csv": "4f2a63fca75e04c12f105dc9eec3d3137bb6a842f5c05e884b45948a78164ca0",
+          "results/representative_annual_metrics_15y.csv": "08b5f786f70f90c5d72c18a3183f4e486bacaf799fadf77b2af309070730ddbe",
+          "results/internal_action_replays_15y.csv": "b6b71815613e498deb8f1c8cecea1ec8f9f003ab51eec7d97dfe76ad2ed18e64",
+          "results/paired_schedule_unit_details_15y.csv": "f37d44f1ede4112deaed6350beca435de10c9a9b5044d76167dae44c530eaf65"
+        },
+        "original_figures": {
+          "Figure_04_15y.png": "9ba430a6b3c10037d72396fcb7f7afc4ee25a125ddcfbfec6f0c4880584cf2ba",
+          "Figure_04_15y.svg": "1b7ac7568688e22ca77e66104bb050a509449c379eddb4b7a8ef0b8e695797b1",
+          "Figure_06_15y.png": "d5e10d0d132ec7a8b3aa84d9017054196b7c3eed89e11f923781d1efd711db56",
+          "Figure_06_15y.svg": "08f9059d949559cbeb139d5ac5ca89dff4ef48bc76ce55a97822e78d6b6234e4"
+        },
+        "display_figures": {
+          "Figure_04_15y.png": "bfb630f694c8624da28863b26ae0ca6cce9637fac7743673a189d55a72b9ca67",
+          "Figure_04_15y.svg": "3a953279ac7835d0e6cbc4d7563504fe9710c7622fb8b63388ab88817467313c",
+          "Figure_06_15y.png": "4cffd66ab1b3dc81932b0e35451881ec417f1ec5f57fbb3a1af3d77dbdb1b7f6",
+          "Figure_06_15y.svg": "ab323d9f8d704abe2bf38711b335739cc0d144ee93f4e4e8ef602801cc954111"
+        },
+        "files": [
+          {
+            "original_path": "figures/Figure_04_15y.png",
+            "display_path": "figures_display/Figure_04_15y.png",
+            "original_sha256": "9ba430a6b3c10037d72396fcb7f7afc4ee25a125ddcfbfec6f0c4880584cf2ba",
+            "display_sha256": "bfb630f694c8624da28863b26ae0ca6cce9637fac7743673a189d55a72b9ca67"
+          },
+          {
+            "original_path": "figures/Figure_04_15y.svg",
+            "display_path": "figures_display/Figure_04_15y.svg",
+            "original_sha256": "1b7ac7568688e22ca77e66104bb050a509449c379eddb4b7a8ef0b8e695797b1",
+            "display_sha256": "3a953279ac7835d0e6cbc4d7563504fe9710c7622fb8b63388ab88817467313c"
+          },
+          {
+            "original_path": "figures/Figure_06_15y.png",
+            "display_path": "figures_display/Figure_06_15y.png",
+            "original_sha256": "d5e10d0d132ec7a8b3aa84d9017054196b7c3eed89e11f923781d1efd711db56",
+            "display_sha256": "4cffd66ab1b3dc81932b0e35451881ec417f1ec5f57fbb3a1af3d77dbdb1b7f6"
+          },
+          {
+            "original_path": "figures/Figure_06_15y.svg",
+            "display_path": "figures_display/Figure_06_15y.svg",
+            "original_sha256": "08f9059d949559cbeb139d5ac5ca89dff4ef48bc76ce55a97822e78d6b6234e4",
+            "display_sha256": "ab323d9f8d704abe2bf38711b335739cc0d144ee93f4e4e8ef602801cc954111"
+          }
+        ]
+      }
+    },
+    {
+      "name": "figure_display_original_and_approved_hashes",
+      "passed": true,
+      "evidence": [
+        {
+          "original_path": "figures/Figure_04_15y.png",
+          "display_path": "figures_display/Figure_04_15y.png",
+          "original_sha256": "9ba430a6b3c10037d72396fcb7f7afc4ee25a125ddcfbfec6f0c4880584cf2ba",
+          "display_sha256": "bfb630f694c8624da28863b26ae0ca6cce9637fac7743673a189d55a72b9ca67"
+        },
+        {
+          "original_path": "figures/Figure_04_15y.svg",
+          "display_path": "figures_display/Figure_04_15y.svg",
+          "original_sha256": "1b7ac7568688e22ca77e66104bb050a509449c379eddb4b7a8ef0b8e695797b1",
+          "display_sha256": "3a953279ac7835d0e6cbc4d7563504fe9710c7622fb8b63388ab88817467313c"
+        },
+        {
+          "original_path": "figures/Figure_06_15y.png",
+          "display_path": "figures_display/Figure_06_15y.png",
+          "original_sha256": "d5e10d0d132ec7a8b3aa84d9017054196b7c3eed89e11f923781d1efd711db56",
+          "display_sha256": "4cffd66ab1b3dc81932b0e35451881ec417f1ec5f57fbb3a1af3d77dbdb1b7f6"
+        },
+        {
+          "original_path": "figures/Figure_06_15y.svg",
+          "display_path": "figures_display/Figure_06_15y.svg",
+          "original_sha256": "08f9059d949559cbeb139d5ac5ca89dff4ef48bc76ce55a97822e78d6b6234e4",
+          "display_sha256": "ab323d9f8d704abe2bf38711b335739cc0d144ee93f4e4e8ef602801cc954111"
+        }
+      ]
+    },
+    {
+      "name": "figure_display_numeric_source_hashes_unchanged",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_Figures4_6_no_rho_text",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Word_7_inline_figure_objects",
+      "passed": true,
+      "evidence": 7
+    },
+    {
+      "name": "Word_figure_captions_1_2_3_4_6_7_8",
+      "passed": true,
+      "evidence": [
+        1,
+        2,
+        3,
+        6,
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "Word_6_numbered_table_captions",
+      "passed": true,
+      "evidence": [
+        1,
+        3,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Word_8_physical_tables",
+      "passed": true,
+      "evidence": 8
+    },
+    {
+      "name": "Word_body_tables_headers_footers_no_old_20y_metrics",
+      "passed": true,
+      "evidence": {
+        "values": {},
+        "years": []
+      }
+    },
+    {
+      "name": "Word_no_AP_KELM_I_GJO_or_RMB_budgets",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Word_no_unresolved_reference_or_figure_markers",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Word_all_authored_narrative_present",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "Word_existing9_numbered_references",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Word_table_numeric_values:Table1_frozen_data",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 4,
+        "matching_tables": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "Word_table_numeric_values:Table2_frozen_prediction",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 3,
+        "matching_tables": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "Word_table_numeric_values:Table3_15y_parameters",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 4,
+        "matching_tables": [
+          1
+        ]
+      }
+    },
+    {
+      "name": "Word_table_numeric_values:Table4_15y_zero_baselines",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 2,
+        "matching_tables": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "Word_table_numeric_values:Table5_all14_15y_rows",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 14,
+        "matching_tables": [
+          4
+        ]
+      }
+    },
+    {
+      "name": "Word_table_numeric_values:Table6A_middle_initial_comparison",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 2,
+        "matching_tables": [
+          5
+        ]
+      }
+    },
+    {
+      "name": "Word_table_numeric_values:Table6B_three_d_cases",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 3,
+        "matching_tables": [
+          6
+        ]
+      }
+    },
+    {
+      "name": "Word_table_numeric_values:Table6C_only_middle_paired_schedules",
+      "passed": true,
+      "evidence": {
+        "expected_rows": 1,
+        "matching_tables": [
+          7
+        ]
+      }
+    },
+    {
+      "name": "Word_editable_equations_present",
+      "passed": true,
+      "evidence": 5
+    },
+    {
+      "name": "assembled_MD_no_old_metrics_or_prohibited_terms",
+      "passed": true,
+      "evidence": []
+    }
+  ]
+}

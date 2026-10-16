@@ -1,0 +1,39 @@
+{
+  "all_passed": true,
+  "extracted_archive_document_rebuild_and_audit": true,
+  "commands": [
+    {
+      "command": [
+        "scripts/build_manuscript_15y.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_revision_note_15y.py",
+        "--from-map"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_preservation.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/audit_manuscript_15y.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/audit_revision_map_15y.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scientific_optimization_runs": 0,
+  "prediction_model_fits": 0
+}

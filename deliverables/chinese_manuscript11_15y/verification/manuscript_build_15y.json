@@ -1,0 +1,100 @@
+{
+  "title": "低频检测数据下公路桥梁状态预测与预防性养护时机决策研究",
+  "manuscript_file": "manuscript/小论文_中文第二稿_15年版.docx",
+  "body_han_count": 10074,
+  "abstract_han_count": 366,
+  "section_han_counts": {
+    "1 引言": 1359,
+    "2 数据与方法": 3021,
+    "3 结果": 2759,
+    "4 讨论": 2415,
+    "5 结论": 520
+  },
+  "count_rule": "Han characters in chapter-1–5 narrative; excludes headings, captions, tables, references, supplementary note; abstract excludes heading and keywords",
+  "planning_horizon": 15,
+  "start_year": 2025,
+  "end_year": 2039,
+  "body_figures": 7,
+  "main_numbered_tables": 6,
+  "physical_word_tables": 8,
+  "figure_insertion_order": [
+    1,
+    2,
+    3,
+    6,
+    4,
+    7,
+    8
+  ],
+  "table_insertion_order": [
+    1,
+    3,
+    2,
+    4,
+    5,
+    6
+  ],
+  "figure_5_location": "supplementary/figures/Figure_05_15y.png",
+  "reference_count": 9,
+  "reference_numbering": {
+    "frangopol2012": 1,
+    "dhada2020": 2,
+    "roberts2017": 3,
+    "wei2024": 4,
+    "pedregosa2011": 5,
+    "chen2016": 6,
+    "jtg2026": 7,
+    "chopra2022": 8,
+    "deb2000": 9
+  },
+  "unused_verified_reference_keys": [
+    "abdallah2022",
+    "ghafoori2024"
+  ],
+  "reference_schema_sha256": "7b7fdf805c8d52e2bb52c456ea80cedba83f74d7f85665df33022280b541e60a",
+  "content_sha256": {
+    "abstract.md": "5c1729a6de456af61c5a6ef24d63dc5f20cbe0545520a870faf6eeeb342c6d05",
+    "keywords.md": "4285a14835ccd53702150ec3deb5232eb7ad9815b40dd806e1ab1f1c890afe59",
+    "introduction.md": "4b888c02575eab016130c714a469869bee7309d11b9cb36a1d3bd373ec803df6",
+    "methods.md": "be7a8c6e7c5054815cb439b61aea00a10c830d0f454d4ad712b73560455cae50",
+    "results.md": "7990ea847412401b6448043f00e5fea29f1e0c9876734dfcf6e213419ba4d20f",
+    "discussion.md": "2e5f474e0067434aa1cdd1ee956f3be86ae493b36e381cad216ab17279a68ded",
+    "conclusion.md": "f5351ebf147007e7a46051271a2a1f66126187490ae4381e45aba06a3b8eab6c",
+    "supplementary_note.md": "c9f3bb67d232d1d6f70e7787066fc590d69b799b5cd5ebdfc829dc847d0b19e6"
+  },
+  "key_number_checklist": {
+    "规划期": "2025—2039年，15年；J为59×15年末评分等权均值",
+    "共同七档B": "0.013815、0.394120、0.774424、1.154729、1.535033、1.915337、2.295642",
+    "B_min_known_LOCF_15": "B_used=0.0138153314；行动3次",
+    "B_ref_LOCF_15": "B_used=2.2956417860；行动114次",
+    "B_min_known_Ridge_15": "B_used=0.0000000000；行动0次",
+    "LOCF无养护": "J0=85.441695；2039均分80.8917；最低分71.43；最少>75单元54",
+    "Ridge无养护": "J0=87.095737；2039均分82.5457；最低分74.89；最少>75单元58",
+    "中档J": "LOCF 91.2534±0.1433；Ridge 92.8418±0.1455；Ridge−LOCF 1.5884",
+    "中档ΔJ": "LOCF 5.8117；Ridge 5.7461；Ridge−LOCF -0.0656",
+    "中档Jaccard": "0.0704±0.0214；中位0.0708；Q25—Q75 0.0554—0.0846",
+    "中档首次年MAE": "2.66±0.34年；中位2.71；Q25—Q75 2.49—2.88",
+    "LOCF代表方案": "seed=20261039；J=91.4646；ΔJ=6.0229；B_used=1.149885；93次/56单元；2039均分90.3097；最低分74.89；最少>75单元58",
+    "d=0.45": "J=92.7647±0.1439；ΔJ=5.7231；2039均分92.5825；平均行动88.40",
+    "d=0.65": "J=91.2534±0.1433；ΔJ=5.8117；2039均分89.8526；平均行动89.37",
+    "d=0.85": "J=89.7065±0.1721；ΔJ=5.8648；2039均分86.9976；平均行动89.90"
+  },
+  "source_audit": {
+    "manifest": "source/frozen_inputs_15y.json",
+    "manifest_sha256": "6d391ef5d465f2adc616d2510b0320f31a1bae667ba838d23329f7a4d11620fd",
+    "verified_frozen_input_count": 701,
+    "independent_verification_sha256": "5f402ddc4548ed910ed9b4a51bb9caa118c7bdaf0ebfdcb7ca9eab122aa12639"
+  },
+  "new_optimization_runs": 0,
+  "new_prediction_model_fits": 0,
+  "new_references_added": 0,
+  "frozen_figure_sources_unchanged": true,
+  "figure_4_6_display_policy": "prefer figures_display copies that replace only the rho footer; original frozen figures retained",
+  "reference_unknown_key_policy": "fail",
+  "body_language_checks_passed": true,
+  "separate_change_note": "generated independently by build_change_note_15y.py; this builder creates no writing note",
+  "output_sha256": {
+    "小论文_中文第二稿_15年版.docx": "528daa55a35365a7ed320a97a53f4e1daa23f723c3dac922c3b6c6065dad5db2",
+    "小论文_中文第二稿_15年版.md": "809803b0e7009f9b453cfd0515a220fb4a5dc015c9b3bc62310686931b5d152f"
+  }
+}

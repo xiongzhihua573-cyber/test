@@ -1,0 +1,25 @@
+{
+  "all_passed": true,
+  "source_plotter_sha256": "64dfffc873fd4f5756f3fc3d1e9a1eb2edd2b34ff9c3421cc9e41fddbf8d380b",
+  "display_exporter_sha256": "86b133a85241cedccd5fd396c5e7b8b6ce4236d65de9296d0d41af534d79d1db",
+  "changed_functions": [
+    "resource_note",
+    "main"
+  ],
+  "unchanged_drawing_functions": [
+    "source_file",
+    "setup",
+    "text",
+    "panel",
+    "grid",
+    "save",
+    "resource_axis",
+    "figure4",
+    "figure5",
+    "figure6",
+    "figure7",
+    "figure8",
+    "supplementary_area"
+  ],
+  "data_statistics_or_curves_changed": false
+}

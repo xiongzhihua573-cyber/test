@@ -1,0 +1,130 @@
+{
+  "all_passed": true,
+  "checks_performed": 1742,
+  "entries_total": 565,
+  "entry_sides_verified": 1130,
+  "entry_sides_unavailable": 0,
+  "source_count": 26,
+  "source_hashes_verified": 26,
+  "old_sources_unavailable": [],
+  "new_sources_required": true,
+  "native_Word_tables": 13,
+  "Word_table_cells_verified": 357,
+  "Word_paragraph_heading_blocks_verified": 24,
+  "document_blocks": 41,
+  "representatives_independently_selected": true,
+  "selection": "feasible GJO d=.65 level3, maxJ tolerance1e-10 then lowerB then lowerseed",
+  "source_results": {
+    "old/manuscript/小论文_中文初稿.md": {
+      "status": "verified",
+      "sha256": "35ce187bff1d94ade9cec7780130af7fee87030650f7c74145f08968af757472"
+    },
+    "old/source/frozen_endpoints.json": {
+      "status": "verified",
+      "sha256": "485303fb5f90b5cb75bea3294b26bba110411913d3892de99429811d0d41592a"
+    },
+    "new/results/resource_endpoint_summary_15y.csv": {
+      "status": "verified",
+      "sha256": "7eb83415396c5fa5fb50c1fce024d13549d785424e32f70593a182e046896a91"
+    },
+    "old/results/no_maintenance_baselines.csv": {
+      "status": "verified",
+      "sha256": "735af6e87a8ed8f2b94a5e3cbe3f368c6162f26d5d31af34496711200d1e3b50"
+    },
+    "new/results/no_maintenance_baselines_15y.csv": {
+      "status": "verified",
+      "sha256": "4f2a63fca75e04c12f105dc9eec3d3137bb6a842f5c05e884b45948a78164ca0"
+    },
+    "old/results/no_maintenance_annual.csv": {
+      "status": "verified",
+      "sha256": "07b7d2b8f2945dd9c4384bdfef61e46705a706094c1cbcea924e4208e6d1fabb"
+    },
+    "new/results/no_maintenance_annual_analyzed_15y.csv": {
+      "status": "verified",
+      "sha256": "5f077e401084fea250bbe836f5b35fcfa1996fe1cee3c58435865d2dce5e3975"
+    },
+    "old/source_data/endpoint_schedules/B_min_known_LOCF_area_actions.csv": {
+      "status": "verified",
+      "sha256": "f6a129297a38c611c85c11ad251da723133ea3cff80b4fd1aa355deb6175584a"
+    },
+    "old/source_data/endpoint_schedules/B_ref_LOCF_area_actions.csv": {
+      "status": "verified",
+      "sha256": "2a652f3abc9c392942bf7b27efa0d43f6a202e597dc5c7c975aaba3105cfd0ff"
+    },
+    "old/source_data/endpoint_schedules/B_min_known_Ridge_area_actions.csv": {
+      "status": "verified",
+      "sha256": "08858f9ab9df2683f4e323e7e7c278ca35f0b538768791b8db70659b80f5b973"
+    },
+    "old/results/resource_levels.csv": {
+      "status": "verified",
+      "sha256": "324d9a295fa6893e51f44c231a00229b32aa59f8a8f56d265badc1b66aaed069"
+    },
+    "new/results/resource_levels_15y.csv": {
+      "status": "verified",
+      "sha256": "0ff42442f6cf6673fe769fe0818317950ca6ff8b89994ebd761cb9f851ef2076"
+    },
+    "old/results/resource_level_summary.csv": {
+      "status": "verified",
+      "sha256": "63bf4735ec15531d5d9ae71037d5f784c557e2946a5f12c624a91e753cbbfe51"
+    },
+    "new/results/resource_level_summary_15y.csv": {
+      "status": "verified",
+      "sha256": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00"
+    },
+    "old/results/paired_initial_summary.csv": {
+      "status": "verified",
+      "sha256": "a447fc25dafd37c86abb624bcc42d79e68b5d3f04ab8b5cdb1096af6e7e709e9"
+    },
+    "new/results/paired_initial_summary_15y.csv": {
+      "status": "verified",
+      "sha256": "83e126a8e3d210c89e04069457c4593b16f4bbe4dbf8c2ae7f35d8b05a5f3324"
+    },
+    "old/results/all_runs.csv": {
+      "status": "verified",
+      "sha256": "e9b52458cce9b519a418befee630f7f93ac240f7b68fafb8139766d5166303c0"
+    },
+    "new/results/all_runs_15y.csv": {
+      "status": "verified",
+      "sha256": "55b1ad17f73587643014f935414a556d523cb4f3251fb0578fbb95714aab63b9"
+    },
+    "old/results/representative_annual_metrics.csv": {
+      "status": "verified",
+      "sha256": "e1ec728d726db6bc91d72590b68c403b3af6334b7bff3ac631002975bf49f39a"
+    },
+    "new/results/representative_annual_metrics_15y.csv": {
+      "status": "verified",
+      "sha256": "08b5f786f70f90c5d72c18a3183f4e486bacaf799fadf77b2af309070730ddbe"
+    },
+    "old/results/paired_schedule_comparison_summary.csv": {
+      "status": "verified",
+      "sha256": "5710f1f1499aacbe44aeea59be593a9d0e1fade1c4cc15e7ed30983b98d2b15d"
+    },
+    "new/results/paired_schedule_comparison_summary_15y.csv": {
+      "status": "verified",
+      "sha256": "3c363a28862d59ddc8e05cf9f42f8fd79e03ce11f71cdb711b92ec640d71fc1a"
+    },
+    "old/results/area_maintenance_diagnostic.csv": {
+      "status": "verified",
+      "sha256": "c556cc2f6caa905c2c867a48a072447b6c2f254f8138eda99da869ae66905ede"
+    },
+    "new/results/area_maintenance_diagnostic_15y.csv": {
+      "status": "verified",
+      "sha256": "3d4bd87f586cb5707b3f5cb10495a4e782c3c6bcc139bf7c7d1d225ea6feda90"
+    },
+    "old/results/deterioration_summary.csv": {
+      "status": "verified",
+      "sha256": "b7d53c9f7427726a414df3149de9d5f349249c62f8037d62cf44cd2a8a333941"
+    },
+    "new/results/deterioration_summary_15y.csv": {
+      "status": "verified",
+      "sha256": "85c3792847f1d04986345f9121c0734244f89806c5aaf171fef89d4da9a54575"
+    }
+  },
+  "failures": [],
+  "scientific_optimization_runs": 0,
+  "prediction_training_runs": 0,
+  "builder_imported": false,
+  "map_sha256": "791d87f1b73a09c810ca1864f463aa93813d197cdfbefa84ac5046b6e4b3afb7",
+  "document_sha256": "4fd8103991db03fc7b9d3ff75ec9da12339261a32ef99538508a429746d8346b",
+  "markdown_sha256": "3b81607e986fe8838b6775e5cbaccee52888580ae82de57a2dc0dab40d972345"
+}
