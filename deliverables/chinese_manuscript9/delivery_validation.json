@@ -1,0 +1,31 @@
+{
+  "all_passed": true,
+  "title": "低频检测数据下公路桥梁状态预测与预防性养护时机决策研究",
+  "body_han_count": 8892,
+  "abstract_han_count": 361,
+  "section_han_counts": {
+    "1 引言": 1358,
+    "2 数据与方法": 2606,
+    "3 结果": 2735,
+    "4 讨论": 1779,
+    "5 结论": 414
+  },
+  "figures": 8,
+  "numbered_main_tables": 6,
+  "physical_word_tables": 8,
+  "editable_equations": 5,
+  "cited_references": 9,
+  "manuscript_pdf_pages": 15,
+  "writing_notes_pdf_pages": 2,
+  "scientific_checks_passed": 288,
+  "key_numbers_checked": 70,
+  "frozen_inputs_unchanged": 77,
+  "all_previous_files_unchanged": 2692,
+  "supplement_groups": 8,
+  "supplement_files_in_catalog": 31,
+  "new_optimization_runs": 0,
+  "new_prediction_model_fits": 0,
+  "publisher_online_bibliographic_verification_completed": false,
+  "reference_source_limit_disclosed": true,
+  "waiting_for_manuscript_review": true
+}

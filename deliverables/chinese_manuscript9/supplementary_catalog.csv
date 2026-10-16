@@ -1,0 +1,9 @@
+﻿group,content,files,new_computations_in_writing_stage
+S1,逐seed运行结果,../results/resource_level_runs.csv; ../results/deterioration_runs.csv; ../results/paired_initial_runs.csv,0
+S2,完整同seed配对排程数据,paired_schedule_comparison_runs.csv; paired_schedule_comparison_summary.csv; paired_schedule_unit_details.csv,0
+S3,10组配对求解器检查,solver_control_summary.csv; solver_control_pairs.csv,0
+S4,跨资源已验证可行目标下界,resource_lower_bound_summary.csv; resource_lower_bound_transfers.csv,0
+S5,面积与养护次数诊断,area_maintenance_diagnostic.csv; area_maintenance_unit_details.csv; figures/Figure_S01_area_frequency.png; figures/Figure_S01_area_frequency.svg,0
+S6,详细年度状态与行动,independent_annual_metrics_all_runs.csv; ../results/resource_representative_annual.csv; ../results/deterioration_annual.csv; representative_annual_metrics.csv,0
+S7,完整代表排程,representative_actions_all_levels.csv; representative_LOCF/actions.csv; representative_LOCF/unit_year_states.csv; representative_LOCF/unit_maintenance_years.csv; representative_Ridge/actions.csv; representative_Ridge/unit_year_states.csv; representative_Ridge/unit_maintenance_years.csv,0
+S8,独立复算与派生统计核验,../source/final_independent_verification.json; ../source/final_content_audit.json; ../source_stage7/independent_main_verification.json; ../source_stage7/analysis_quality_checks.json; ../source_stage7/independent_actions_all_runs.npz; ../metadata/manuscript_scientific_audit.json,0
