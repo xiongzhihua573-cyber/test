@@ -1,0 +1,17 @@
+{
+  "status": "pending_author_latest_manuscript",
+  "final_manuscript_generated": false,
+  "required_input": "Author-edited 小论文_中文第二稿_15年版.docx containing updated introduction and added references",
+  "attachment_received": "修改指令12.docx only",
+  "repository_checked": {
+    "branch": "deliverables/chinese-manuscript11-15y",
+    "head": "726f5c1e407d605fa82aaabe71a1f6b497b16cfd",
+    "main": "09afe0f",
+    "author_edited_manuscript_found": false
+  },
+  "original_introduction_restored": false,
+  "scientific_result_changes": 0,
+  "new_optimization_runs": 0,
+  "new_prediction_fits": 0,
+  "author_confirmed_latest_not_committed": true
+}

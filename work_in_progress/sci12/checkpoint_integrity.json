@@ -1,0 +1,11 @@
+{
+  "status": "waiting_for_author_manually_revised_latest_Word",
+  "formal_third_manuscript_generated": false,
+  "archive_files": 753,
+  "archive_bytes": 9292031,
+  "archive_sha256": "7fcb206844ca25a1045b6ba9e2ca1401e045e8236cf0ec318839f723ca6f992c",
+  "archive_crc_and_entry_bytes_verified": true,
+  "science_changes": 0,
+  "new_training": 0,
+  "new_optimization": 0
+}
