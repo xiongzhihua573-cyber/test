@@ -1,0 +1,170 @@
+{
+  "task": "Format uploaded third draft by reference template; retain SCI three-line tables per user reply",
+  "source_sha256": "e5db1336797d31c3055e0414333ddafaa92e76455651f7f8ca93055a50dbf87c",
+  "template_sha256": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+  "output_sha256": "dea4edd03b465382b0e1c5ebe31ff09b31ad8e50f531797b57f240a000fddbdd",
+  "all_passed": true,
+  "passed": 29,
+  "total": 29,
+  "checks": [
+    {
+      "check": "DOCX archive CRC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Package member list unchanged",
+      "passed": true,
+      "detail": 26
+    },
+    {
+      "check": "Only document/styles presentation parts changed",
+      "passed": true,
+      "detail": [
+        "word/document.xml",
+        "word/styles.xml"
+      ]
+    },
+    {
+      "check": "All text nodes unchanged in exact order",
+      "passed": true,
+      "detail": 1990
+    },
+    {
+      "check": "All numeric tokens unchanged",
+      "passed": true,
+      "detail": 870
+    },
+    {
+      "check": "Only two empty paragraphs removed",
+      "passed": true,
+      "detail": {
+        "before": 141,
+        "after": 139
+      }
+    },
+    {
+      "check": "All non-title run content and typography unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native OMML equations unchanged",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "All eight physical tables XML unchanged",
+      "passed": true,
+      "detail": 8
+    },
+    {
+      "check": "All seven embedded images byte-identical",
+      "passed": true,
+      "detail": {
+        "word/media/image1.png": "ecdfafe439d0f2483eccf67b4b829b7e6d0ea19c73b55a63161b0d44f4e1ca31",
+        "word/media/image2.png": "f4af0e44efed5013388611f71986fc40d345780eb87b5023f89e5782de2857fe",
+        "word/media/image3.png": "60a9df4c49e3eb323cb6929450ccad4698baa392efc24785788f223a479ce00a",
+        "word/media/image4.png": "96e18569ed750ef7d422dba04afae02f4815efcad63d383b72d8f66afd4aa690",
+        "word/media/image5.png": "c315e48caf010d309d01470847c0906dabec1befc0cfae0ac06fc389e9c1c264",
+        "word/media/image6.png": "4fa950d2659ba3a9f2365ae0a7ab43866881253caa37c937157ddd28f1975cfd",
+        "word/media/image7.png": "4f8c987f26f7729ae36e729173561fc5c4fd4248f357a76e8ac62817de7583dd"
+      }
+    },
+    {
+      "check": "Figure dimensions/drawings unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Inline abstract wording and label unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template page geometry pgSz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template page geometry pgMar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template page geometry cols",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template page geometry docGrid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template Title style applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Thirteen centered figure/table captions",
+      "passed": true,
+      "detail": 13
+    },
+    {
+      "check": "Template style Normal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template style Title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template style Heading 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template style Heading 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Template style Caption",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All 22 bibliography rows unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All section wording unchanged",
+      "passed": true,
+      "detail": 22
+    },
+    {
+      "check": "Current manuscript header retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Automatic PAGE field retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No template version label imported",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No grid/shading introduced",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

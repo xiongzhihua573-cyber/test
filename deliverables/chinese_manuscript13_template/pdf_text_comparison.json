@@ -1,0 +1,53 @@
+{
+  "original_pdf_normalized_characters": 18846,
+  "final_pdf_normalized_characters": 18846,
+  "identical_normalized_text": false,
+  "differences": [
+    {
+      "type": "delete",
+      "old": "SCI规范中文稿·低频检测与桥梁养护时机2",
+      "new": ""
+    },
+    {
+      "type": "insert",
+      "old": "",
+      "new": "SCI规范中文稿·低频检测与桥梁养护时机2"
+    },
+    {
+      "type": "delete",
+      "old": "SCI规范中文稿·低频检测与桥梁养护时机3",
+      "new": ""
+    },
+    {
+      "type": "insert",
+      "old": "",
+      "new": "SCI规范中文稿·低频检测与桥梁养护时机3"
+    },
+    {
+      "type": "delete",
+      "old": "SCI规范中文稿·低频检测与桥梁养护时机4",
+      "new": ""
+    },
+    {
+      "type": "insert",
+      "old": "",
+      "new": "SCI规范中文稿·低频检测与桥梁养护时机4"
+    },
+    {
+      "type": "delete",
+      "old": "SCI规范中文稿·低频检测与桥梁养护时机5",
+      "new": ""
+    },
+    {
+      "type": "insert",
+      "old": "",
+      "new": "SCI规范中文稿·低频检测与桥梁养护时机5"
+    }
+  ],
+  "rendered_image_occurrences": 7,
+  "replacement_glyphs": 0,
+  "body_identical_after_header_footer_exclusion": true,
+  "original_body_characters": 18525,
+  "final_body_characters": 18525,
+  "explanation": "全文差异仅为分页改变时重复页眉与页码在文本流中的位置；排除页眉页脚后正文PDF文字逐字相同。"
+}

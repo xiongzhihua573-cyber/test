@@ -1,0 +1,393 @@
+{
+  "source": "/workspace/paper_revision/manuscript_template_stage13/source/author_third_draft.docx",
+  "output": "/workspace/paper_revision/manuscript_template_stage13/manuscript/小论文_中文第三稿_模板排版版.docx",
+  "pdf": "/workspace/paper_revision/manuscript_template_stage13/manuscript/小论文_中文第三稿_模板排版版.pdf",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "nonempty_paragraph_text_exact",
+      "passed": true,
+      "detail": {
+        "source": 127,
+        "output": 127
+      }
+    },
+    {
+      "name": "all_word_text_nodes_exact",
+      "passed": true,
+      "detail": {
+        "source": 1944,
+        "output": 1944
+      }
+    },
+    {
+      "name": "table_cell_text_exact",
+      "passed": true,
+      "detail": {
+        "tables": 8
+      }
+    },
+    {
+      "name": "native_omml_exact",
+      "passed": true,
+      "detail": {
+        "source": 5,
+        "output": 5
+      }
+    },
+    {
+      "name": "image_media_bytes_exact",
+      "passed": true,
+      "detail": {
+        "source": 7,
+        "output": 7
+      }
+    },
+    {
+      "name": "all_13_captions_centered",
+      "passed": true,
+      "detail": {
+        "count": 13,
+        "alignments": [
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)",
+          "CENTER (1)"
+        ]
+      }
+    },
+    {
+      "name": "title_template_style_centered",
+      "passed": true,
+      "detail": {
+        "style": "Title",
+        "alignment": "CENTER (1)",
+        "style_font_pt": 17.0
+      }
+    },
+    {
+      "name": "title_template_font_17pt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "title_template_blue_underline",
+      "passed": true,
+      "detail": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val": "single",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}sz": "8",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}space": "4",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}color": "4F81BD",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}themeColor": "accent1"
+      }
+    },
+    {
+      "name": "inline_abstract_label_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "italic_and_superscript_counts_preserved",
+      "passed": true,
+      "detail": {
+        "source": "Counter({('i', None): 143, ('vertAlign', 'superscript'): 28, ('vertAlign', 'subscript'): 13})",
+        "output": "Counter({('i', None): 143, ('vertAlign', 'superscript'): 28, ('vertAlign', 'subscript'): 13})"
+      }
+    },
+    {
+      "name": "all_eight_tables_three_line",
+      "passed": true,
+      "detail": [
+        {
+          "index": 0,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 3,
+          "shading_nodes": 0
+        },
+        {
+          "index": 1,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 3,
+          "shading_nodes": 0
+        },
+        {
+          "index": 2,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 6,
+          "shading_nodes": 0
+        },
+        {
+          "index": 3,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 6,
+          "shading_nodes": 0
+        },
+        {
+          "index": 4,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 6,
+          "shading_nodes": 0
+        },
+        {
+          "index": 5,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 5,
+          "shading_nodes": 0
+        },
+        {
+          "index": 6,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 5,
+          "shading_nodes": 0
+        },
+        {
+          "index": 7,
+          "three_line": true,
+          "borders": {
+            "top": "single",
+            "left": "nil",
+            "bottom": "single",
+            "right": "nil",
+            "insideH": "nil",
+            "insideV": "nil"
+          },
+          "header_bottom": 5,
+          "shading_nodes": 0
+        }
+      ]
+    },
+    {
+      "name": "pdf_no_blank_pages",
+      "passed": true,
+      "detail": {
+        "pages": 15,
+        "page_chars": [
+          2038,
+          1648,
+          1613,
+          1536,
+          562,
+          295,
+          1039,
+          1241,
+          673,
+          466,
+          875,
+          1624,
+          1664,
+          5133,
+          249
+        ]
+      }
+    },
+    {
+      "name": "pdf_no_text_outside_page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pdf_7_figure_captions_found",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "pdf_pages": [
+    {
+      "page": 1,
+      "characters": 2038,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n1\n低频检测数据下公路桥梁状态预测与预防性养护时机决策研究\n \n摘要：低频且不连续的桥梁检测记录使规划起点状态和后续养护时机难以确定。基于2012—2024 年\n59 个检测单元，采用扩展时间窗口检验后续评分预测，并构建两套2024 年候选规划初始状",
+      "text_end": "护优先级[3]；Wei 等研究了资源约束对桥梁养护顺序和结构安全表现的影响[4]；\nMendoza-Lugo 等则针对555 座桥梁研究了网络级干预顺序和资源配置问题[15]。更早的研究也已经指出，\n当未来桥梁性能存在不确定性时，其预测结果会进一步影响长期养护方案的选择[16]。这些研究说明，状态\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 2,
+      "characters": 1648,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n2\n预测与养护规划之间具有直接联系，但对于最新规划年份存在大量缺测、规划起点本身需要估计的低频\n“\n”\n“\n”\n检测台账，还需要进一步区分预测得到的规划初值和真实检测状态，并考察不同初值是否会改变后续\n养护年份。\n基于上述问题，本文以2012—202",
+      "text_end": "的真实记录提取，目标年份评分不进入输入。上部结\n构历史不足时的处理和完整参数表见补充材料S-M1。\n采用2018—2024 年扩展时间窗口验证：测试年份为y 时，仅使用目标观测年份早于y 的样本训练，\n在该年真实检测记录上测试，共216 条时间外记录。随机划分可能使较晚观测参与较早时点的模型训练，\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 3,
+      "characters": 1613,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n3\n不能反映先建模再预测后续记录的使用顺序，故本研究按时间组织训练和测试[12]。缺失值处理及标准化参\n数均只由当期训练集估计，超参数不根据外层测试结果调整。Ridge 正则化参数固定为10，XGBoost 采用\n固定的浅层树设置，完整参数列于补充材",
+      "text_end": "选\n当前条件复算后选一个初始成员\n评分区间映射依据JTG/T 5230—2026；至少57/59 个单元评分>75 的比例由本文设置。\n以单元长度与净宽乘积表示面积Ai，全部单元总面积为Atotal；单次行动的面积占比资源为ri。将已使\n用的累计归一化资源记为Bused，给定的累计资源上限记为B：\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 4,
+      "characters": 1536,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n4\nri= Ai\nAtotal\n，Atotal= Σi  Ai\nBused= Σt Σi  x(i,t )ri≤B\n该指标与评分无关，同一单元重复养护重复计量。B 是无量纲相对资源上限；B=1 表示允许的累计处\n理面积等于全部检测单元总面积的一倍，不",
+      "text_end": "\n3.1 检测数据与状态预测结果\n2012—2024 年59 个检测单元共有767\n—\n个潜在单元\n年位置。全桥评分有效387 条、缺失380 条；上\n部结构评分有效380 条、缺失387 条。两类评分同时有效的位置为380 个，另有7 个位置仅全桥评分有效。\n各年覆盖数量与逐单元观测分布见图1。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 5,
+      "characters": 562,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n5\n图1 检测覆盖与缺失\n2012—2024 年59 个检测单元的年度覆盖及逐单元观测分布；缺失表示没有可用检测记录。\n2018—2024 年扩展时间窗口验证共包含216 条后续真实检测记录。岭回归的RMSE 为4.0771 分、\nMAE 为3.03",
+      "text_end": "rson r\nLOCF\n216\n4.9971\n3.7128\n-0.0104\n0.5862\n岭回归\n216\n4.0771\n3.0332\n0.3274\n0.5820\nXGBoost\n216\n4.6146\n3.6122\n0.1384\n0.5486\n各模型使用相同的216 条时间外测试记录；误差单位为分。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 6,
+      "characters": 295,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n6\n图2 LOCF、Ridge 与XGBoost 的连续评分预测结果\n2018—2024 年扩展时间窗口验证，216 条下一次真实检测记录；预测跨度为实际相邻检测间隔。\n3.2 规划初始状态与养护时机\n两套2024 年候选规划初始状态均含6 条实测和",
+      "text_end": " 条实测和53 条估计。LOCF 初值为90.6417±3.8398 分，范围\n81.18—98.51 分；岭回归初值为92.2957±3.0024 分，范围84.64—98.41 分。46 个单元的岭回归初值高于\nLOCF，7 个低于LOCF，6 个相同，全单元平均差为1.6540 分（图3）。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 7,
+      "characters": 1039,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n7\n图3 两套2024 年规划初始状态\nLOCF 与Ridge 均保留6 条2024 年实测值，其余53 个单元为估计值。\n在参考年评分下降量下，LOCF 与岭回归的15 年无养护J 分别为85.4417 和87.0957 分，2039 年平均\n评分",
+      "text_end": "49.90±2.31 个，首次年份相同的为\n6.50±2.86 个。最低资源档首次年MAE 有效配对数为28，其余档为30。最高B=2.295642 下，Jaccard 相似\n系数均值为1.0000，首次年MAE 为0，两套排程均有114 次行动（图6）。代表资源档两套规划的具体行\n动重合度较低。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 8,
+      "characters": 1241,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n8\n图6 同随机种子配对排程的行动重合与首次养护年差\n每档30 对。(a)\n—\n单元\n年份行动集合的Jaccard 相似系数；(b)双方均养护单元首次年份差的运行级MAE，只画非NA 值，最低档有\n效n=28，其余档n=30。箱体为Q25—Q75，中",
+      "text_end": "0000\n91.9095\n6.4678\n2.295642\n岭回归\n30/30\n93.5540±0.0000\n93.5540\n6.4583\n全部统计来自当档30 次标准GJO；样本标准差的分母为n−1。各档初始化使用按当前条件检查的公共候选，可行数量需结合这一\n设置解释。最低B 为已知可行参考资源。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 9,
+      "characters": 673,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n9\n图4 共同资源上限下的长期平均评分及相对养护增益\n各点和误差线为当档30 次GJO 的均值与样本标准差，最好值来自同一组30 次运行；ΔJ 分别扣除同规划初始状态、同d 的无养护\n基线。B 为累计归一化养护资源上限，以无量纲全网络面积当量表示；最",
+      "text_end": "49885。15 年共实施93 次行动，涉及56 个单元，2039 年平均评分为90.3097 分。年度行动数上限为\n8，单元累计行动数不超过3，同单元相邻行动间隔不少于3 年。该排程有10 年达到年度8 单元能力上限，\n最低评分为74.89 分，最少58 个单元>75，满足两项管理条件（图7）。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 10,
+      "characters": 466,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n10\n图7 LOCF 代表方案的年度状态与养护安排\nB=1.154729、d=0.65。(b)中75 分为1、2 类与3 类的评分边界，60 分为3 类与4 类边界；管理条件是全部单元>60 且至少57/59 个\n>75。(c)年度养护单元数上限为8",
+      "text_end": "\n分。各d 对应的无养护J 分别为87.0417、85.4417 和83.8417 分，平均ΔJ 为5.7231、5.8117 和5.8648 分；平\n均行动数为88.40、89.37 和89.90 次（图8、表6）。在相同资源条件下，较大的年评分下降量对应较低的长\n期平均评分和2039 年评分。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 11,
+      "characters": 875,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n11\n图8 年评分下降量敏感性\nLOCF、固定B=1.154729；d=0.45、0.65、0.85 分/年，各30 次。(a)(b)为均值、样本标准差及本组最好值；(c)为各d 最好可行代表的年\n度评分，(d)为各代表内已养护单元的首次养护年份分布",
+      "text_end": "MAE\n[Q25,Q75](年)\n1.154729\n30 对\n0.0704±0.0214\n0.0708\n[0.0554,0.0846]\n2.66 / 2.71\n[2.49,2.88]\nC 中MAE 仅针对双方均养护单元的首次年份；代表档有效配对数为30。各d 的ΔJ 采用同初值、同d 无养护基线。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 12,
+      "characters": 1624,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n12\n4 讨论\n4.1 低频检测条件下的状态推断\n低频检测不仅减少可用样本，也使规划年份与最近实测年份之间出现时间间隔。桥梁状态预测研究\n利用历史记录估计后续状态，为不连续台账的使用提供了方法基础[22]；但缺测期间的变化无法直接观测，\n历史记录对当",
+      "text_end": "一致不能单独用于判断初值影响已经消失；相同动作也仍会从不同评分起点递推。\n4.3 资源与评分下降情景的作用\n资源受限桥梁养护需要在状态要求与可实施行动之间取舍[4]。在本文模型中，提高B 允许保留较低资\n源下的可行方案，并增加其他可选行动或年份，因此扩大了状态改善的机会。随着评分接近100 分、年\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 13,
+      "characters": 1664,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n13\n度能力被使用及单元重复行动受到限制，新增资源可利用的空间也会受约束；这有助于理解总体改善趋\n缓，但不构成严格的单位资源改善规律。\n可行域扩大与有限搜索结果应分开解释。LOCF 中间两档的均值下降反映本次给定评价次数下的搜索\n波动，不说明资源上限",
+      "text_end": "，但相对于各自15 年无养护基线，平均养护增益与\nLOCF 接近。规划初值的评价应同时比较绝对状态和相对增益，不能给出固定的优劣排序。\n（4）B 由0.013815 增至2.295642 时，两套初值下长期评分总体提高。局部搜索均值仍有波动，资源\n响应应作为给定模型与有限计算条件下的情景结果解释。\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 14,
+      "characters": 5133,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n14\n（5）固定资源下，d 从0.45 增至0.85 分/年时，长期平均评分和2039 年平均评分均降低。养护规划\n依赖评分变化情景，实际应用需要真实养护事件、工程工作量和更多桥梁数据进一步验证。\n参考文献\n[1] Frangopol D M, Bo",
+      "text_end": "ments deterioration, using collaborative Gaussian process \nregression[J]. IFAC-PapersOnLine, 2020, 53(3): 348–353. DOI: 10.1016/j.ifacol.2020.11.056.\n",
+      "out_of_bounds": []
+    },
+    {
+      "page": 15,
+      "characters": 249,
+      "text_start": "SCI\n \n规范中文稿· 低频检测与桥梁养护时机\n15\n补充材料说明\n补充材料提供完整模型参数、随机种子及公共初始化候选设置，七档资源与年评分下降量情景的逐\n运行结果，210 组配对排程和逐单元明细，代表资源档两套初值的15 年评分轨迹（补充图5），跨资源固\n—\n定排程与已核验可行目标下界，面积\n行",
+      "text_end": "，代表资源档两套初值的15 年评分轨迹（补充图5），跨资源固\n—\n定排程与已核验可行目标下界，面积\n行动次数诊断，逐年状态和代表排程，以及独立逐年复算记录。\n无双方均养护单元的配对保留首次年差NA。正文保留图1、2、3、4、6、7、8 及表1—6，表6C 只列代表资源\n档。文件位置见补充材料目录。\n",
+      "out_of_bounds": []
+    }
+  ],
+  "visual_review": {
+    "contact_sheet": "metadata/independent_contact_sheet.jpg",
+    "reviewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "issues": [],
+    "observations": [
+      "No visible figure or table clipping in the 15-page contact sheet.",
+      "Figures and captions remain together.",
+      "References occupy page14 and supplementary note page15 as in the underlying SCI manuscript; final short page is substantive, not blank.",
+      "Scientific content preserved exactly in DOCX XML; PDF text extraction contains all body figure-caption labels."
+    ]
+  }
+}
