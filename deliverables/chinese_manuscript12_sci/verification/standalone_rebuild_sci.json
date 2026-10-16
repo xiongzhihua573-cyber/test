@@ -1,0 +1,41 @@
+{
+  "all_passed": true,
+  "extracted_archive_document_rebuild_and_audit": true,
+  "commands": [
+    {
+      "command": [
+        "scripts/build_manuscript_sci.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_sci_supporting_docs.py",
+        "--final",
+        "--intro-source",
+        "source/author_latest_小论文_中文第二稿_15年版.docx"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/audit_author_integration.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/audit_sci_manuscript.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_preservation.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "new_training": 0,
+  "new_optimization": 0
+}

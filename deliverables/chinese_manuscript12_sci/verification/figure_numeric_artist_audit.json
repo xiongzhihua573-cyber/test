@@ -1,0 +1,24 @@
+{
+  "all_passed": true,
+  "scope": "exact numeric data of every line, scatter/error collection, box and bar",
+  "figures": {
+    "4": {
+      "data_artists_exactly_equal": true,
+      "numeric_artist_sha256": "564785a91130a2701c7cc3cc3d79c915f526800ba792df0e57e985a4c4b7b5f8"
+    },
+    "6": {
+      "data_artists_exactly_equal": true,
+      "numeric_artist_sha256": "8c109556bdd91639ba0fab563145c836f8eef35ab9b14c4754f0e72ae921c7de"
+    },
+    "7": {
+      "data_artists_exactly_equal": true,
+      "numeric_artist_sha256": "ebef61e42beb612cdf50e26e7ba40102ec434b906e016d427dfa5dfa699fa2fd"
+    },
+    "8": {
+      "data_artists_exactly_equal": true,
+      "numeric_artist_sha256": "039295f2bef53ef9622686219cf8dc3c08314430a01ead56a076879baec731bf"
+    }
+  },
+  "scientific_result_changes": 0,
+  "new_searches": 0
+}

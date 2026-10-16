@@ -1,0 +1,38 @@
+{
+  "author_source_sha256": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+  "author_bibliographic_entries": 25,
+  "deduplicated_unique_entries": 22,
+  "author_intro_citation_numbers": {
+    "1": "frangopol2012",
+    "2": "frangopol2017",
+    "3": "hamida2021",
+    "4": "hu2024",
+    "5": "liu2020",
+    "6": "yang2025",
+    "7": "martinez2020",
+    "8": "alonsomedina2022",
+    "9": "alogdianakis2022",
+    "10": "roberts2017",
+    "11": "jaafaru2022",
+    "12": "ghafoori2024",
+    "13": "hadjidemetriou2022",
+    "14": "wei2024",
+    "15": "mendozalugo2026",
+    "16": "liu2004"
+  },
+  "duplicates_collapsed": [
+    "Frangopol2012",
+    "Roberts2017",
+    "Wei2024"
+  ],
+  "unverified_fields": [
+    {
+      "key": "hu2024",
+      "field": "article_number_or_pages",
+      "action": "作者来源未提供，未猜补；投稿前待核"
+    }
+  ],
+  "existing_DOIs_unchanged": true,
+  "new_DOIs_invented": 0,
+  "verification_scope": "作者Word及原有注册表的书目字段核对；未声明出版社在线或全文核验"
+}

@@ -1,0 +1,102 @@
+{
+  "title": "低频检测数据下公路桥梁状态预测与预防性养护时机决策研究",
+  "manuscript_file": "manuscript/小论文_中文第三稿_SCI规范版.docx",
+  "formal_third_manuscript_generated": true,
+  "author_introduction_approval": {
+    "approved": true,
+    "introduction_sha256": "d956e74f5d7ba9649b06fca23c7880c4b02a303b2e438f826d6c62fc39266be8",
+    "source_document_sha256": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+    "reference_schema_sha256": "70bfedd4c64fc769837bf3294036f3ad964557c1d19b32ef7e9ff5835bee8a6f",
+    "authorization": "作者上传最新版并要求继续按修改指令12处理"
+  },
+  "abstract_character_count": 447,
+  "abstract_han_count": 305,
+  "body_han_count": 7161,
+  "section_han_counts": {
+    "1 引言": 1566,
+    "2 数据与方法": 2062,
+    "3 结果": 910,
+    "4 讨论": 2281,
+    "5 结论": 342
+  },
+  "body_figures": 7,
+  "main_numbered_tables": 6,
+  "physical_word_tables": 8,
+  "table_style": "three horizontal rules; no vertical or interior body rules; no header shading",
+  "figure_insertion_order": [
+    1,
+    2,
+    3,
+    6,
+    4,
+    7,
+    8
+  ],
+  "table_insertion_order": [
+    1,
+    3,
+    2,
+    4,
+    5,
+    6
+  ],
+  "reference_count": 22,
+  "reference_numbering": {
+    "frangopol2012": 1,
+    "frangopol2017": 2,
+    "hadjidemetriou2022": 3,
+    "wei2024": 4,
+    "hamida2021": 5,
+    "hu2024": 6,
+    "liu2020": 7,
+    "yang2025": 8,
+    "martinez2020": 9,
+    "alonsomedina2022": 10,
+    "alogdianakis2022": 11,
+    "roberts2017": 12,
+    "jaafaru2022": 13,
+    "ghafoori2024": 14,
+    "mendozalugo2026": 15,
+    "liu2004": 16,
+    "pedregosa2011": 17,
+    "chen2016": 18,
+    "jtg2026": 19,
+    "chopra2022": 20,
+    "deb2000": 21,
+    "dhada2020": 22
+  },
+  "unused_author_reference_keys": [],
+  "reference_schema_sha256": "70bfedd4c64fc769837bf3294036f3ad964557c1d19b32ef7e9ff5835bee8a6f",
+  "content_sha256": {
+    "abstract.md": "0f903f2c54cd33feac4f9e7918d52a14be534c136ff3345533ace95e590251d9",
+    "keywords.md": "4285a14835ccd53702150ec3deb5232eb7ad9815b40dd806e1ab1f1c890afe59",
+    "introduction.md": "d956e74f5d7ba9649b06fca23c7880c4b02a303b2e438f826d6c62fc39266be8",
+    "methods.md": "1de07f83d30660d788b07e947a22c65634b5f22792d9552077b15e9af1ef2510",
+    "results.md": "27a75731ed13eba5398ac21dbb88866d7bb13677b910288ab8b44ddadc0a263c",
+    "discussion.md": "c952323fdfce1b674b3f5908a1e909624cd163ab64b33fc6f102473eef2e80ed",
+    "conclusion.md": "2fe49a6d18779d919e17efa90bc94cc20e85055a450f281f39dbe8a0758fbead",
+    "supplementary_note.md": "6a22414022ef77709f17ee5d2055e542e1a331dde1d07e6aa126a0ce7fe0654b"
+  },
+  "source_audit": {
+    "manifest": "source/frozen_scientific_inputs.json",
+    "manifest_sha256": "930da4f9b02bcea17b87ba76d76d0feee28655548303423b1e16bc2625ab1029",
+    "verified_frozen_input_count": 661,
+    "baseline_scientific_audit_sha256": "4cb12c614e0f70b39f0b15b082d8e3ec0df43e7fd03702f12e1a243afe6a8c41"
+  },
+  "new_optimization_runs": 0,
+  "new_prediction_model_fits": 0,
+  "assistant_invented_references": 0,
+  "scientific_result_values_changed": 0,
+  "figure_policy": "SCI presentation copies for 4/6/7/8; frozen figures for 1/2/3; figure5 supplementary only",
+  "submission_placeholders": {
+    "file": "manuscript/小论文_投稿信息占位页.docx",
+    "separate_attachment": true,
+    "article_page_number_fields": 0,
+    "statement_count": 6,
+    "all_values": "待作者确认"
+  },
+  "output_sha256": {
+    "小论文_中文第三稿_SCI规范版.docx": "5038e16105a8c4e7498b1908819501cd6d56925c0e8c21e78495722db7add104",
+    "小论文_中文第三稿_SCI规范版.md": "a2e25875de4a30898f9c1ca0f6856a59379628d8788a45e17a3d0d024b05c630"
+  }
+}

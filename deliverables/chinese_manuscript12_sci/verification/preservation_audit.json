@@ -1,0 +1,10 @@
+{
+  "all_scientific_preservation_checks_passed": true,
+  "frozen_scientific_inputs_unchanged": 661,
+  "prior_files_unchanged": 4379,
+  "prior_files_unavailable_in_standalone": 0,
+  "scientific_result_changes": 0,
+  "new_optimization_runs": 0,
+  "new_prediction_fits": 0,
+  "author_latest_introduction_still_required": false
+}

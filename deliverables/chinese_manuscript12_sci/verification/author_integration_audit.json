@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "author_source_sha256": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+  "author_introduction_paragraphs_preserved": 5,
+  "author_citation_identities_preserved": 16,
+  "original_bibliographic_entries": 25,
+  "unique_output_references": 22,
+  "actual_Word_reference_entries_verified": 22,
+  "author_DOI_set_exactly_preserved": true,
+  "invented_references": 0,
+  "DOI_changes": 0,
+  "author_literature_sample_counts_preserved": [
+    539,
+    2802,
+    298,
+    555
+  ],
+  "manuscript_sha256": "5038e16105a8c4e7498b1908819501cd6d56925c0e8c21e78495722db7add104"
+}

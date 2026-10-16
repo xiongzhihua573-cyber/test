@@ -1,0 +1,167 @@
+{
+  "all_text_within_page": true,
+  "reports": {
+    "小论文_中文第三稿_SCI规范版": {
+      "pages": 15,
+      "sha256": "a10e0b48e77e8b37bf12755829d413686ab2263c9ea17bc2d3ac2977127592cc",
+      "page_checks": [
+        {
+          "page": 1,
+          "characters": 1928,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 2,
+          "characters": 1656,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 3,
+          "characters": 1630,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 4,
+          "characters": 1467,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 5,
+          "characters": 716,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 6,
+          "characters": 295,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 7,
+          "characters": 1039,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 8,
+          "characters": 1242,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 9,
+          "characters": 673,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 10,
+          "characters": 467,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 11,
+          "characters": 877,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 12,
+          "characters": 1624,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 13,
+          "characters": 1664,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 14,
+          "characters": 5133,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 15,
+          "characters": 249,
+          "outside_page_text_blocks": []
+        }
+      ],
+      "contact_sheet": "metadata/article_contact_sheet.jpg"
+    },
+    "小论文_SCI规范修改说明": {
+      "pages": 3,
+      "sha256": "3741ad9e509ecfb65c1e14cf781f0f3353a738df5c1453c59212fea05e1316bd",
+      "page_checks": [
+        {
+          "page": 1,
+          "characters": 1008,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 2,
+          "characters": 1162,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 3,
+          "characters": 204,
+          "outside_page_text_blocks": []
+        }
+      ],
+      "contact_sheet": "metadata/notes_contact_sheet.jpg"
+    },
+    "小论文_SCI潜在审稿问题清单": {
+      "pages": 3,
+      "sha256": "390cf03630fbcb3120cb385c7f9b2314229c4d2cb31fd5ad5c6d75604d5e8089",
+      "page_checks": [
+        {
+          "page": 1,
+          "characters": 1197,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 2,
+          "characters": 1241,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 3,
+          "characters": 903,
+          "outside_page_text_blocks": []
+        }
+      ],
+      "contact_sheet": "metadata/risks_contact_sheet.jpg"
+    },
+    "小论文_待补讨论文献清单": {
+      "pages": 3,
+      "sha256": "e4ab187fc82d6967316099d61ac9c6108142fae2c72c5237fa86c3b3b169dae9",
+      "page_checks": [
+        {
+          "page": 1,
+          "characters": 2269,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 2,
+          "characters": 2048,
+          "outside_page_text_blocks": []
+        },
+        {
+          "page": 3,
+          "characters": 269,
+          "outside_page_text_blocks": []
+        }
+      ],
+      "contact_sheet": "metadata/literature_contact_sheet.jpg"
+    },
+    "小论文_投稿信息占位页": {
+      "pages": 1,
+      "sha256": "a94fa96244d0346db53e17c99729ef00cf68e4b993bb14c7e6305d8fdde5ecb3",
+      "page_checks": [
+        {
+          "page": 1,
+          "characters": 153,
+          "outside_page_text_blocks": []
+        }
+      ],
+      "contact_sheet": "metadata/declarations_contact_sheet.jpg"
+    }
+  },
+  "visual_review_pending": false,
+  "visual_review": "All pages of the 15-page article, three 3-page supporting files and separate 1-page declarations inspected as contact sheets; no clipped figures/tables/text or blank pages; final table MAE precision normalized to two decimals."
+}
