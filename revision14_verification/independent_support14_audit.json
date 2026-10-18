@@ -1,0 +1,216 @@
+{
+  "reviewer": "independent support-document content and layout review",
+  "review_scope": "Two support DOCX documents and all 8 rendered pages independently reviewed; after final updates, notes page 2 and risk pages 4–6 re-reviewed, unchanged substantive risk content verified. No Word files modified.",
+  "files_at_review": [
+    {
+      "docx_path": "/workspace/output_final/小论文_终稿候选修改说明.docx",
+      "docx_sha256": "dc183d560df77c1f16190611706ca2132f9276e76119f67afb8bee29eabe2705",
+      "docx_bytes": 42726,
+      "pdf_path": "/workspace/test/revision14_work/render_final/小论文_终稿候选修改说明.pdf",
+      "pdf_sha256": "5762ba5f35ac9260399a6d29d4899bc124747cbaf2392e093293bd2e79d792d9",
+      "pdf_pages": 2,
+      "final_pdf_recheck": {
+        "verified_current_hash": "5762ba5f35ac9260399a6d29d4899bc124747cbaf2392e093293bd2e79d792d9",
+        "pages_visually_rechecked": [
+          1,
+          2
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "docx_path": "/workspace/output_final/小论文_SCI审稿风险分级版.docx",
+      "docx_sha256": "4aff79251155cc33bd5eba546a5c08834c5eeb7fad7c56fdf925825965d00ab1",
+      "docx_bytes": 47064,
+      "pdf_path": "/workspace/test/revision14_work/render_final/小论文_SCI审稿风险分级版.pdf",
+      "pdf_sha256": "5c6ff23252579247e2f65865eb82660076358f5a134bf2ebe058dd840f8e422e",
+      "pdf_pages": 6,
+      "final_pdf_recheck": {
+        "verified_current_hash": "5c6ff23252579247e2f65865eb82660076358f5a134bf2ebe058dd840f8e422e",
+        "pages_visually_rechecked": [
+          4,
+          5,
+          6
+        ],
+        "status": "passed"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "小论文_终稿候选修改说明_zip",
+      "passed": true,
+      "detail": "ZIP CRC check and required document XML readable"
+    },
+    {
+      "id": "小论文_终稿候选修改说明_readable",
+      "passed": true,
+      "detail": {
+        "docx_characters": 2774,
+        "pdf_pages": 2
+      }
+    },
+    {
+      "id": "小论文_终稿候选修改说明_nonblank",
+      "passed": true,
+      "detail": "Every rendered page contains substantive text"
+    },
+    {
+      "id": "小论文_终稿候选修改说明_no_replacement_glyph",
+      "passed": true,
+      "detail": "No Unicode replacement character in PDF text; all pages visually inspected"
+    },
+    {
+      "id": "小论文_终稿候选修改说明_visual_page_review",
+      "passed": true,
+      "detail": {
+        "pages_reviewed": [
+          1,
+          2
+        ],
+        "method": "Each page rendered at 1.1x and independently viewed; no clipping, overlap, blank page, missing heading or unreadable text",
+        "images": [
+          "/workspace/test/revision14_work/小论文_终稿候选修改说明_page01.png",
+          "/workspace/test/revision14_work/小论文_终稿候选修改说明_page02.png"
+        ]
+      }
+    },
+    {
+      "id": "notes_real_changes",
+      "passed": true,
+      "detail": "Notes contain concrete placeholder replacements, figure mapping, retained objects, method/discussion edits and unresolved item"
+    },
+    {
+      "id": "notes_frozen_science",
+      "passed": true,
+      "detail": "Required numeric findings and no-recomputation statement are retained"
+    },
+    {
+      "id": "notes_input_roles",
+      "passed": true,
+      "detail": "Input roles and original preservation stated clearly"
+    },
+    {
+      "id": "小论文_SCI审稿风险分级版_zip",
+      "passed": true,
+      "detail": "ZIP CRC check and required document XML readable"
+    },
+    {
+      "id": "小论文_SCI审稿风险分级版_readable",
+      "passed": true,
+      "detail": {
+        "docx_characters": 6784,
+        "pdf_pages": 6
+      }
+    },
+    {
+      "id": "小论文_SCI审稿风险分级版_nonblank",
+      "passed": true,
+      "detail": "Every rendered page contains substantive text"
+    },
+    {
+      "id": "小论文_SCI审稿风险分级版_no_replacement_glyph",
+      "passed": true,
+      "detail": "No Unicode replacement character in PDF text; all pages visually inspected"
+    },
+    {
+      "id": "小论文_SCI审稿风险分级版_visual_page_review",
+      "passed": true,
+      "detail": {
+        "pages_reviewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "method": "Each page rendered at 1.1x and independently viewed; no clipping, overlap, blank page, missing heading or unreadable text",
+        "images": [
+          "/workspace/test/revision14_work/小论文_SCI审稿风险分级版_page01.png",
+          "/workspace/test/revision14_work/小论文_SCI审稿风险分级版_page02.png",
+          "/workspace/test/revision14_work/小论文_SCI审稿风险分级版_page03.png",
+          "/workspace/test/revision14_work/小论文_SCI审稿风险分级版_page04.png",
+          "/workspace/test/revision14_work/小论文_SCI审稿风险分级版_page05.png",
+          "/workspace/test/revision14_work/小论文_SCI审稿风险分级版_page06.png"
+        ]
+      }
+    },
+    {
+      "id": "risk_A_B_C",
+      "passed": true,
+      "detail": "A=actual sources, author declarations and availability; B=disclosed scientific limitations; C=optional new studies requested by reviewer"
+    },
+    {
+      "id": "risk_18_substantive_entries",
+      "passed": true,
+      "detail": "4 A items, 10 B items, 4 C items; each risk includes evidence, residual impact, next step and actual status"
+    },
+    {
+      "id": "risk_all_requested_topics",
+      "passed": true,
+      "detail": "All topics required by instruction 14 explicitly covered"
+    },
+    {
+      "id": "risk_no_fabricated_completed_experiments",
+      "passed": true,
+      "detail": "Existing scenario sensitivities distinguished from new calibration, algorithm comparisons, extra optimization, external validation and horizon work; no claims of added experiments"
+    },
+    {
+      "id": "risk_A_not_expansion_mandate",
+      "passed": true,
+      "detail": "New experiments are not mandated under A"
+    },
+    {
+      "id": "risk_literature_state_honest",
+      "passed": true,
+      "detail": "Completed Hamida metadata/claim verification distinguished from unresolved original Hu bibliographic field"
+    },
+    {
+      "id": "notes_final_page_count_actual",
+      "passed": true,
+      "detail": {
+        "before_pages": 15,
+        "after_pages": 14,
+        "sources": [
+          "/workspace/test/revision14_work/render_before/小论文_中文第三稿_模板排版版.pdf",
+          "/workspace/test/revision14_work/render_final/小论文_中文终稿候选_内容精修与模板排版版.pdf"
+        ],
+        "notes_DOCX_and_PDF_match": true,
+        "updated_page2_visually_reviewed": true
+      }
+    },
+    {
+      "id": "risk_final_layout_update",
+      "passed": true,
+      "detail": "Substantive DOCX paragraph text unchanged; final pages 4, 5, 6 re-rendered and visually reviewed after keep-with-next update. B9 next-step and actual-status now stay together. C3 continues naturally; all text readable, no clipping."
+    },
+    {
+      "id": "final_pdf_hash_and_content_freeze",
+      "passed": true,
+      "detail": "Rechecked final PDFs after renderer completion. Notes explicitly document original table 3→new table 2, original table 2→new table 3 and manuscript pagination 15→14. Notes both pages and risk pages 4–6 visually reviewed again; risk substantive text unchanged. Final PDF hashes match the upload candidates supplied by root."
+    }
+  ],
+  "all_passed": true,
+  "blocking_issues": [],
+  "known_pending_updates": [],
+  "optional_layout_observations": [
+    {
+      "file": "小论文_SCI审稿风险分级版.pdf",
+      "pages": [
+        4,
+        5
+      ],
+      "observation": "B9 next-step and actual-status now remain together at top of page 5; continuation readable and complete."
+    },
+    {
+      "file": "小论文_SCI审稿风险分级版.pdf",
+      "pages": [
+        5,
+        6
+      ],
+      "observation": "C3 continues naturally from evidence on page 5 to residual impact and next steps on page 6; no clipping or missing text."
+    }
+  ],
+  "conclusion": "Final support documents passed content and visual review. Notes correctly state 15 pages before and 14 after, confirmed against actual rendered manuscripts. No substantive factual errors, fabricated experiments, misleading risk classification, blocking visual defects, or unresolved support-document updates remain."
+}

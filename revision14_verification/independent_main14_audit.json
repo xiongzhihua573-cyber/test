@@ -1,0 +1,737 @@
+{
+  "audit": "Independent read-only scientific-content and visual review of instruction14 main candidate",
+  "auditor": "editor14",
+  "created_utc": "2026-10-18T20:07:00.418539+00:00",
+  "source_docx": "/workspace/attachments/8c7cb28b-7b06-44ad-83ea-e34c85b84fc3/小论文_中文第三稿_模板排版版.docx",
+  "final_docx": "/workspace/output_final/小论文_中文终稿候选_内容精修与模板排版版.docx",
+  "final_docx_size": 1863103,
+  "final_docx_sha256": "81df58533c8b21c3ab9f0c0ff5e2b19e99bdfeb1ee39cdd1d961bc09cc6e96dc",
+  "final_pdf": "/workspace/test/revision14_work/render_final/小论文_中文终稿候选_内容精修与模板排版版.pdf",
+  "final_pdf_size": 2062315,
+  "final_pdf_sha256": "6ba3ccffaa85cc53d69e25a9397c24a615f587fe796b0108451d013bedb1d69f",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "all_input_hashes_unchanged",
+      "passed": true,
+      "details": {
+        "manuscript": "dea4edd03b465382b0e1c5ebe31ff09b31ad8e50f531797b57f240a000fddbdd",
+        "template": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+        "content_reference": "e5db1336797d31c3055e0414333ddafaa92e76455651f7f8ca93055a50dbf87c",
+        "instructions": "56bb88a75dfb31cc9620ad3722460ae28fdac687b6a22c0795873b364ad94172"
+      }
+    },
+    {
+      "check": "DOCX_ZIP_valid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "title_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "five_introduction_paragraphs_verbatim",
+      "passed": true,
+      "details": [
+        {
+          "original_index": 4,
+          "new_index": 5,
+          "identical": true
+        },
+        {
+          "original_index": 5,
+          "new_index": 6,
+          "identical": true
+        },
+        {
+          "original_index": 6,
+          "new_index": 7,
+          "identical": true
+        },
+        {
+          "original_index": 7,
+          "new_index": 8,
+          "identical": true
+        },
+        {
+          "original_index": 8,
+          "new_index": 9,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "check": "abstract_separate_heading_and_unchanged_content",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "header_exactly_requested",
+      "passed": true,
+      "details": [
+        "低频检测与桥梁养护时机"
+      ]
+    },
+    {
+      "check": "no_unresolved_placeholders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "result_section_all_scientific_numbers_unchanged_excluding_figure_table_labels",
+      "passed": true,
+      "details": [
+        {
+          "original_index": 40,
+          "new_index": 41,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 41,
+          "new_index": 42,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 42,
+          "new_index": 43,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 43,
+          "new_index": 44,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 44,
+          "new_index": 45,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 45,
+          "new_index": 46,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 46,
+          "new_index": 47,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 47,
+          "new_index": 48,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 48,
+          "new_index": 49,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 49,
+          "new_index": 50,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 50,
+          "new_index": 51,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 51,
+          "new_index": 52,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 52,
+          "new_index": 53,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 53,
+          "new_index": 54,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 54,
+          "new_index": 55,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 55,
+          "new_index": 56,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 56,
+          "new_index": 57,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 57,
+          "new_index": 58,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 58,
+          "new_index": 59,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 59,
+          "new_index": 60,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 60,
+          "new_index": 61,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 61,
+          "new_index": 62,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 62,
+          "new_index": 63,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 63,
+          "new_index": 64,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 64,
+          "new_index": 65,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 65,
+          "new_index": 66,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 66,
+          "new_index": 67,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 67,
+          "new_index": 68,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 68,
+          "new_index": 69,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 69,
+          "new_index": 70,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 70,
+          "new_index": 71,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 71,
+          "new_index": 72,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 72,
+          "new_index": 73,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 73,
+          "new_index": 74,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 74,
+          "new_index": 75,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 75,
+          "new_index": 76,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 76,
+          "new_index": 77,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 77,
+          "new_index": 78,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 78,
+          "new_index": 79,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 79,
+          "new_index": 80,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 80,
+          "new_index": 81,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 81,
+          "new_index": 82,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 82,
+          "new_index": 83,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 83,
+          "new_index": 84,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 84,
+          "new_index": 85,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 85,
+          "new_index": 86,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 86,
+          "new_index": 87,
+          "same_scientific_numbers": true
+        },
+        {
+          "original_index": 87,
+          "new_index": 88,
+          "same_scientific_numbers": true
+        }
+      ]
+    },
+    {
+      "check": "result_section_wording_changes_limited_to_labels_and_four_terminology_paragraphs",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "all_eight_physical_table_texts_verbatim",
+      "passed": true,
+      "details": {
+        "old_count": 8,
+        "new_count": 8
+      }
+    },
+    {
+      "check": "five_OMML_equation_contents_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seven_image_bytes_and_order_unchanged",
+      "passed": true,
+      "details": [
+        "ecdfafe439d0f2483eccf67b4b829b7e6d0ea19c73b55a63161b0d44f4e1ca31",
+        "f4af0e44efed5013388611f71986fc40d345780eb87b5023f89e5782de2857fe",
+        "60a9df4c49e3eb323cb6929450ccad4698baa392efc24785788f223a479ce00a",
+        "96e18569ed750ef7d422dba04afae02f4815efcad63d383b72d8f66afd4aa690",
+        "c315e48caf010d309d01470847c0906dabec1befc0cfae0ac06fc389e9c1c264",
+        "4fa950d2659ba3a9f2365ae0a7ab43866881253caa37c937157ddd28f1975cfd",
+        "4f8c987f26f7729ae36e729173561fc5c4fd4248f357a76e8ac62817de7583dd"
+      ]
+    },
+    {
+      "check": "figure_captions_in_order_1_to_7",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "check": "table_captions_in_order_1_to_6",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "check": "figure_first_references_in_order_1_to_7",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "check": "table_first_references_in_order_1_to_6",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "check": "all_23_reference_first_citations_continuous_and_22_before_23",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "check": "bibliography_numbers_1_to_23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_22_bibliography_texts_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_Hamida_2022_metadata_and_claims_corroborated_in_author_sources",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_reference_in_discussion_only_and_two_occurrences",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "method_repetition_uses_seed_wording_not_statistical_independence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "discussion_retains_causal_search_and_public_candidate_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "conclusion_limited_to_model_constraints_and_LOCF_sensitivity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "main_PDF_14_pages",
+      "passed": true,
+      "details": 14
+    },
+    {
+      "check": "PDF_all_pages_have_content_and_no_words_outside_page",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_unique_body_decimal_values_unchanged",
+      "passed": true,
+      "details": {
+        "lost": [],
+        "added": []
+      }
+    }
+  ],
+  "page_by_page_visual_review": [
+    {
+      "page": 1,
+      "actual_text_characters": 1915,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        58.480743408203125,
+        544.2889404296875,
+        790.7247314453125
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "题目、独立摘要、关键词与引言完整；页眉页码正常，无裁切。"
+    },
+    {
+      "page": 2,
+      "actual_text_characters": 1643,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        50.07079315185547,
+        544.0,
+        785.2247314453125
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "引言续段、方法2.1及三线数据表完整；2.2标题与正文同行页，无孤立标题。"
+    },
+    {
+      "page": 3,
+      "actual_text_characters": 1618,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        50.07079315185547,
+        538.75,
+        768.4487915039062
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "方法2.2—2.4、两条状态递推公式及规划参数三线表完整，未裁切。"
+    },
+    {
+      "page": 4,
+      "actual_text_characters": 1465,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        50.07079315185547,
+        546.0999755859375,
+        761.7747802734375
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "面积资源与目标函数三条公式、方法2.5—2.6及结果起始完整，公式上下边界正常。"
+    },
+    {
+      "page": 5,
+      "actual_text_characters": 549,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        359.5607604980469,
+        536.7000122070312,
+        570.94873046875
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "检测覆盖图、预测结果正文与预测三线表完整；页底自然留白，无空白页。"
+    },
+    {
+      "page": 6,
+      "actual_text_characters": 282,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        479.2877502441406,
+        526.6500244140625,
+        590.4747924804688
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "连续评分预测四子图及3.2标题正文完整，图例与坐标轴未裁切。"
+    },
+    {
+      "page": 7,
+      "actual_text_characters": 1034,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        248.61077880859375,
+        537.2435302734375,
+        584.5747680664062
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "初始状态双子图、基线三线表与配对结果完整；下部留白源于后续整图分页。"
+    },
+    {
+      "page": 8,
+      "actual_text_characters": 1238,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        259.9107666015625,
+        536.5499877929688,
+        695.5987548828125
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "配对排程双子图、3.3及七档资源三线表完整，表格未跨页或溢出。"
+    },
+    {
+      "page": 9,
+      "actual_text_characters": 660,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        252.060791015625,
+        534.0999755859375,
+        478.7247619628906
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "资源响应双子图及3.4代表方案正文完整；页底留白，无截断或孤立标题。"
+    },
+    {
+      "page": 10,
+      "actual_text_characters": 454,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        417.46075439453125,
+        538.6500244140625,
+        571.7247924804688
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "代表方案三子图、图注及3.5敏感性结果完整，坐标轴与图例可见。"
+    },
+    {
+      "page": 11,
+      "actual_text_characters": 864,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        410.2607727050781,
+        536.9500122070312,
+        727.7747802734375
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "下降量敏感性四子图、表6A/B/C与注释完整，三线表无溢出。"
+    },
+    {
+      "page": 12,
+      "actual_text_characters": 1654,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        49.82075500488281,
+        538.25,
+        794.2247314453125
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "讨论4.1—4.3连续排版，引用22先于23，标题均与后续正文相连。"
+    },
+    {
+      "page": 13,
+      "actual_text_characters": 1963,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        50.07079315185547,
+        538.4000244140625,
+        794.2447509765625
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "讨论续段、4.4、五条结论、参考文献标题与前两条文献完整，无孤立标题。"
+    },
+    {
+      "page": 14,
+      "actual_text_characters": 5011,
+      "outside_page_word_count": 0,
+      "body_content_bbox": [
+        56.79999923706055,
+        51.38175582885742,
+        537.3732299804688,
+        781.0247802734375
+      ],
+      "blank_page": false,
+      "clipping_observed": false,
+      "orphan_heading_observed": false,
+      "formula_or_table_abnormality_observed": false,
+      "full_page_visual_reviewed": true,
+      "review_note": "参考文献3—23、补充材料说明及页码完整；最终版J-A作者名正体，未裁切。"
+    }
+  ],
+  "visual_review_method": "All14pages inspected as individual full-page raster images after contact sheets. After final bibliography-font and table-label corrections, final page14 and pages3/5 were re-rendered and visually inspected again; pagecount and all content/boundary checks reran against final DOCX/PDF hashes.",
+  "scientific_models_run": false,
+  "word_documents_modified_by_auditor": false,
+  "remaining_item": "Hu/Assaad2024原参考文献缺文章号/页码，未编造补齐；已由文献审计报告列为投稿前作者核验事项。",
+  "scope_limit": "This checks preservation against the authoritative input and honest interpretation; it does not newly validate the original experiments or replace journal review."
+}

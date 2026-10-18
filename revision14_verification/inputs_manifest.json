@@ -1,0 +1,38 @@
+{
+  "manuscript": {
+    "path": "/workspace/attachments/8c7cb28b-7b06-44ad-83ea-e34c85b84fc3/小论文_中文第三稿_模板排版版.docx",
+    "size": 2195401,
+    "sha256": "dea4edd03b465382b0e1c5ebe31ff09b31ad8e50f531797b57f240a000fddbdd",
+    "paragraphs": 139,
+    "tables": 8,
+    "images": 7,
+    "readable": true
+  },
+  "template": {
+    "path": "/workspace/attachments/733a666a-44fe-459e-8271-335ac4c3b9e7/参考模板（仅参考格式排版）.docx",
+    "size": 2383874,
+    "sha256": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+    "paragraphs": 156,
+    "tables": 8,
+    "images": 7,
+    "readable": true
+  },
+  "content_reference": {
+    "path": "/workspace/attachments/4cedbb3e-2485-4d59-a55b-4c0cb23b8cae/小论文_中文第三稿_SCI规范版1.docx",
+    "size": 2200184,
+    "sha256": "e5db1336797d31c3055e0414333ddafaa92e76455651f7f8ca93055a50dbf87c",
+    "paragraphs": 141,
+    "tables": 8,
+    "images": 7,
+    "readable": true
+  },
+  "instructions": {
+    "path": "/workspace/attachments/66eaa6a4-272c-4ac4-994a-e9fab965e0b5/修改指令14.docx",
+    "size": 19786,
+    "sha256": "56bb88a75dfb31cc9620ad3722460ae28fdac687b6a22c0795873b364ad94172",
+    "paragraphs": 120,
+    "tables": 0,
+    "images": 0,
+    "readable": true
+  }
+}

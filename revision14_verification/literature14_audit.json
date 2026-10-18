@@ -1,0 +1,327 @@
+{
+  "audit_type": "Metadata and claim support review; no manuscript edits or scientific computations",
+  "timestamp_utc": "2026-10-18T20:01:01.074910+00:00",
+  "external_verification_completed": true,
+  "blocking_reason": "Publisher/Crossref access blocked, but author GitHub original sources provided a valid alternate source for Hamida2022 full-text support; remaining inaccessible items recorded separately.",
+  "http_attempts": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/stc.2916",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/stc.2916",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1002%2Fstc.2916",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1002/stc.2916",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/stc.2916?fields=title,authors,abstract,year,journal,url",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.profs.polymtl.ca/jagoulet/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://publications.polymtl.ca/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://ascelibrary.org/doi/10.1061/JBENF2.BEENG-6012",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/15732479.2021.1897146",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1061/JBENF2.BEENG-6436",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.engstruct.2004.03.003",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0141029604000793",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "http://api.crossref.org/works/10.1002/stc.2916",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "body": "Domain forbidden"
+    },
+    {
+      "url": "https://www.google.com/search?q=%2210.1002%2Fstc.2916%22",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=%2210.1002%2Fstc.2916%22",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1002/stc.2916",
+      "connection_mode": "direct_no_proxy",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "url": "https://doi.org/10.1002/stc.2916",
+      "connection_mode": "direct_no_proxy",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "url": "https://www.profs.polymtl.ca/jagoulet/",
+      "connection_mode": "direct_no_proxy",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "claims_of_access_or_validation_to_avoid": [
+    "Do not state that Crossref or publisher version was retrieved or verified.",
+    "The retrieved full text is the author preprint dated December1,2021; published-year2022 is corroborated on the author-maintained publication list and CV.",
+    "Do not invent the missing Hu and Assaad article number.",
+    "Do not claim the three existing papers’ abstracts/full texts were newly read."
+  ],
+  "articles": [
+    {
+      "doi": "10.1002/stc.2916",
+      "metadata_source": "User instruction cross-checked against author-maintained publication list and CV; article full preprint read; volume29(issue4) and e2916 independently corroborated in Fakhri/Hamida/Goulet2024 author preprint, p16 ref14.",
+      "supplied_metadata": {
+        "authors": [
+          "Hamida Z",
+          "Goulet J-A"
+        ],
+        "title": "A stochastic model for estimating the network-scale deterioration and effect of interventions on bridges",
+        "journal": "Structural Control and Health Monitoring",
+        "year": 2022,
+        "volume": "29",
+        "issue": "4",
+        "article_number": "e2916"
+      },
+      "doi_syntax_checked": true,
+      "metadata_verified": true,
+      "abstract_or_full_text_read": true,
+      "not_established": [
+        "Empirical support for this manuscript’s R=6 or d=0.65 values",
+        "Causal proof for LO/Ridge initial-state effects or current Jaccard and first-maintenance-year results",
+        "Direct transferability of Quebec model parameters, scales or intervention classes to this study",
+        "Proof that every observed improvement is a true intervention; author model explicitly considers uncertain/missing event data"
+      ],
+      "proposed_reference_transcription": "Hamida Z, Goulet J-A. A stochastic model for estimating the network-scale deterioration and effect of interventions on bridges[J]. Structural Control and Health Monitoring, 2022, 29(4): e2916. DOI: 10.1002/stc.2916.",
+      "safe_use_condition": "Can cite for verified observation/state distinction, influence of missing interventions on estimates, and intervention-type/time/effect data needs. Metadata all corroborated from public author sources; publisher/Crossref edition not directly accessed. Do not imply support for current d,R or initial-state causal effects.",
+      "metadata_verified_fields": [
+        "title",
+        "authors",
+        "publicationyear2022",
+        "journal",
+        "volume29",
+        "issue4",
+        "articlee2916",
+        "DOI"
+      ],
+      "metadata_not_independently_verified_fields": [],
+      "full_text_support": [
+        {
+          "pdf_page": 1,
+          "section": "Abstract",
+          "evidence": "The SSM framework is extended from elements to bridges/network; handles missing data and interventions; demonstrated with individual cases with/without interventions and Quebec network of approximately7000bridges; estimates can help examine previous interventions and future maintenance."
+        },
+        {
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "section": "2.1, Equations(1)and(2)",
+          "evidence": "Transition equation models latent deterioration and intervention-related state changes; observation equation adds inspector-associated Gaussian observation error. Latent condition, speed,acceleration and intervention-induced changes distinguished."
+        },
+        {
+          "pdf_page": 3,
+          "section": "1.1 Notations",
+          "evidence": "Intervention data explicitly characterised by type h_r, effect delta_r and time tau."
+        },
+        {
+          "pdf_page": 6,
+          "section": "3.2.2 Missing Interventions",
+          "short_quote": "assume there was no intervention, which ultimately can result into a bias in the model estimates towards underestimating the condition",
+          "evidence": "Three missing-intervention scenarios: missing type, missing effect prior, unreported intervention; data/likelihood and averages by intervention type used for missing information."
+        },
+        {
+          "pdf_page": 7,
+          "section": "3.2.2 and Figures3–4",
+          "evidence": "Compares deterioration estimates when only reported interventions are used versus also accounting for potentially unreported interventions."
+        },
+        {
+          "pdf_page": 18,
+          "section": "5 Conclusion",
+          "evidence": "Intervention costs and expected improvements can differ by structural category and intervention type; framework quantifies deterioration from visual inspections and supports foundation for network planning."
+        }
+      ]
+    },
+    {
+      "doi": "10.1080/15732479.2021.1897146",
+      "source_reference": "P117 [Normal] [3] Hadjidemetriou G M, Herrera M, Parlikad A K. Condition and criticality-based predictive maintenance prioritisation for networks of bridges[J]. Structure and Infrastructure Engineering, 2022, 18(8): 1207–1221. DOI: 10.1080/15732479.2021.1897146.",
+      "metadata_source": "Already in authoritative manuscript [3]",
+      "metadata_verified_online": false,
+      "abstract_or_full_text_read": false,
+      "existing_manuscript_support": "Introduction already describes condition, deterioration uncertainty, life-cycle costs and network criticality in maintenance prioritisation. Title directly indicates condition- and criticality-based predictive-maintenance prioritisation.",
+      "safe_scope": "Cite the established connection between condition prediction / uncertainty and bridge maintenance prioritisation, not causal proof for current initial-state comparison."
+    },
+    {
+      "doi": "10.1061/JBENF2.BEENG-6436",
+      "source_reference": "P128 [Normal] [14] Ghafoori M, Abdallah M, Ozbek M E. Machine learning-based bridge maintenance optimization model for maximizing performance within available annual budgets[J]. Journal of Bridge Engineering, 2024, 29(4): 04024011. DOI: 10.1061/JBENF2.BEENG-6436.",
+      "metadata_source": "Already in authoritative manuscript [14]",
+      "metadata_verified_online": false,
+      "abstract_or_full_text_read": false,
+      "title_limited_support": "Machine-learning bridge-maintenance optimisation for maximising performance within annual budgets.",
+      "safe_scope": "Supports prediction-informed maintenance planning under annual budget constraints; does not establish this paper’s initial-state causal mechanism."
+    },
+    {
+      "doi": "10.1016/j.engstruct.2004.03.003",
+      "source_reference": "P130 [Normal] [16] Liu M, Frangopol D M. Optimal bridge maintenance planning based on probabilistic performance prediction[J]. Engineering Structures, 2004, 26(7): 991–1002. DOI: 10.1016/j.engstruct.2004.03.003.",
+      "metadata_source": "Already in authoritative manuscript [16]",
+      "metadata_verified_online": false,
+      "abstract_or_full_text_read": false,
+      "title_limited_support": "Optimal bridge maintenance planning based on probabilistic performance prediction.",
+      "safe_scope": "Supports relation of probabilistic performance prediction to planning, not numerical validation of R, d or this paper’s Jaccard/first-year differences."
+    },
+    {
+      "doi": "10.1061/JBENF2.BEENG-6012",
+      "source_reference": "P120 [Normal] [6] Hu X, Assaad R H. Improving the Predictive Analytics of Machine-Learning Pipelines for Bridge Infrastructure Asset Management Applications: An Upstream Data Workflow to Address Data Quality Issues in the National Bridge Inventory Database[J]. Journal of Bridge Engineering, 2024, 29(1). DOI: 10.1061/JBENF2.BEENG-6012.",
+      "metadata_source": "Already in authoritative manuscript [6]",
+      "metadata_verified_online": false,
+      "abstract_or_full_text_read": false,
+      "missing_field": "Article number / page range",
+      "action": "Keep supplied year 2024, volume29(issue1) and DOI; do not guess an article number; record unresolved bibliographic completeness in revision notes and A-class pre-submission risk."
+    }
+  ],
+  "recommended_replacement_sentences": {
+    "4.1": "低频检测不仅减少可用样本，也使规划年份与最近实测年份之间出现时间间隔。Hamida和Goulet在状态空间模型中区分状态演化与检测误差，并将干预作用纳入估计；其缺失干预分析表明，忽略期间干预可能影响状态推断[23]。本文2024年仅有6个实测初值，其余53个评分由历史资料估计，规划初值不能等同同期实测状态；保留初值来源有助于明确后续复检需求。",
+    "4.2": "性能预测、不确定性与养护决策的联系已在桥梁网络养护优先级、年度预算约束下的状态预测与优化，以及概率性能预测规划等研究中讨论[3,14,16]。在本文给定递推及约束下，起始评分会影响接近阈值的时间与养护前评分排序，年度能力和累计资源约束进一步限制行动调整范围。这是对本文配对结果的模型内解释，尚不能推广为真实桥梁管理中的因果结论。",
+    "4.2_evidence_boundary": "These references are already present with related scoped claims in the author’s introduction; no new abstract/fulltext retrieval for these3papers was possible. New wording repeats only broad study scope and clearly separates current model interpretation.",
+    "4.4": "本资料仅包括59个检测单元，216条测试记录属于既有单元的时间外验证，并非新桥梁外部验证；2024年53个估计初值没有同期真值。d未由真实退化过程校准，R=6未由真实养护事件校准，统一行动也不能代表不同工艺的响应。Hamida和Goulet的模型按干预类型、时间及效应描述干预信息，并讨论漏报事件对状态估计的影响[23]；本文进一步应用亦需结合真实养护事件与前后检测记录，检验评分变化关系及其不确定性。",
+    "numbering_note": "[23] assumes the22existing references retain their present first-citation order and the new Hamida2022paper first appears in discussion4.1. Root should independently check final numbering."
+  },
+  "recommended_disclosure": "已从Hamida作者维护的GitHub论文目录及后续论文参考文献核对题名、作者、2022年、期刊、29(4)、e2916及DOI，并取得其公开预印本核读摘要及相关正文（第3—4、6—7、18页）。直接出版商/Crossref访问仍受403限制，核验依据为作者公开版本；Hu和Assaad（2024）的文章号/页码仍无法补齐，待作者核对。",
+  "risk_class": "A: complete Hu2024 missing article number/page field before submission. Hamida2022 supplied metadata and substantive claim support have been corroborated from author sources; final publisher edition was not directly accessed.",
+  "scientific_models_run": false,
+  "verification_scope": "Hamida and Goulet(2022): author-maintained bibliography, author CV, complete author preprint and a later coauthor-paper reference list retrieved from permitted GitHub domains. All supplied bibliographic fields corroborated; abstract and relevant full-text sections inspected. Publisher/Crossref requests blocked. Other3existing-reference abstracts not independently retrieved.",
+  "author_sources": [
+    {
+      "url": "https://raw.githubusercontent.com/Bayes-Works/OpenIPDM/main/README.md",
+      "status": 200,
+      "role": "Official software README identifies Zachary Hamida as methodology/code author, links https://zachamida.github.io and James-A. Goulet institutional page; corroborates author-site provenance."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zachamida/zachamida.github.io/master/index.md",
+      "status": 200,
+      "role": "Author-maintained publication list; 2022 section explicitly lists exact title, Z.Hamida/J-A.Goulet, journal Structural Control and Health Monitoring,e2916, DOI10.1002/stc.2916, and linked author PDF.",
+      "fields_confirmed": [
+        "title",
+        "authors",
+        "year2022",
+        "journal",
+        "articlee2916",
+        "DOI"
+      ],
+      "fields_not_listed": [
+        "volume29",
+        "issue4"
+      ],
+      "local_file": "Hamida_author_publication_index.md",
+      "bytes": 11523,
+      "sha256": "21000d459b4d283f992202bee361bc1d7be9931e3df5d2e19744195c650de817"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zachamida/zachamida.github.io/master/pdf/Hamida_Goulet_NSA_2022.pdf",
+      "status": 200,
+      "local_file": "Hamida_Goulet_NSA_2022_author_copy.pdf",
+      "bytes": 2127093,
+      "sha256": "1858d49ab86ee25994fb6e778b00b9c670e9f9ae68ea67876516bf8adaaf16ba",
+      "pages": 27,
+      "version": "Author preprint, title page dated December1,2021",
+      "role": "Actual full-text evidence for observation model, missing interventions, intervention effects and bounds of support."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zachamida/zachamida.github.io/master/pdf/ZacharyHamidaCV.pdf",
+      "status": 200,
+      "local_file": "ZacharyHamidaCV_author_copy.pdf",
+      "bytes": 42093,
+      "sha256": "3645d0d1d2af635947f9e4f81d1fdbbd89e54b44ebc2cdccb62d7d9ddd67ce7e",
+      "role": "Author CV independently corroborates title/authors/2022/journal; does not list volume or issue.",
+      "evidence_page": 3,
+      "pages": 3
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zachamida/zachamida.github.io/master/pdf/SSMBNN_Fakhri_Hamida_Goulet_2024.pdf",
+      "status": 200,
+      "local_file": "SSMBNN_Fakhri_Hamida_Goulet_2024_author_copy.pdf",
+      "bytes": 978337,
+      "sha256": "2d41453d26601aee15e4be280eededff0eb2f2f61f94f2dfe363d56b72dd32cf",
+      "pages": 18,
+      "evidence_page": 16,
+      "reference_number": 14,
+      "role": "Later coauthored paper reference explicitly corroborates volume29,year2022,issue4,e2916.",
+      "exact_reference": "Hamida, Zachary ; Goulet, James-A.: A stochastic model for estimating the network-scale deterioration and effect of interventions on bridges. In: Structural Control and Health Monitoring29(2022),Nr.4,S.e2916."
+    }
+  ],
+  "other_author_citation_crosschecks": [
+    {
+      "url": "https://raw.githubusercontent.com/zachamida/zachamida.github.io/master/pdf/SSMBNN_Fakhri_Hamida_Goulet_2024.pdf",
+      "status": 200,
+      "bytes": 978337,
+      "sha256": "2d41453d26601aee15e4be280eededff0eb2f2f61f94f2dfe363d56b72dd32cf",
+      "local_file": "SSMBNN_Fakhri_Hamida_Goulet_2024_author_copy.pdf",
+      "pages": 18,
+      "matched_fragments": [
+        "ctural Attributes. In: Structural Safety (2020)\n[13] Hamida, Zachary ; Goulet, James-A: Quantifying the eﬀects of interventions based on visual\ninspections from a network of bridges. In: Structure and infrastructure engineering 18 (2022), Nr.\n8, S. 1222–1233\n[14] Hamida, Zachary ; Goulet, James-A.: A stochastic model for estimating the network-scale\ndeterioration and eﬀect of interventions on bridges. In: Structural Control and Health Monitoring\n29 (2022), Nr. 4, S. e2916\n[15] Hamida, Zachary ; Goulet, James-A: Hierarchical reinforcement learning for transportation\ninfrastructure maintenance planning. In: Reliability Engineering & System Safety 235 (2023), S.\n109214\n16\n\nPAGE 17\nFakhri, S.A.K., Hamida, Z. and Goulet, J-A. (Preprint 2024). Scalable Probabilistic Deterioration\nModel based on ",
+        "f bridges. In: Structure and infrastructure engineering 18 (2022), Nr.\n8, S. 1222–1233\n[14] Hamida, Zachary ; Goulet, James-A.: A stochastic model for estimating the network-scale\ndeterioration and eﬀect of interventions on bridges. In: Structural Control and Health Monitoring\n29 (2022), Nr. 4, S. e2916\n[15] Hamida, Zachary ; Goulet, James-A: Hierarchical reinforcement learning for transportation\ninfrastructure maintenance planning. In: Reliability Engineering & System Safety 235 (2023), S.\n109214\n16\n\nPAGE 17\nFakhri, S.A.K., Hamida, Z. and Goulet, J-A. (Preprint 2024). Scalable Probabilistic Deterioration\nModel based on Visual Inspections and Structural Attributes from Large Networks of Bridges.\n[16] Hamida, Zachary ; Goulet, James-A: Quantifying the Relative Change in Maintenance Costs\ndu"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zachamida/zachamida.github.io/master/pdf/Hamida_Goulet_RLI_2023_preprint.pdf",
+      "status": 200,
+      "bytes": 7866260,
+      "sha256": "63aae7caa8390444008157596a501844ebfcdfd3ace1c3c74282949e2997d3c0",
+      "local_file": "Hamida_Goulet_RLI_2023_preprint_author_copy.pdf",
+      "pages": 19,
+      "matched_fragments": [
+        "ructural Safety, 88:102024, 2020.\n[14] Zachary Hamida and James-A. Goulet. Quantifying the eﬀects of interventions based on visual\ninspections of bridges network. Structure and Infrastructure Engineering, pages 1–12, 2021. doi:\n10.1080/15732479.2021.1919149.\n[15] Zachary Hamida and James-A. Goulet. A stochastic model for estimating the network-scale\ndeterioration and eﬀect of interventions on bridges. Structural Control and Health Monitoring,\npages 1545–2255, 2021.\n[16] Junchen Jin and Xiaoliang Ma. Hierarchical multi-agent control of traﬃc lights based on collective\nlearning. Engineering applications of artiﬁcial intelligence, 68:236–248, 2018.\n[17] Rudolph Emil Kalman. A new approach to linear ﬁltering and prediction problems. Journal of\nbasic Engineering, 82(1):35–45, 1960.\n[18] Anssi K"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zachamida/zachamida.github.io/master/pdf/DST_Hamida_Goulet_2024.pdf",
+      "status": 200,
+      "bytes": 1454782,
+      "sha256": "22e011cfaae764323c3f3d262d19b8803616803d2ec68cbd9a6c6bafca38a05e",
+      "local_file": "DST_Hamida_Goulet_2024_author_copy.pdf",
+      "pages": 18,
+      "matched_fragments": [
+        " 10.1016/j.strusafe.\n2020.102024.\n[12] Zachary Hamida and James-A. Goulet. Quantifying the eﬀects of interventions based on visual\ninspections of bridges network. Structure and Infrastructure Engineering, pages 1–12, 2021. doi:\n10.1080/15732479.2021.1919149.\n[13] Zachary Hamida and James-A. Goulet. A stochastic model for estimating the network-scale\ndeterioration and eﬀect of interventions on bridges. Structural Control and Health Monitoring,\npages 1545–2255, 2021. doi: 10.1002/stc.2916.\n[14] Zachary Hamida and James-A Goulet. Hierarchical reinforcement learning for transportation\ninfrastructure maintenance planning. Reliability Engineering & System Safety, 2023.\n[15] Hado Van Hasselt, Arthur Guez, and David Silver. Deep reinforcement learning with double\nq-learning. In Proceedings of the ",
+        "ture Engineering, pages 1–12, 2021. doi:\n10.1080/15732479.2021.1919149.\n[13] Zachary Hamida and James-A. Goulet. A stochastic model for estimating the network-scale\ndeterioration and eﬀect of interventions on bridges. Structural Control and Health Monitoring,\npages 1545–2255, 2021. doi: 10.1002/stc.2916.\n[14] Zachary Hamida and James-A Goulet. Hierarchical reinforcement learning for transportation\ninfrastructure maintenance planning. Reliability Engineering & System Safety, 2023.\n[15] Hado Van Hasselt, Arthur Guez, and David Silver. Deep reinforcement learning with double\nq-learning. In Proceedings of the AAAI conference on artiﬁcial intelligence., volume 30, 2016.\n[16] Hugh Hawk. Bridge life-cycle cost analysis guidance manual. Technical Report 483, National\nCooperative Highway Research P"
+      ]
+    }
+  ],
+  "other_author_citation_crosschecks_note": "The2023RLI and2024DST preprints carry a stale2021 reference and ISSN-like pages1545–2255; those are not used as metadata evidence. The2024Fakhri paper gives the complete correct volume29(issue4):e2916 and agrees with2022author publication list.",
+  "hamida2022_verification_complete": true,
+  "hamida2022_all_supplied_metadata_fields_corroborated": true,
+  "hamida2022_discussion4_1_support_verified": true,
+  "hamida2022_discussion4_4_support_verified": true,
+  "publisher_version_accessed": false,
+  "author_full_preprint_accessed": true,
+  "new_reference_title_exact_author_index": "A Stochastic Model for Estimating the Network-Scale Deterioration and Effect of Interventions on Bridges",
+  "title_matches_instruction_ignoring_case": true,
+  "existing3new_abstract_verification_complete": false,
+  "hu_article_number_verified": false,
+  "hu_search_summary": {
+    "publisher_attempt": "ASCE blocked by network proxy403",
+    "additional_permitted_github_searches": "DOI exact string: no issue/repository/commit results. Exact candidate author account RayanAssaad has0public repositories. No authoritative publication record or article identifier obtained.",
+    "evidence_file": "literature14_hu_github_searches.json",
+    "decision": "Do not fill article number. Preserve year/volume/issue/DOI and flag author verification."
+  }
+}
