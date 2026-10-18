@@ -1,0 +1,442 @@
+{
+  "all_passed": true,
+  "passed": 62,
+  "total": 62,
+  "manuscript": {
+    "path": "/workspace/output_final/小论文_中文终稿候选_图片优化版.docx",
+    "bytes": 2908499,
+    "sha256": "beb6fdb3e8162adbbfee529f42f1f413e968afe3bc522c8204885b62a57624d6",
+    "pages": 15
+  },
+  "notes": {
+    "path": "/workspace/output_final/图片优化说明.docx",
+    "bytes": 39794,
+    "sha256": "bf89013f2126e043eda60f4d7be78fd0d31028cad3d5c11e6fc818e375fe454d",
+    "pages": 1
+  },
+  "image_bundle": {
+    "path": "/workspace/output_figures.zip",
+    "bytes": 2866962,
+    "sha256": "482233a933b576ef4f670b3bd9379c680757715b326b6b2e4d4e8f36536be725"
+  },
+  "images": [
+    {
+      "path": "/workspace/output_figures/Figure_01_optimized.png",
+      "bytes": 341638,
+      "sha256": "978b562c94ce73054d2d33c94950fafe98e487441d78a5c55bddc1c618d5f251"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_01_optimized.svg",
+      "bytes": 112169,
+      "sha256": "2144baa8caca16a87f0616deadf6be59f0ce61fd85364f184f304d632395355a"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_01_optimized.pdf",
+      "bytes": 29525,
+      "sha256": "96c9bad3c2125f900bccaed85154e0579fd29231eac7f22dd45a42f9028e0ec1"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_02_optimized.png",
+      "bytes": 677800,
+      "sha256": "c0a5c8dbd322c35c92eee70991c1b6ea952c18737fe5a6ebfc6e31d1ff99de53"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_02_optimized.svg",
+      "bytes": 187578,
+      "sha256": "f26666f758c3270ea72c256038c588430d69c4ac7a41b18b2dc6442ab50eabb1"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_02_optimized.pdf",
+      "bytes": 34125,
+      "sha256": "13ef833c71a0fac9ac04f7548182f0c4558b1c4f2be32a142435ea595973f2e4"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_03_optimized.png",
+      "bytes": 332769,
+      "sha256": "35bf5bf517d64d36c5aae6e16cb8d24a26ac7a55d7aef5a14d762ec09243aca1"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_03_optimized.svg",
+      "bytes": 67609,
+      "sha256": "e46226e2c58334acf5c40a0694449cec697b6884e9f812f3fc2beb727bd9538d"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_03_optimized.pdf",
+      "bytes": 26407,
+      "sha256": "f62994f332adf7289dd9295cee16e82fd159e4e551529bbcac527f19db7b0ab9"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_04_optimized.png",
+      "bytes": 314667,
+      "sha256": "c99f79c6ffef17314318baa0e0e825c8906d40da685b9ae05143772ac118a710"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_04_optimized.svg",
+      "bytes": 102989,
+      "sha256": "568e73f2e0c90a7377763c516081e5927d046107bae12c4c7c00a624ff88db2e"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_04_optimized.pdf",
+      "bytes": 38155,
+      "sha256": "b0f6143ee2b6f3f96367146079c3922653af8a402f90ac16867b9d00e852c38d"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_05_optimized.png",
+      "bytes": 387332,
+      "sha256": "7ca2de85ed156f5e09d1d9219d7faa16230356c71ed32733045d6d08ddd3d29f"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_05_optimized.svg",
+      "bytes": 106663,
+      "sha256": "256ec4dfdc4082b7c7abe6c07c4e982eef3f5cba0c4ef576d8b33b374c0ae700"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_05_optimized.pdf",
+      "bytes": 45489,
+      "sha256": "cbf2a9a5c68f30af266eb60a672afe64e45a96e7109cfccb541f7c03f138439d"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_06_optimized.png",
+      "bytes": 313681,
+      "sha256": "559808ad5e068e2b37b01e01e922224f228d61b35dfc27fdc2661d313c391222"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_06_optimized.svg",
+      "bytes": 63666,
+      "sha256": "f1c9eb35784287d678e6b71c3060b40164353abdfd1f30ee1def9bc7339ea942"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_06_optimized.pdf",
+      "bytes": 27809,
+      "sha256": "ff898fe9c8be5a11fa4c0e16393fdf2672b64b839cb95d9dad3a7aec8ff884e0"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_07_optimized.png",
+      "bytes": 479927,
+      "sha256": "68d6937ac2f3bc33f4213fa5b7eb5ff36bb243af50994a6c5edc695111a59811"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_07_optimized.svg",
+      "bytes": 103650,
+      "sha256": "43406c35b7db0f20bf1582794bae6f13560144e6e1f121260e7ef19e07663752"
+    },
+    {
+      "path": "/workspace/output_figures/Figure_07_optimized.pdf",
+      "bytes": 39533,
+      "sha256": "75d4b45d3912d79150d8d754c0e6de589619e1dfcfd12a4b3e3c4d30fa7f7a12"
+    }
+  ],
+  "uncompleted": [],
+  "checks": [
+    {
+      "check": "Only seven media parts changed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every non-image package member byte-identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native Word document XML byte-identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Manuscript DOCX CRC valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source manuscript not overwritten",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Instruction file unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Format reference unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Plot data invariance f123_audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Plot data invariance f45_audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Plot data invariance f67_audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All661 frozen scientific inputs unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure1 png exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure1600dpi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure1aspect ratio preserved",
+      "passed": true,
+      "detail": 0.00012538617980828448
+    },
+    {
+      "check": "Figure1 svg exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure1 pdf exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure1vector PDF readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure2 png exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure2600dpi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure2aspect ratio preserved",
+      "passed": true,
+      "detail": 1.7175294633742233e-05
+    },
+    {
+      "check": "Figure2 svg exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure2 pdf exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure2vector PDF readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure3 png exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure3600dpi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure3aspect ratio preserved",
+      "passed": true,
+      "detail": 8.47143684774565e-05
+    },
+    {
+      "check": "Figure3 svg exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure3 pdf exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure3vector PDF readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure4 png exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure4600dpi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure4aspect ratio preserved",
+      "passed": true,
+      "detail": 0.0001738962880749595
+    },
+    {
+      "check": "Figure4 svg exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure4 pdf exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure4vector PDF readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure5 png exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure5600dpi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure5aspect ratio preserved",
+      "passed": true,
+      "detail": 0.0001542253097557289
+    },
+    {
+      "check": "Figure5 svg exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure5 pdf exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure5vector PDF readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure6 png exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure6600dpi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure6aspect ratio preserved",
+      "passed": true,
+      "detail": 0.0001635996150979313
+    },
+    {
+      "check": "Figure6 svg exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure6 pdf exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure6vector PDF readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure7 png exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure7600dpi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure7aspect ratio preserved",
+      "passed": true,
+      "detail": 0.00010769985855030306
+    },
+    {
+      "check": "Figure7 svg exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure7 pdf exists and nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure7vector PDF readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Exactly21 standalone plot exports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual manuscript page count preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every page full text identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every page text words and coordinates identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Figure and caption text unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Notes DOCX CRC valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Notes contain required actual statements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Notes PDF readable one page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "21-file image bundle CRC and bytes valid",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

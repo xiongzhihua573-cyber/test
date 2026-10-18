@@ -1,0 +1,58 @@
+[
+  {
+    "figure": 1,
+    "rid": "rId8",
+    "partname": "/word/media/image1.png",
+    "width": 6120000,
+    "height": 3850824,
+    "sha256": "ecdfafe439d0f2483eccf67b4b829b7e6d0ea19c73b55a63161b0d44f4e1ca31"
+  },
+  {
+    "figure": 2,
+    "rid": "rId9",
+    "partname": "/word/media/image2.png",
+    "width": 6120000,
+    "height": 5405018,
+    "sha256": "f4af0e44efed5013388611f71986fc40d345780eb87b5023f89e5782de2857fe"
+  },
+  {
+    "figure": 3,
+    "rid": "rId10",
+    "partname": "/word/media/image3.png",
+    "width": 6120000,
+    "height": 2441696,
+    "sha256": "60a9df4c49e3eb323cb6929450ccad4698baa392efc24785788f223a479ce00a"
+  },
+  {
+    "figure": 4,
+    "rid": "rId11",
+    "partname": "/word/media/image4.png",
+    "width": 6120000,
+    "height": 2584736,
+    "sha256": "96e18569ed750ef7d422dba04afae02f4815efcad63d383b72d8f66afd4aa690"
+  },
+  {
+    "figure": 5,
+    "rid": "rId12",
+    "partname": "/word/media/image5.png",
+    "width": 6120000,
+    "height": 2484966,
+    "sha256": "c315e48caf010d309d01470847c0906dabec1befc0cfae0ac06fc389e9c1c264"
+  },
+  {
+    "figure": 6,
+    "rid": "rId13",
+    "partname": "/word/media/image6.png",
+    "width": 6120000,
+    "height": 4585820,
+    "sha256": "4fa950d2659ba3a9f2365ae0a7ab43866881253caa37c937157ddd28f1975cfd"
+  },
+  {
+    "figure": 7,
+    "rid": "rId14",
+    "partname": "/word/media/image7.png",
+    "width": 6120000,
+    "height": 4494073,
+    "sha256": "4f8c987f26f7729ae36e729173561fc5c4fd4248f357a76e8ac62817de7583dd"
+  }
+]

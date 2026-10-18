@@ -1,0 +1,123 @@
+{
+  "all_passed": true,
+  "scientific_data_changed": false,
+  "model_runs": 0,
+  "source_hashes_before": {
+    "paired_schedule_comparison_runs_15y.csv": "456cad2a77c25544e8fec205df6e48f1cf5445771a36b260f32b2a9fef941bb1",
+    "resource_level_summary_15y.csv": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00"
+  },
+  "figures": {
+    "4": {
+      "canvas_cm": [
+        17,
+        7.1798222222222225
+      ],
+      "png_pixels": [
+        4015,
+        1696
+      ],
+      "dpi": 600,
+      "bbox_inches_tight": false,
+      "cropped_labels": [],
+      "files": {
+        "png": {
+          "path": "/workspace/output_figures/Figure_04_optimized.png",
+          "sha256": "c99f79c6ffef17314318baa0e0e825c8906d40da685b9ae05143772ac118a710"
+        },
+        "svg": {
+          "path": "/workspace/output_figures/Figure_04_optimized.svg",
+          "sha256": "568e73f2e0c90a7377763c516081e5927d046107bae12c4c7c00a624ff88db2e"
+        },
+        "pdf": {
+          "path": "/workspace/output_figures/Figure_04_optimized.pdf",
+          "sha256": "b0f6143ee2b6f3f96367146079c3922653af8a402f90ac16867b9d00e852c38d"
+        }
+      },
+      "n_per_panel": [
+        [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        [
+          28,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
+      ],
+      "count_annotation": "one explicit common-count note above each panel",
+      "whis": 1.5,
+      "NA_policy": "dropna; no zero imputation",
+      "prior_plotter_function": "figure6",
+      "numeric_artists_exactly_equal": true,
+      "numeric_artist_sha256": "877496e98ad45ff36735a71eac65ac557e1095dfa373a567c245792ce9a40f9e",
+      "line_count_per_panel": [
+        42,
+        42
+      ],
+      "patch_count_per_panel": [
+        7,
+        7
+      ]
+    },
+    "5": {
+      "canvas_cm": [
+        17,
+        6.902683333333333
+      ],
+      "png_pixels": [
+        4015,
+        1630
+      ],
+      "dpi": 600,
+      "bbox_inches_tight": false,
+      "cropped_labels": [],
+      "files": {
+        "png": {
+          "path": "/workspace/output_figures/Figure_05_optimized.png",
+          "sha256": "7ca2de85ed156f5e09d1d9219d7faa16230356c71ed32733045d6d08ddd3d29f"
+        },
+        "svg": {
+          "path": "/workspace/output_figures/Figure_05_optimized.svg",
+          "sha256": "256ec4dfdc4082b7c7abe6c07c4e982eef3f5cba0c4ef576d8b33b374c0ae700"
+        },
+        "pdf": {
+          "path": "/workspace/output_figures/Figure_05_optimized.pdf",
+          "sha256": "cbf2a9a5c68f30af266eb60a672afe64e45a96e7109cfccb541f7c03f138439d"
+        }
+      },
+      "sample_SD_ddof": 1,
+      "runs_per_level": 30,
+      "research_series": [
+        "J mean/sample SD",
+        "J best",
+        "Delta_J mean/sample SD",
+        "Delta_J best"
+      ],
+      "new_reference_series": 0,
+      "prior_plotter_function": "figure4",
+      "numeric_artists_exactly_equal": true,
+      "numeric_artist_sha256": "4c6a48bf26640b20c5ff4c31624454956a685a351eabe9ecc7ccc250fe0dfdac",
+      "line_count_per_panel": [
+        6,
+        6
+      ],
+      "patch_count_per_panel": [
+        0,
+        0
+      ]
+    }
+  },
+  "source_hashes_after": {
+    "paired_schedule_comparison_runs_15y.csv": "456cad2a77c25544e8fec205df6e48f1cf5445771a36b260f32b2a9fef941bb1",
+    "resource_level_summary_15y.csv": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00"
+  }
+}

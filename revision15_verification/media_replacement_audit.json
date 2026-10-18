@@ -1,0 +1,22 @@
+{
+  "scope": "Only seven embedded PNGs replaced; every other package member unchanged byte-for-byte",
+  "source": "/workspace/attachments/937230c2-ac25-4227-b16c-5db3c8bb8aa1/小论文_中文终稿候选_内容精修与模板排版版.docx",
+  "output": "/workspace/output_final/小论文_中文终稿候选_图片优化版.docx",
+  "source_sha256": "4129abcbe4807f3afdc889d90579ced8a69738056f258c51f987036288f3f5f0",
+  "output_sha256": "beb6fdb3e8162adbbfee529f42f1f413e968afe3bc522c8204885b62a57624d6",
+  "output_bytes": 2908499,
+  "changed_package_members": [
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png"
+  ],
+  "all_non_image_parts_byte_identical": true,
+  "document_xml_unchanged": true,
+  "drawing_dimensions_unchanged": true,
+  "source_preserved": true,
+  "scientific_computation_runs": 0
+}
