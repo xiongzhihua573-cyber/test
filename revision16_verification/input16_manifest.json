@@ -1,0 +1,65 @@
+{
+  "source_docx": "/workspace/output_final/小论文_中文终稿候选_图片优化版.docx",
+  "source_sha256": "beb6fdb3e8162adbbfee529f42f1f413e968afe3bc522c8204885b62a57624d6",
+  "instruction_path": "/workspace/attachments/c3b749bf-8cd4-4203-ae73-2f8619b29cc2/修改指令16.docx",
+  "instruction_sha256": "a181beeff20c4bab1c39a6dc710034ac9d79a2516912a2992979174a85253a9a",
+  "frozen_project": "/workspace/revision15_work/prior_project/manuscript_sci_stage12",
+  "figures": [
+    {
+      "number": 1,
+      "partname": "/word/media/image1.png",
+      "width_emu": 6120000,
+      "height_emu": 3850824,
+      "width_cm": 17.0,
+      "height_cm": 10.696733333333333
+    },
+    {
+      "number": 2,
+      "partname": "/word/media/image2.png",
+      "width_emu": 6120000,
+      "height_emu": 5405018,
+      "width_cm": 17.0,
+      "height_cm": 15.01393888888889
+    },
+    {
+      "number": 3,
+      "partname": "/word/media/image3.png",
+      "width_emu": 6120000,
+      "height_emu": 2441696,
+      "width_cm": 17.0,
+      "height_cm": 6.782488888888889
+    },
+    {
+      "number": 4,
+      "partname": "/word/media/image4.png",
+      "width_emu": 6120000,
+      "height_emu": 2584736,
+      "width_cm": 17.0,
+      "height_cm": 7.1798222222222225
+    },
+    {
+      "number": 5,
+      "partname": "/word/media/image5.png",
+      "width_emu": 6120000,
+      "height_emu": 2484966,
+      "width_cm": 17.0,
+      "height_cm": 6.902683333333333
+    },
+    {
+      "number": 6,
+      "partname": "/word/media/image6.png",
+      "width_emu": 6120000,
+      "height_emu": 4585820,
+      "width_cm": 17.0,
+      "height_cm": 12.738388888888888
+    },
+    {
+      "number": 7,
+      "partname": "/word/media/image7.png",
+      "width_emu": 6120000,
+      "height_emu": 4494073,
+      "width_cm": 17.0,
+      "height_cm": 12.48353611111111
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "baseline_docx": "/workspace/output_final/小论文_中文终稿候选_图片优化版.docx",
+  "output_docx": "/workspace/output_final/小论文_中文终稿候选_高质量图片重绘版.docx",
+  "output_pdf": "/workspace/revision16_work/render_final/小论文_中文终稿候选_高质量图片重绘版.pdf",
+  "checks": {
+    "author_input_unchanged": true,
+    "docx_member_set_identical": true,
+    "only_and_all_seven_media_changed": true,
+    "all_nonmedia_members_byte_identical": true,
+    "all_body_paragraph_text_identical": true,
+    "title_abstract_author_format_xml_unchanged": true,
+    "no_visual_image_deformation": true,
+    "all_source_png_at_least_300dpi": true,
+    "all_image_background_corners_white": true,
+    "pdf_page_count_unchanged": true,
+    "all_pdf_page_text_identical": true,
+    "all_pdf_text_positions_unchanged": true,
+    "all_pdf_image_positions_unchanged": true,
+    "seven_figures_with_correct_captions_on_same_pages": true,
+    "all_nonimage_pdf_pixels_unchanged": true,
+    "all_twenty_one_figure_exports_present": true
+  },
+  "images": [
+    {
+      "image": "word/media/image1.png",
+      "pixel_size": [
+        4015,
+        2526
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_inserted_size": [
+        599.8882352941176,
+        599.8130270300591
+      ],
+      "aspect_ratio_relative_error": 0.00012538617980828448,
+      "white_corner_pixels": true
+    },
+    {
+      "image": "word/media/image2.png",
+      "pixel_size": [
+        4015,
+        3546
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_inserted_size": [
+        599.8882352941176,
+        599.8985387282706
+      ],
+      "aspect_ratio_relative_error": 1.7175294633742233e-05,
+      "white_corner_pixels": true
+    },
+    {
+      "image": "word/media/image3.png",
+      "pixel_size": [
+        4015,
+        1602
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_inserted_size": [
+        599.8882352941176,
+        599.9390587526048
+      ],
+      "aspect_ratio_relative_error": 8.47143684774565e-05,
+      "white_corner_pixels": true
+    },
+    {
+      "image": "word/media/image4.png",
+      "pixel_size": [
+        4015,
+        1696
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_inserted_size": [
+        599.8882352941176,
+        599.9925717752219
+      ],
+      "aspect_ratio_relative_error": 0.0001738962880749595,
+      "white_corner_pixels": true
+    },
+    {
+      "image": "word/media/image5.png",
+      "pixel_size": [
+        4015,
+        1630
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_inserted_size": [
+        599.8882352941176,
+        599.7957316116197
+      ],
+      "aspect_ratio_relative_error": 0.0001542253097557289,
+      "white_corner_pixels": true
+    },
+    {
+      "image": "word/media/image6.png",
+      "pixel_size": [
+        4015,
+        3009
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_inserted_size": [
+        599.8882352941176,
+        599.9863928370498
+      ],
+      "aspect_ratio_relative_error": 0.0001635996150979313,
+      "white_corner_pixels": true
+    },
+    {
+      "image": "word/media/image7.png",
+      "pixel_size": [
+        4015,
+        2948
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_inserted_size": [
+        599.8882352941176,
+        599.8236343735404
+      ],
+      "aspect_ratio_relative_error": 0.00010769985855030306,
+      "white_corner_pixels": true
+    }
+  ],
+  "pdf_pages": [
+    {
+      "page": 1,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    },
+    {
+      "page": 2,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    },
+    {
+      "page": 3,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    },
+    {
+      "page": 4,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    },
+    {
+      "page": 5,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95074462890625,
+            538.5999755859375,
+            354.1507568359375
+          ],
+          "width": 2007,
+          "height": 1263
+        }
+      ],
+      "captions": [
+        "图1 检测覆盖与缺失"
+      ]
+    },
+    {
+      "page": 6,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            476.55078125
+          ],
+          "width": 2006,
+          "height": 1772
+        }
+      ],
+      "captions": [
+        "图2 LOCF、Ridge 与XGBoost 的连续评分预测结果"
+      ]
+    },
+    {
+      "page": 7,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95074462890625,
+            538.5999755859375,
+            243.20074462890625
+          ],
+          "width": 2005,
+          "height": 800
+        }
+      ],
+      "captions": [
+        "图3 两套2024 年规划初始状态"
+      ]
+    },
+    {
+      "page": 8,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95079040527344,
+            538.5999755859375,
+            254.50079345703125
+          ],
+          "width": 2005,
+          "height": 847
+        }
+      ],
+      "captions": [
+        "图4 同随机种子配对排程的行动重合与首次养护年份平均绝对差"
+      ]
+    },
+    {
+      "page": 9,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95075988769531,
+            538.5999755859375,
+            246.6507568359375
+          ],
+          "width": 2009,
+          "height": 816
+        }
+      ],
+      "captions": [
+        "图5 共同资源上限下的长期平均评分及相对养护增益"
+      ]
+    },
+    {
+      "page": 10,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            412.05078125
+          ],
+          "width": 2006,
+          "height": 1503
+        }
+      ],
+      "captions": [
+        "图6 LOCF 代表方案的年度状态与养护安排"
+      ]
+    },
+    {
+      "page": 11,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            404.85076904296875
+          ],
+          "width": 2009,
+          "height": 1475
+        }
+      ],
+      "captions": [
+        "图7 年评分下降量敏感性"
+      ]
+    },
+    {
+      "page": 12,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    },
+    {
+      "page": 13,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    },
+    {
+      "page": 14,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    },
+    {
+      "page": 15,
+      "body_and_header_footer_text_identical": true,
+      "text_block_positions_identical": true,
+      "image_positions_identical": true,
+      "image_blocks": [],
+      "captions": []
+    }
+  ],
+  "changed_docx_members": [
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png"
+  ],
+  "actual_pdf_page_count": 15,
+  "figure_caption_pages": [
+    [
+      5,
+      "图1 检测覆盖与缺失"
+    ],
+    [
+      6,
+      "图2 LOCF、Ridge 与XGBoost 的连续评分预测结果"
+    ],
+    [
+      7,
+      "图3 两套2024 年规划初始状态"
+    ],
+    [
+      8,
+      "图4 同随机种子配对排程的行动重合与首次养护年份平均绝对差"
+    ],
+    [
+      9,
+      "图5 共同资源上限下的长期平均评分及相对养护增益"
+    ],
+    [
+      10,
+      "图6 LOCF 代表方案的年度状态与养护安排"
+    ],
+    [
+      11,
+      "图7 年评分下降量敏感性"
+    ]
+  ],
+  "all_automated_checks_passed": true,
+  "nonimage_pdf_pixel_checks": [
+    {
+      "page": 1,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 2,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 3,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 4,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 5,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 6,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 7,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 8,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 9,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 10,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 11,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 12,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 13,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 14,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    },
+    {
+      "page": 15,
+      "different_pixels_outside_image_frame_plus_2pt": 0
+    }
+  ],
+  "individual_figure_exports": [
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_01_redrawn.png",
+      "exists": true,
+      "bytes": 395929,
+      "pixel_size": [
+        4015,
+        2526
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_01_redrawn.svg",
+      "exists": true,
+      "bytes": 433979
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_01_redrawn.pdf",
+      "exists": true,
+      "bytes": 47626
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_02_redrawn.png",
+      "exists": true,
+      "bytes": 682322,
+      "pixel_size": [
+        4015,
+        3546
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_02_redrawn.svg",
+      "exists": true,
+      "bytes": 193772
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_02_redrawn.pdf",
+      "exists": true,
+      "bytes": 34917
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_03_redrawn.png",
+      "exists": true,
+      "bytes": 322219,
+      "pixel_size": [
+        4015,
+        1602
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_03_redrawn.svg",
+      "exists": true,
+      "bytes": 71982
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_03_redrawn.pdf",
+      "exists": true,
+      "bytes": 28654
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_04_redrawn.png",
+      "exists": true,
+      "bytes": 383656,
+      "pixel_size": [
+        4015,
+        1696
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_04_redrawn.svg",
+      "exists": true,
+      "bytes": 132381
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_04_redrawn.pdf",
+      "exists": true,
+      "bytes": 45940
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_05_redrawn.png",
+      "exists": true,
+      "bytes": 493662,
+      "pixel_size": [
+        4015,
+        1630
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_05_redrawn.svg",
+      "exists": true,
+      "bytes": 141132
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_05_redrawn.pdf",
+      "exists": true,
+      "bytes": 53141
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_06_redrawn.png",
+      "exists": true,
+      "bytes": 386524,
+      "pixel_size": [
+        4015,
+        3009
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_06_redrawn.svg",
+      "exists": true,
+      "bytes": 104998
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_06_redrawn.pdf",
+      "exists": true,
+      "bytes": 38734
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_07_redrawn.png",
+      "exists": true,
+      "bytes": 559318,
+      "pixel_size": [
+        4015,
+        2948
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_07_redrawn.svg",
+      "exists": true,
+      "bytes": 144272
+    },
+    {
+      "path": "/workspace/output_figures_redrawn/Figure_07_redrawn.pdf",
+      "exists": true,
+      "bytes": 44730
+    }
+  ],
+  "visual_review": {
+    "all_15_pages_inspected": true,
+    "seven_final_pdf_figures_inspected_at_2_5x_scale": true,
+    "no_cutoff_labels_or_legend_found": true,
+    "no_image_distortion_found": true,
+    "legends_do_not_cover_key_data": true,
+    "captions_remain_below_figures_on_pages_5_to_11": true,
+    "headers_footers_and_page_numbers_normal": true,
+    "source_title_abstract_and_supplementary_pagination_preserved": true,
+    "notes": "逐页contact sheet与七图2.5倍放大查看；正文、图题、页眉页脚及分页均保持权威源稿现状。"
+  },
+  "output_docx_sha256": "d18e9e92c7fafd806091702909807dc9f6b901c906a8428bbbed66ce5f4b77a3"
+}

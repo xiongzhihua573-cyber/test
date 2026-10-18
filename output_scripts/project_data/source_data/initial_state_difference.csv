@@ -1,0 +1,10 @@
+﻿metric,value
+mean_difference,1.65404176607
+MAE_difference,1.74091816292
+estimated_items_mean_difference,1.84129177732
+ridge_above_locf,46
+ridge_below_locf,7
+unchanged,6
+measured_count,6
+estimated_count,53
+area_sum,244201.525

@@ -1,0 +1,123 @@
+{
+  "language": "zh",
+  "figures": {
+    "1": {
+      "formats": [
+        "PNG600dpi",
+        "SVG",
+        "PDF"
+      ],
+      "clipped_text": [],
+      "files": {
+        "png": "46dd2d3baa439e4c99933b92f8d6b6454bfdf2faeb6c96041da6499db8f5476d",
+        "svg": "932898017c37c7082f002f137cbf591ece66cc0b5d1a0a97ba7981f3200f7da5",
+        "pdf": "a6e1d83daa867e77cbbb5c80c0c5b02d8161a3b08c192e335229e083a3b98c24"
+      }
+    },
+    "2": {
+      "formats": [
+        "PNG600dpi",
+        "SVG",
+        "PDF"
+      ],
+      "clipped_text": [],
+      "files": {
+        "png": "3d2ad78099022aebef7681bccd992016f4cf1c7b643e791f1017e755ddcca857",
+        "svg": "6ada9a0b2d0d385d5a97a25ab1b693f8540976286cf39420b43b090fb366846f",
+        "pdf": "ae46e9850348e2030332299d6b1b8ef6336e4fe1f62e85ea2d898c2269e0e50b"
+      }
+    },
+    "3": {
+      "formats": [
+        "PNG600dpi",
+        "SVG",
+        "PDF"
+      ],
+      "clipped_text": [],
+      "files": {
+        "png": "0376b972e8d887deb2eb95750061748c86b1137d47c917ed719606162117de9b",
+        "svg": "012868f15e90084a5294dd24e3c9cd6d3e1ad95daa5b54b8d47b02c31c1d8543",
+        "pdf": "8aad1c0820305ed670a9c08b9fb653f9a7ed83ab5a4cef0663378f97619f9aff"
+      }
+    },
+    "4": {
+      "formats": [
+        "PNG600dpi",
+        "SVG",
+        "PDF"
+      ],
+      "clipped_text": [],
+      "files": {
+        "png": "256f5cb0f3c4c1e97b1f0c43e83fc9cd9907b72dc8fe6b2cb9a191384f565f24",
+        "svg": "05e3a0db093de482096b4c81a135326137faa2739bac3d3543eb45096dbea02c",
+        "pdf": "504a7d2a63dbf681f574d82183ee3007d3bd8298dbf1f8660ef9d150a8cb4b80"
+      }
+    },
+    "5": {
+      "formats": [
+        "PNG600dpi",
+        "SVG",
+        "PDF"
+      ],
+      "clipped_text": [],
+      "files": {
+        "png": "eade16df68564af025082251476d770c09d4bb33bc16d0dce6b172ae17051191",
+        "svg": "e5bf26e0c90288b144edd78f3d8c3742614246db5cc8698a14b995f5a48da2cb",
+        "pdf": "119a65182cdcf57a43d239d364ce8472006fbce5a0cc2ebc4980d42da2621812"
+      }
+    },
+    "6": {
+      "formats": [
+        "PNG600dpi",
+        "SVG",
+        "PDF"
+      ],
+      "clipped_text": [],
+      "files": {
+        "png": "ed34a9a267f1ab5940b32761697868f706418125448d5ec29b7a31e3b0c6421d",
+        "svg": "8b55aa8b2d42ba48c698883dd22596fc5e7ee052e56923f58bdec44837a71c79",
+        "pdf": "211e645f274575a56d6f2cfd20c28613e0adc0bbe4d3b7c874cd5e444658a338"
+      }
+    },
+    "7": {
+      "formats": [
+        "PNG600dpi",
+        "SVG",
+        "PDF"
+      ],
+      "clipped_text": [],
+      "files": {
+        "png": "cb24206f52e17b162f3612207ceb65b74b23b7405f632236aec40b78ed60f3df",
+        "svg": "ef801c95e37d19bacf077c041e7dbbd2b05f79715fee7eb7d8aa7efb7c1bf1bc",
+        "pdf": "78880ec3903ed8ef403317b4c64de7b7546c2c90808d618b5ee1b036608e471a"
+      }
+    }
+  },
+  "source_csv_sha256": {
+    "results/deterioration_summary_15y.csv": "85c3792847f1d04986345f9121c0734244f89806c5aaf171fef89d4da9a54575",
+    "results/resource_lower_bound_summary_15y.csv": "8476b991b56d25502664b9be347284908f283bb68fb0996fcd22803fe12ef5e8",
+    "results/resource_level_summary_15y.csv": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00",
+    "results/paired_schedule_comparison_summary_15y.csv": "3c363a28862d59ddc8e05cf9f42f8fd79e03ce11f71cdb711b92ec640d71fc1a",
+    "results/deterioration_annual_15y.csv": "acad130a3fbc5cae9a417d5d08362f2fef5dc7db4989cb336256fa07a5981a90",
+    "results/paired_schedule_comparison_runs_15y.csv": "456cad2a77c25544e8fec205df6e48f1cf5445771a36b260f32b2a9fef941bb1",
+    "results/deterioration_timing_15y.csv": "4c5e3db52c9bf75cc5b097865aaba88f9f1af39260dcf0221d7be0ceb433d262",
+    "results/representative_annual_metrics_15y.csv": "08b5f786f70f90c5d72c18a3183f4e486bacaf799fadf77b2af309070730ddbe",
+    "source_data/initial_state_2024.csv": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b",
+    "source_data/bridge_group_mapping.csv": "a75e3ef781c77a1010d0980ebb6a750f08770d449aa34cf83a22c861c576f735",
+    "source_data/initial_state_statistics.csv": "0d9d36879c89843c55a49b4379776986df77c605c59887c515a3c70e31efe315",
+    "source_data/leakage_checks.csv": "2be768a4cb7fce4eb1df0d026c107eb5fae825a4ec5e7a5658d68dc977f1f7de",
+    "source_data/continuous_predictions.csv": "5490875cce76d6d4e5f444268443ea15105e69108da15b8b1f8eb9667aa2401f",
+    "source_data/continuous_model_comparison.csv": "a58208b77a7f28ab15ee5260b2d77799981a2de4183b391c05d0156dfdccc769",
+    "source_data/grade_distribution.csv": "1ce47daf3d42f0a53cf1758296e4776e913afff7b73204a64a83f8ab14f051a0",
+    "source_data/feature_dictionary.csv": "549f4012e3ebef22b768e5942943bd65f9aefd3aa34bc431259b51165ec9042e",
+    "source_data/data_audit.csv": "e92b5b531e7bb35e33cc056e655c2ac06f89e9a2d275818a0339c0269192618d",
+    "source_data/initial_state_difference.csv": "43c039df4402fd3e0fc2ef2f1145fdd2b6d164fc61a204ece5f431938be5e4cc",
+    "source_data/initial_state_ridge_features.csv": "85411f74ebc56c1ee89a9934cc64112e6d1c05bed2d8e57d5d5124373522c2fe",
+    "source_data/observations_long.csv": "5fc5468a9444b7dd9e79d67846c59353607cd5123a2a48d022662eb14d1eec6d",
+    "source_data/yearly_observation_count.csv": "cd9d8fd9ba89d04772c88c32dfcfad61dee19130fd9a769f12933b95d545af6e",
+    "source_data/temporal_validation_splits.csv": "61055f707d30dd5796202e8a682754a6d9669c7deb2f5b088b86f6384418c771"
+  },
+  "models_fitted": 0,
+  "optimizations_run": 0,
+  "scientific_statistics_reestimated": false
+}

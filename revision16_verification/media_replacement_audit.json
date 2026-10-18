@@ -1,0 +1,115 @@
+{
+  "source": "/workspace/output_final/小论文_中文终稿候选_图片优化版.docx",
+  "output": "/workspace/output_final/小论文_中文终稿候选_高质量图片重绘版.docx",
+  "source_sha256": "beb6fdb3e8162adbbfee529f42f1f413e968afe3bc522c8204885b62a57624d6",
+  "output_sha256": "d18e9e92c7fafd806091702909807dc9f6b901c906a8428bbbed66ce5f4b77a3",
+  "source_preserved": true,
+  "package_entries": 26,
+  "changed_parts": [
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png"
+  ],
+  "nonmedia_parts_byte_identical": true,
+  "body_and_styles_unchanged": true,
+  "drawing_frames_unchanged": true,
+  "scientific_models_fitted": 0,
+  "scientific_optimizations_run": 0,
+  "figure_records": [
+    {
+      "figure": 1,
+      "pixels": [
+        4015,
+        2526
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "physical_aspect_error": 0.00012538617980828448,
+      "sha256": "46dd2d3baa439e4c99933b92f8d6b6454bfdf2faeb6c96041da6499db8f5476d"
+    },
+    {
+      "figure": 2,
+      "pixels": [
+        4015,
+        3546
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "physical_aspect_error": 1.7175294633742233e-05,
+      "sha256": "3d2ad78099022aebef7681bccd992016f4cf1c7b643e791f1017e755ddcca857"
+    },
+    {
+      "figure": 3,
+      "pixels": [
+        4015,
+        1602
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "physical_aspect_error": 8.47143684774565e-05,
+      "sha256": "0376b972e8d887deb2eb95750061748c86b1137d47c917ed719606162117de9b"
+    },
+    {
+      "figure": 4,
+      "pixels": [
+        4015,
+        1696
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "physical_aspect_error": 0.0001738962880749595,
+      "sha256": "256f5cb0f3c4c1e97b1f0c43e83fc9cd9907b72dc8fe6b2cb9a191384f565f24"
+    },
+    {
+      "figure": 5,
+      "pixels": [
+        4015,
+        1630
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "physical_aspect_error": 0.0001542253097557289,
+      "sha256": "eade16df68564af025082251476d770c09d4bb33bc16d0dce6b172ae17051191"
+    },
+    {
+      "figure": 6,
+      "pixels": [
+        4015,
+        3009
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "physical_aspect_error": 0.0001635996150979313,
+      "sha256": "ed34a9a267f1ab5940b32761697868f706418125448d5ec29b7a31e3b0c6421d"
+    },
+    {
+      "figure": 7,
+      "pixels": [
+        4015,
+        2948
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "physical_aspect_error": 0.00010769985855030306,
+      "sha256": "cb24206f52e17b162f3612207ceb65b74b23b7405f632236aec40b78ed60f3df"
+    }
+  ]
+}

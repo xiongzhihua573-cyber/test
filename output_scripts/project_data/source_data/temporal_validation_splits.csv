@@ -1,0 +1,15 @@
+﻿task,dataset,test_year,n_train,n_test,seed,status
+continuous,next_observation,2018,112,57,20260908,run
+continuous,next_observation,2019,169,10,20260908,run
+continuous,next_observation,2020,179,59,20260908,run
+continuous,next_observation,2021,238,19,20260908,run
+continuous,next_observation,2022,257,59,20260908,run
+continuous,next_observation,2023,316,6,20260908,run
+continuous,next_observation,2024,322,6,20260908,run
+continuous,one_year,2018,53,0,20260908,no_real_test_observations
+continuous,one_year,2019,53,10,20260908,run
+continuous,one_year,2020,63,10,20260908,run
+continuous,one_year,2021,73,19,20260908,run
+continuous,one_year,2022,92,19,20260908,run
+continuous,one_year,2023,111,6,20260908,run
+continuous,one_year,2024,117,6,20260908,run

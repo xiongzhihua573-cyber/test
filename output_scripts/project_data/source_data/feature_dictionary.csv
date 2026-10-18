@@ -1,0 +1,13 @@
+﻿feature,available_at_prediction,continuous,ordinal,definition
+target_age,True,True,True,Planned target year minus recorded construction year; known at prediction.
+delta_year,True,True,True,Planned forecast horizon; actual next-inspection gap used retrospectively. Deployment requires a planned horizon.
+last_score,True,True,True,Latest real whole-bridge score at current_year; no interpolation.
+last_super_score,True,True,True,Latest real superstructure observation no later than current_year; fallback last_score if absent.
+super_history_missing,True,True,True,Whether any past superstructure score is available at current_year.
+bridge_length,True,True,True,Recorded static length (assumed historically available; no version history).
+bridge_width,True,True,True,Recorded static clear width (assumed historically available).
+type_mainline,True,True,True,"Recorded functional type: mainline, NOT structural type."
+type_ramp,True,True,True,Recorded functional type: ramp.
+type_passage,True,True,True,Recorded functional type: passage.
+last_grade,True,False,True,Mapped only from last_score via score_to_grade_2026.
+bridge_area,True,False,True,"Static length × clear width, assumed historically available."
