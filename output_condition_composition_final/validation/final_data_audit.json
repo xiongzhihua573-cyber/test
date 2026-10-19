@@ -1,0 +1,1161 @@
+{
+  "checks_passed": true,
+  "audit_method": "Read saved unit-year scores; recompute strict grades/counts/percentages; compare unchanged fixed actions to original literal JSON; no score regeneration, model fitting, schedule selection, decoding, or optimizer execution",
+  "source": "/workspace/output_condition_composition_final/input_data",
+  "unit_count": 59,
+  "unit_year_rows_checked": 3540,
+  "composition_rows_checked": 300,
+  "years": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035,
+    2036,
+    2037,
+    2038,
+    2039
+  ],
+  "initial_condition": "LOCF",
+  "initial_state_year": 2024,
+  "d": 0.65,
+  "R": 6.0,
+  "grade_intervals": {
+    "1": "90 < S <= 100",
+    "2": "75 < S <= 90",
+    "3": "60 < S <= 75",
+    "4": "40 < S <= 60",
+    "5": "0 <= S <= 40"
+  },
+  "classification_epsilon_used": false,
+  "classification_decimal_rounding_used": false,
+  "boundary_tests": [
+    {
+      "score": 0.0,
+      "score_hex": "0x0.0p+0",
+      "expected": 5,
+      "actual": 5,
+      "passed": true
+    },
+    {
+      "score": 40.0,
+      "score_hex": "0x1.4000000000000p+5",
+      "expected": 5,
+      "actual": 5,
+      "passed": true
+    },
+    {
+      "score": 60.0,
+      "score_hex": "0x1.e000000000000p+5",
+      "expected": 4,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "score": 75.0,
+      "score_hex": "0x1.2c00000000000p+6",
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "score": 90.0,
+      "score_hex": "0x1.6800000000000p+6",
+      "expected": 2,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "score": 100.0,
+      "score_hex": "0x1.9000000000000p+6",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "score": 39.99999999999999,
+      "score_hex": "0x1.3ffffffffffffp+5",
+      "expected": 5,
+      "actual": 5,
+      "passed": true
+    },
+    {
+      "score": 40.00000000000001,
+      "score_hex": "0x1.4000000000001p+5",
+      "expected": 4,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "score": 59.99999999999999,
+      "score_hex": "0x1.dffffffffffffp+5",
+      "expected": 4,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "score": 60.00000000000001,
+      "score_hex": "0x1.e000000000001p+5",
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "score": 74.99999999999999,
+      "score_hex": "0x1.2bfffffffffffp+6",
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "score": 75.00000000000001,
+      "score_hex": "0x1.2c00000000001p+6",
+      "expected": 2,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "score": 89.99999999999999,
+      "score_hex": "0x1.67fffffffffffp+6",
+      "expected": 2,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "score": 90.00000000000001,
+      "score_hex": "0x1.6800000000001p+6",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "score": 5e-324,
+      "score_hex": "0x0.0000000000001p-1022",
+      "expected": 5,
+      "actual": 5,
+      "passed": true
+    },
+    {
+      "score": 99.99999999999999,
+      "score_hex": "0x1.8ffffffffffffp+6",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    }
+  ],
+  "invalid_boundary_inputs_rejected": true,
+  "management_feasibility_epsilon_separate_from_grades": 1e-08,
+  "maximum_percentage_sum_error": 1.4210854715202004e-14,
+  "minimum_score_distance_to_internal_grade_boundary": 0.009999999999976694,
+  "frozen_source_byte_copies_verified": 10,
+  "all_packaged_scientific_input_bytes_match_previous_stage": true,
+  "packaged_scientific_input_files_verified": 15,
+  "historical_original_engine_byte_hash_verified_but_never_executed": true,
+  "all_grade4_and_grade5_counts_zero": true,
+  "scenarios": {
+    "no_maintenance": {
+      "scenario_zh": "无养护",
+      "actual_B": 0.0,
+      "displayed_B_three_decimal_places": "0.000",
+      "B_used": 0.0,
+      "source_run_id": "fixed_zero_action_baseline",
+      "grade_counts_2039": [
+        0,
+        54,
+        5,
+        0,
+        0
+      ],
+      "annual_actions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_actions": 0,
+      "saved_actions_match_literal_json": true,
+      "same_LOCF_initial_scores_for_every_unit": true,
+      "saved_neighboring_states_match_original_recurrence": true,
+      "all_unit_year_strict_grades_and_annual_counts_match": true,
+      "grade4_and_grade5_counts_zero_every_year": true,
+      "J": 85.4416949152542,
+      "terminal_mean": 80.89169491525413,
+      "min_score": 71.42999999999992,
+      "minimum_units_above75": 54,
+      "feasible_management_strategy": false,
+      "first_management_violation_year": 2036,
+      "annual_capacity_max": 0,
+      "unit_action_max": 0,
+      "minimum_gap": null,
+      "budget_constraint_satisfied": true,
+      "annual_composition": [
+        {
+          "year": 2025,
+          "grade_counts": [
+            29,
+            30,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2026,
+          "grade_counts": [
+            23,
+            36,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2027,
+          "grade_counts": [
+            22,
+            37,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2028,
+          "grade_counts": [
+            20,
+            39,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2029,
+          "grade_counts": [
+            19,
+            40,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2030,
+          "grade_counts": [
+            12,
+            47,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2031,
+          "grade_counts": [
+            10,
+            49,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2032,
+          "grade_counts": [
+            6,
+            53,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2033,
+          "grade_counts": [
+            3,
+            56,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2034,
+          "grade_counts": [
+            3,
+            55,
+            1,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2035,
+          "grade_counts": [
+            2,
+            55,
+            2,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2036,
+          "grade_counts": [
+            1,
+            55,
+            3,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2037,
+          "grade_counts": [
+            1,
+            55,
+            3,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2038,
+          "grade_counts": [
+            0,
+            56,
+            3,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2039,
+          "grade_counts": [
+            0,
+            54,
+            5,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        }
+      ]
+    },
+    "low_resource": {
+      "scenario_zh": "低资源养护",
+      "actual_B": 0.39411974051622595,
+      "displayed_B_three_decimal_places": "0.394",
+      "B_used": 0.38801561538159923,
+      "source_run_id": "y15__locf__d065__level1__gjo__seed20261033",
+      "grade_counts_2039": [
+        19,
+        39,
+        1,
+        0,
+        0
+      ],
+      "annual_actions": [
+        8,
+        8,
+        8,
+        7,
+        8,
+        6,
+        4,
+        6,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_actions": 58,
+      "saved_actions_match_literal_json": true,
+      "same_LOCF_initial_scores_for_every_unit": true,
+      "saved_neighboring_states_match_original_recurrence": true,
+      "all_unit_year_strict_grades_and_annual_counts_match": true,
+      "grade4_and_grade5_counts_zero_every_year": true,
+      "J": 89.97935593220333,
+      "terminal_mean": 86.74576271186433,
+      "min_score": 74.88999999999992,
+      "minimum_units_above75": 58,
+      "feasible_management_strategy": true,
+      "first_management_violation_year": null,
+      "annual_capacity_max": 8,
+      "unit_action_max": 3,
+      "minimum_gap": 3,
+      "budget_constraint_satisfied": true,
+      "annual_composition": [
+        {
+          "year": 2025,
+          "grade_counts": [
+            34,
+            25,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2026,
+          "grade_counts": [
+            32,
+            27,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2027,
+          "grade_counts": [
+            35,
+            24,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2028,
+          "grade_counts": [
+            38,
+            21,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 7
+        },
+        {
+          "year": 2029,
+          "grade_counts": [
+            39,
+            20,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2030,
+          "grade_counts": [
+            38,
+            21,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 6
+        },
+        {
+          "year": 2031,
+          "grade_counts": [
+            35,
+            24,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 4
+        },
+        {
+          "year": 2032,
+          "grade_counts": [
+            35,
+            24,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 6
+        },
+        {
+          "year": 2033,
+          "grade_counts": [
+            35,
+            24,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 3
+        },
+        {
+          "year": 2034,
+          "grade_counts": [
+            32,
+            27,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2035,
+          "grade_counts": [
+            27,
+            32,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2036,
+          "grade_counts": [
+            26,
+            33,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2037,
+          "grade_counts": [
+            23,
+            36,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2038,
+          "grade_counts": [
+            21,
+            38,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        },
+        {
+          "year": 2039,
+          "grade_counts": [
+            19,
+            39,
+            1,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 0
+        }
+      ]
+    },
+    "medium_resource": {
+      "scenario_zh": "中等资源养护",
+      "actual_B": 1.1547285587180505,
+      "displayed_B_three_decimal_places": "1.155",
+      "B_used": 1.1498854480945604,
+      "source_run_id": "y15__locf__d065__level3__gjo__seed20261039",
+      "grade_counts_2039": [
+        40,
+        18,
+        1,
+        0,
+        0
+      ],
+      "annual_actions": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        6,
+        2,
+        3,
+        2,
+        0
+      ],
+      "total_actions": 93,
+      "saved_actions_match_literal_json": true,
+      "same_LOCF_initial_scores_for_every_unit": true,
+      "saved_neighboring_states_match_original_recurrence": true,
+      "all_unit_year_strict_grades_and_annual_counts_match": true,
+      "grade4_and_grade5_counts_zero_every_year": true,
+      "J": 91.46458757062142,
+      "terminal_mean": 90.30966101694906,
+      "min_score": 74.88999999999992,
+      "minimum_units_above75": 58,
+      "feasible_management_strategy": true,
+      "first_management_violation_year": null,
+      "annual_capacity_max": 8,
+      "unit_action_max": 3,
+      "minimum_gap": 3,
+      "budget_constraint_satisfied": true,
+      "annual_composition": [
+        {
+          "year": 2025,
+          "grade_counts": [
+            35,
+            24,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2026,
+          "grade_counts": [
+            32,
+            27,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2027,
+          "grade_counts": [
+            37,
+            22,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2028,
+          "grade_counts": [
+            39,
+            20,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2029,
+          "grade_counts": [
+            40,
+            19,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2030,
+          "grade_counts": [
+            40,
+            19,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2031,
+          "grade_counts": [
+            40,
+            19,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2032,
+          "grade_counts": [
+            40,
+            19,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2033,
+          "grade_counts": [
+            41,
+            18,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2034,
+          "grade_counts": [
+            39,
+            20,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2035,
+          "grade_counts": [
+            41,
+            18,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 6
+        },
+        {
+          "year": 2036,
+          "grade_counts": [
+            43,
+            16,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 2
+        },
+        {
+          "year": 2037,
+          "grade_counts": [
+            43,
+            16,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 3
+        },
+        {
+          "year": 2038,
+          "grade_counts": [
+            42,
+            17,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 2
+        },
+        {
+          "year": 2039,
+          "grade_counts": [
+            40,
+            18,
+            1,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 0
+        }
+      ]
+    },
+    "high_resource": {
+      "scenario_zh": "高资源养护",
+      "actual_B": 2.2956417860207874,
+      "displayed_B_three_decimal_places": "2.296",
+      "B_used": 2.295641786020787,
+      "source_run_id": "y15__locf__d065__level6__gjo__seed20261015",
+      "grade_counts_2039": [
+        58,
+        1,
+        0,
+        0,
+        0
+      ],
+      "annual_actions": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        2
+      ],
+      "total_actions": 114,
+      "saved_actions_match_literal_json": true,
+      "same_LOCF_initial_scores_for_every_unit": true,
+      "saved_neighboring_states_match_original_recurrence": true,
+      "all_unit_year_strict_grades_and_annual_counts_match": true,
+      "grade4_and_grade5_counts_zero_every_year": true,
+      "J": 91.90949152542369,
+      "terminal_mean": 92.4849152542372,
+      "min_score": 85.22999999999999,
+      "minimum_units_above75": 59,
+      "feasible_management_strategy": true,
+      "first_management_violation_year": null,
+      "annual_capacity_max": 8,
+      "unit_action_max": 3,
+      "minimum_gap": 3,
+      "budget_constraint_satisfied": true,
+      "annual_composition": [
+        {
+          "year": 2025,
+          "grade_counts": [
+            33,
+            26,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2026,
+          "grade_counts": [
+            33,
+            26,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2027,
+          "grade_counts": [
+            40,
+            19,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 99.99999999999999,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2028,
+          "grade_counts": [
+            45,
+            14,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2029,
+          "grade_counts": [
+            48,
+            11,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.00000000000001,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2030,
+          "grade_counts": [
+            46,
+            13,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2031,
+          "grade_counts": [
+            46,
+            13,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2032,
+          "grade_counts": [
+            48,
+            11,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.00000000000001,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2033,
+          "grade_counts": [
+            49,
+            10,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2034,
+          "grade_counts": [
+            51,
+            8,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2035,
+          "grade_counts": [
+            50,
+            9,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2036,
+          "grade_counts": [
+            54,
+            5,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2037,
+          "grade_counts": [
+            59,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2038,
+          "grade_counts": [
+            59,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 8
+        },
+        {
+          "year": 2039,
+          "grade_counts": [
+            58,
+            1,
+            0,
+            0,
+            0
+          ],
+          "total_units": 59,
+          "percentage_sum": 100.0,
+          "maintenance_actions": 2
+        }
+      ]
+    }
+  },
+  "scientific_input_hashes": {
+    "condition_composition_by_year.csv": "2f0c419dd60da4e48f37dda86022122e9e7fbcbf50cb0da7c917af03b0b4a974",
+    "unit_year_scores.csv": "f997c33d24d55d5d14fb3a00f141ca0b9972aec325eea489f1120b35fe79abf0",
+    "scenario_selection.json": "08eb72dc3ca1f5f24dc664c4ff00e5e5929235f8014cd2cd98f243c6df4938ea"
+  },
+  "preservation": {
+    "status": "passed",
+    "baseline_sha256": "e890130bc5c6c2659193bd0fae7d7714ed01b0b0969ac98f9bd6aab40c48c662",
+    "previous_stage_files_checked": 37,
+    "previous_stage_whole_tree_unchanged": true,
+    "original_manuscript_and_figure_exports_checked": 29,
+    "original_manuscript_and_figure_exports_unchanged": true,
+    "frozen_scientific_files_checked": 661,
+    "frozen_scientific_files_unchanged": true,
+    "changed_files": []
+  },
+  "limitations": [
+    "The zero-action comparison fails the management constraint from 2036; it is not a feasible maintenance schedule.",
+    "The score classes are model simulation score intervals for 59 detection units, not 59 independent bridges, formal technical-condition certification, or Markov transition probabilities.",
+    "The three saved finite-search resource representatives are preserved; global optimality or an optimal real-world budget is not established.",
+    "Composition has threshold sensitivity and does not fully show continuous within-class score differences."
+  ]
+}

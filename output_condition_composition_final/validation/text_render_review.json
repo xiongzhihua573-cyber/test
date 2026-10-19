@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "pages": 1,
+  "conversion_tool": "LibreOffice soffice",
+  "review_pdf": "/workspace/drawing3_work/text_review/condition_composition_result_text.pdf",
+  "review_page_png": "/workspace/drawing3_work/text_review/page1.png",
+  "all_four_text_sections_present": {
+    "title": true,
+    "caption": true,
+    "result_paragraph": true,
+    "discussion_optional": true
+  },
+  "all_text_blocks_within_page": true,
+  "visual_inspection": "One clean A4 page, four labeled sections, no clipping, no figure numbers, no images or manuscript edits. Final concise caption uses B values displayed to three decimals and omits interval list repeated by the shared figure legend."
+}

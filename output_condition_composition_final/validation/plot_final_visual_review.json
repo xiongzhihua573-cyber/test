@@ -1,0 +1,27 @@
+{
+  "reviewed_files": [
+    "condition_composition_final.png",
+    "validation/condition_composition_final_pdf_preview.png"
+  ],
+  "actual_pdf_render_viewed": true,
+  "layout": {
+    "canvas_cm": [
+      18.0,
+      14.1
+    ],
+    "same_four_panel_dimensions": true,
+    "year_labels_readable": true,
+    "all_15_bars_preserved": true,
+    "one_shared_legend": true,
+    "only_nonzero_grade_categories_in_legend": true,
+    "actions_share_year_positions": true,
+    "unnecessary_zero_action_annotations_removed": true,
+    "no_annual_action_number_repetitions": true,
+    "no_figure_title_or_parameter_footer": true,
+    "no_visible_text_clipping": true
+  },
+  "action_axis_label_review": "Two horizontal lines (养护次数 / 次/年) avoid tick-number overlap.",
+  "pdf_format_check": "One page, vector paths, no embedded raster, embedded Type3 vector glyph outlines; actual MuPDF rendering matches PNG ink in all four headers and shared legend.",
+  "existing_manuscript_or_scientific_inputs_modified": false,
+  "unresolved_plot_issues": []
+}

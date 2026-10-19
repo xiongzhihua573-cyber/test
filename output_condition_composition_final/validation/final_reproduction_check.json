@@ -1,0 +1,42 @@
+{
+  "condition_composition_final.png": {
+    "byte_identical": true,
+    "size_px": [
+      4251,
+      3330
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "compression": null,
+    "sha256": "5a8acd33b65601a7d973843b073400be6b1516189fba4dc340a81e7bd8c17bc6"
+  },
+  "condition_composition_final.tif": {
+    "byte_identical": true,
+    "size_px": [
+      4251,
+      3330
+    ],
+    "dpi": [
+      600.0,
+      600.0
+    ],
+    "compression": "tiff_lzw",
+    "sha256": "4a733298b8d3b2480b3b387fe1f1bb94391c5ac35b77908eafc8424d18325f5d"
+  },
+  "condition_composition_final.pdf": {
+    "rendered_pixels_identical": true,
+    "raster_images": 0,
+    "vector_drawings": 756
+  },
+  "condition_composition_result_text.docx": {
+    "reproduced_xml_identical": {
+      "word/document.xml": true,
+      "word/styles.xml": true,
+      "word/settings.xml": true
+    },
+    "readable_zip_and_xml": true,
+    "actual_LibreOffice_render_reviewed": true
+  }
+}

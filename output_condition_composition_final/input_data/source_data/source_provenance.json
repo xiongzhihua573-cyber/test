@@ -1,0 +1,55 @@
+{
+  "frozen_project": "manuscript_sci_stage12",
+  "copied_sources": {
+    "initial_state_2024.csv": {
+      "original_relative_path": "source_data/initial_state_2024.csv",
+      "sha256": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b"
+    },
+    "resource_level_summary_15y.csv": {
+      "original_relative_path": "results/resource_level_summary_15y.csv",
+      "sha256": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00"
+    },
+    "resource_level_runs_15y.csv": {
+      "original_relative_path": "results/resource_level_runs_15y.csv",
+      "sha256": "072ca030a284668f08fc156d817ebe53a0ce285d05eb837708111ccdda50f4cb"
+    },
+    "resource_representative_annual_15y.csv": {
+      "original_relative_path": "results/resource_representative_annual_15y.csv",
+      "sha256": "1403a0ba88744a7464e448cb378b97347a56740228309660376f5bed53c3a331"
+    },
+    "no_maintenance_baselines_15y.csv": {
+      "original_relative_path": "results/no_maintenance_baselines_15y.csv",
+      "sha256": "4f2a63fca75e04c12f105dc9eec3d3137bb6a842f5c05e884b45948a78164ca0"
+    },
+    "no_maintenance_baselines_annual_15y.csv": {
+      "original_relative_path": "results/no_maintenance_baselines_annual_15y.csv",
+      "sha256": "91abe9444897a27af8161a36c4bbb7dc3e263416d2049574f9eb8d68b3c8df7e"
+    },
+    "Table_03_parameters_15y.csv": {
+      "original_relative_path": "tables/Table_03_parameters_15y.csv",
+      "sha256": "e2370f5ea49e70018e6b7a837ecfa35145b920400eb993c4539a655c363afad1"
+    },
+    "y15__locf__d065__level1__gjo__seed20261033.json": {
+      "original_relative_path": "results/runs/y15__locf__d065__level1__gjo__seed20261033.json",
+      "sha256": "72795f2c3881cc19d6c8cee7cea95d94d4da82008a0f8c2e2c71e91821fa1d3e"
+    },
+    "y15__locf__d065__level3__gjo__seed20261039.json": {
+      "original_relative_path": "results/runs/y15__locf__d065__level3__gjo__seed20261039.json",
+      "sha256": "976f7eb18ab3b0e74063bfa32eb16102e59dcc6558951f820a8e2d9d56c48201"
+    },
+    "y15__locf__d065__level6__gjo__seed20261015.json": {
+      "original_relative_path": "results/runs/y15__locf__d065__level6__gjo__seed20261015.json",
+      "sha256": "68f3feedf2ccb74019ca0f1457fd043e550eccd90b4ddd1dfdf60e840d35167b"
+    }
+  },
+  "original_engine": {
+    "local_file": "original_area_model_stage7.py",
+    "archive": "manuscript9.zip",
+    "archive_member": "manuscript_stage9/source_code/small_paper_cn/main_experiments_stage7/scripts/area_model.py",
+    "sha256": "cf8f22ae3f5c904cc8e1e201adb56be847b9eb562427fea60d48e558b6a773d1",
+    "historical_horizon": 20,
+    "usage": "Extract only _inputs, resource_tolerance, simulate_actions AST; bind original fixed planning settings with HORIZON=15 and YEARS=2025..2039. No search, decoder, solver, repair, or model fitting functions execute. Score recurrence is unchanged."
+  },
+  "saved_representative_rule": "highest_feasible_J_tie_within_1e-10_lower_B_then_seed",
+  "saved_summary_population": "feasible_final_30_GJO_runs_per_initial_and_B"
+}

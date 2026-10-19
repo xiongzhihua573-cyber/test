@@ -1,0 +1,143 @@
+{
+  "all_text_data_checks_passed": true,
+  "source_directory": "/workspace/output_condition_composition_final/input_data",
+  "source_sha256": {
+    "condition_composition_by_year.csv": "2f0c419dd60da4e48f37dda86022122e9e7fbcbf50cb0da7c917af03b0b4a974",
+    "unit_year_scores.csv": "f997c33d24d55d5d14fb3a00f141ca0b9972aec325eea489f1120b35fe79abf0",
+    "scenario_selection.json": "08eb72dc3ca1f5f24dc664c4ff00e5e5929235f8014cd2cd98f243c6df4938ea"
+  },
+  "verified_scenarios": [
+    {
+      "scenario": "no_maintenance",
+      "B": 0.0,
+      "counts_2039": [
+        0,
+        54,
+        5,
+        0,
+        0
+      ],
+      "annual_actions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_actions": 0
+    },
+    {
+      "scenario": "low_resource",
+      "B": 0.39411974051622595,
+      "counts_2039": [
+        19,
+        39,
+        1,
+        0,
+        0
+      ],
+      "annual_actions": [
+        8,
+        8,
+        8,
+        7,
+        8,
+        6,
+        4,
+        6,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_actions": 58
+    },
+    {
+      "scenario": "medium_resource",
+      "B": 1.1547285587180505,
+      "counts_2039": [
+        40,
+        18,
+        1,
+        0,
+        0
+      ],
+      "annual_actions": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        6,
+        2,
+        3,
+        2,
+        0
+      ],
+      "total_actions": 93
+    },
+    {
+      "scenario": "high_resource",
+      "B": 2.2956417860207874,
+      "counts_2039": [
+        58,
+        1,
+        0,
+        0,
+        0
+      ],
+      "annual_actions": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        2
+      ],
+      "total_actions": 114
+    }
+  ],
+  "word_file": "/workspace/output_condition_composition_final/condition_composition_result_text.docx",
+  "docx_paragraph_count": 8,
+  "readback_exact": true,
+  "character_counts": {
+    "result_paragraph": {
+      "cjk_han_characters": 165,
+      "non_whitespace_characters": 221
+    },
+    "discussion_optional": {
+      "cjk_han_characters": 93,
+      "non_whitespace_characters": 100
+    }
+  },
+  "counting_method": "CJK Han characters U+4E00–U+9FFF; all non-whitespace Unicode characters, respectively.",
+  "existing_manuscripts_modified": false,
+  "source_data_modified": false
+}
