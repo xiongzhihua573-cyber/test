@@ -1,0 +1,41 @@
+{
+  "seven_figure_checks": {
+    "1": {
+      "frozen_csv_standalone_png_exact": true,
+      "changed_from_previous_round": true
+    },
+    "2": {
+      "frozen_csv_standalone_png_exact": true,
+      "changed_from_previous_round": true
+    },
+    "3": {
+      "frozen_csv_standalone_png_exact": true,
+      "changed_from_previous_round": true
+    },
+    "4": {
+      "frozen_csv_standalone_png_exact": true,
+      "changed_from_previous_round": true
+    },
+    "5": {
+      "frozen_csv_standalone_png_exact": true,
+      "changed_from_previous_round": true
+    },
+    "6": {
+      "frozen_csv_standalone_png_exact": true,
+      "changed_from_previous_round": true
+    },
+    "7": {
+      "frozen_csv_standalone_png_exact": true,
+      "changed_from_previous_round": true
+    }
+  },
+  "input_word_unchanged": true,
+  "all_input_scripts_and_csv_unchanged": true,
+  "frozen_scientific_files_checked": 661,
+  "all_frozen_scientific_files_unchanged": true,
+  "complete_script_zh_tested": true,
+  "frozen_csv_count": 22,
+  "model_training_runs": 0,
+  "maintenance_optimization_runs": 0,
+  "statistics_changed": false
+}

@@ -1,0 +1,599 @@
+{
+  "source_docx": "/workspace/output_final/小论文_中文终稿候选_高质量图片重绘版.docx",
+  "final_docx": "/workspace/output_final/小论文_中文终稿候选_最终图表精修版.docx",
+  "final_pdf": "/workspace/revision17_work/render_final/小论文_中文终稿候选_最终图表精修版.pdf",
+  "allowed_figure_note_paragraph_indices": [
+    65,
+    72,
+    83
+  ],
+  "checks": {
+    "source_manuscript_unchanged": true,
+    "source_pdf_unchanged": true,
+    "package_member_set_identical": true,
+    "only_seven_pngs_and_document_xml_changed": true,
+    "all_other_package_parts_byte_identical": true,
+    "top_level_paragraph_count_identical": true,
+    "all_xml_outside_three_figure_notes_identical": true,
+    "all_other_paragraphs_text_and_format_xml_identical": true,
+    "all_figure_note_paragraph_properties_identical": true,
+    "three_note_changes_match_exact_reviewed_whitelist": true,
+    "all_physical_tables_identical": true,
+    "all_manual_breaks_and_section_properties_identical": true,
+    "image_display_frames_identical": true,
+    "all_seven_pngs_match_final_exports": true,
+    "all_seven_pngs_visually_changed": true,
+    "all_seven_figures_at_least_599dpi": true,
+    "all_seven_figures_display_without_ratio_deformation": true,
+    "all_seven_background_corners_pure_white": true,
+    "seven_figures_and_captions_on_same_pages": true,
+    "all_rendered_images_inside_page": true,
+    "all_rendered_non_note_text_identical": true,
+    "all_three_edited_caption_notes_complete_on_their_figure_pages": true,
+    "all_22_bundled_scientific_csv_files_identical_to_frozen_input": true,
+    "seven_figure_numeric_data_audits_passed": true,
+    "all_21_required_figure_exports_present": true
+  },
+  "images": [
+    {
+      "number": 1,
+      "media": "word/media/image1.png",
+      "pixel_size": [
+        4015,
+        2526
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_word_size": [
+        599.8882352941176,
+        599.8130270300591
+      ],
+      "aspect_ratio_relative_error": 0.00012538617980828448,
+      "matches_exported_final_png": true,
+      "four_corners_white": true,
+      "different_from_previous_figure": true
+    },
+    {
+      "number": 2,
+      "media": "word/media/image2.png",
+      "pixel_size": [
+        4015,
+        3546
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_word_size": [
+        599.8882352941176,
+        599.8985387282706
+      ],
+      "aspect_ratio_relative_error": 1.7175294633742233e-05,
+      "matches_exported_final_png": true,
+      "four_corners_white": true,
+      "different_from_previous_figure": true
+    },
+    {
+      "number": 3,
+      "media": "word/media/image3.png",
+      "pixel_size": [
+        4015,
+        1602
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_word_size": [
+        599.8882352941176,
+        599.9390587526048
+      ],
+      "aspect_ratio_relative_error": 8.47143684774565e-05,
+      "matches_exported_final_png": true,
+      "four_corners_white": true,
+      "different_from_previous_figure": true
+    },
+    {
+      "number": 4,
+      "media": "word/media/image4.png",
+      "pixel_size": [
+        4015,
+        1696
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_word_size": [
+        599.8882352941176,
+        599.9925717752219
+      ],
+      "aspect_ratio_relative_error": 0.0001738962880749595,
+      "matches_exported_final_png": true,
+      "four_corners_white": true,
+      "different_from_previous_figure": true
+    },
+    {
+      "number": 5,
+      "media": "word/media/image5.png",
+      "pixel_size": [
+        4015,
+        1630
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_word_size": [
+        599.8882352941176,
+        599.7957316116197
+      ],
+      "aspect_ratio_relative_error": 0.0001542253097557289,
+      "matches_exported_final_png": true,
+      "four_corners_white": true,
+      "different_from_previous_figure": true
+    },
+    {
+      "number": 6,
+      "media": "word/media/image6.png",
+      "pixel_size": [
+        4015,
+        3009
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_word_size": [
+        599.8882352941176,
+        599.9863928370498
+      ],
+      "aspect_ratio_relative_error": 0.0001635996150979313,
+      "matches_exported_final_png": true,
+      "four_corners_white": true,
+      "different_from_previous_figure": true
+    },
+    {
+      "number": 7,
+      "media": "word/media/image7.png",
+      "pixel_size": [
+        4015,
+        2948
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi_at_word_size": [
+        599.8882352941176,
+        599.8236343735404
+      ],
+      "aspect_ratio_relative_error": 0.00010769985855030306,
+      "matches_exported_final_png": true,
+      "four_corners_white": true,
+      "different_from_previous_figure": true
+    }
+  ],
+  "figure_notes": [
+    {
+      "paragraph_index": 65,
+      "before": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。",
+      "after": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。菱形为均值。",
+      "exact_expected_new_text": true
+    },
+    {
+      "paragraph_index": 72,
+      "before": "各点和误差线为当档30次GJO的均值与样本标准差，最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。",
+      "after": "各点和误差线为当档30次GJO的均值与样本标准差，最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。已验证可行下界单独展示，不计入当档30次独立运行统计，亦非全局最优；LOCF在B=1.915337时独立最好值低于该下界，反映有限搜索不足。",
+      "exact_expected_new_text": true
+    },
+    {
+      "paragraph_index": 83,
+      "before": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)为均值、样本标准差及本组最好值；(c)为各d最好可行代表的年度评分，(d)为各代表内已养护单元的首次养护年份分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。",
+      "after": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)为均值、样本标准差及本组最好值；(c)为各d最好可行代表的年度评分，(d)为各代表内已养护单元的首次养护年份分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。(d)中的点为已养护单元的原始首次养护年份，仅作横向排布，年份值不变；三个情景样本数依次为56、56、54。",
+      "exact_expected_new_text": true
+    }
+  ],
+  "pdf_pages": [
+    {
+      "page": 1,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 2,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 3,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 4,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 5,
+      "figure_image_count": 1,
+      "caption_numbers": [
+        1
+      ],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 6,
+      "figure_image_count": 1,
+      "caption_numbers": [
+        2
+      ],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 7,
+      "figure_image_count": 1,
+      "caption_numbers": [
+        3
+      ],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 8,
+      "figure_image_count": 1,
+      "caption_numbers": [
+        4
+      ],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 9,
+      "figure_image_count": 1,
+      "caption_numbers": [
+        5
+      ],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 10,
+      "figure_image_count": 1,
+      "caption_numbers": [
+        6
+      ],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 11,
+      "figure_image_count": 1,
+      "caption_numbers": [
+        7
+      ],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 12,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 13,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 14,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    },
+    {
+      "page": 15,
+      "figure_image_count": 0,
+      "caption_numbers": [],
+      "page_media_box": [
+        0.0,
+        0.0,
+        595.303955078125,
+        841.8897705078125
+      ],
+      "all_image_bboxes_inside_page": true
+    }
+  ],
+  "changed_package_parts": [
+    "word/document.xml",
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png"
+  ],
+  "frozen_other_package_part_count": 18,
+  "actual_pdf_page_count": 15,
+  "baseline_pdf_page_count": 15,
+  "page_count_unchanged": true,
+  "figure_caption_pages": [
+    {
+      "figure": 1,
+      "page": 5,
+      "caption": "图1 检测覆盖与缺失",
+      "same_page_as_image": true,
+      "image_bbox": [
+        56.70000076293945,
+        50.95074462890625,
+        538.5999755859375,
+        354.1507568359375
+      ],
+      "caption_bbox": [
+        257.5,
+        359.5607604980469,
+        266.5,
+        372.5927734375
+      ]
+    },
+    {
+      "figure": 2,
+      "page": 6,
+      "caption": "图2 LOCF、Ridge 与XGBoost 的连续评分预测结果",
+      "same_page_as_image": true,
+      "image_bbox": [
+        56.70000076293945,
+        50.950775146484375,
+        538.5999755859375,
+        476.55078125
+      ],
+      "caption_bbox": [
+        198.0,
+        481.96075439453125,
+        207.0,
+        494.9927673339844
+      ]
+    },
+    {
+      "figure": 3,
+      "page": 7,
+      "caption": "图3 两套2024 年规划初始状态",
+      "same_page_as_image": true,
+      "image_bbox": [
+        56.70000076293945,
+        50.95074462890625,
+        538.5999755859375,
+        243.20074462890625
+      ],
+      "caption_bbox": [
+        237.6999969482422,
+        248.61077880859375,
+        246.6999969482422,
+        261.6427917480469
+      ]
+    },
+    {
+      "figure": 4,
+      "page": 8,
+      "caption": "图4 同随机种子配对排程的行动重合与首次养护年份平均绝对差",
+      "same_page_as_image": true,
+      "image_bbox": [
+        56.70000076293945,
+        50.95079040527344,
+        538.5999755859375,
+        254.50079345703125
+      ],
+      "caption_bbox": [
+        172.0,
+        259.9107666015625,
+        181.0,
+        272.9427795410156
+      ]
+    },
+    {
+      "figure": 5,
+      "page": 9,
+      "caption": "图5 共同资源上限下的长期平均评分及相对养护增益",
+      "same_page_as_image": true,
+      "image_bbox": [
+        56.70000076293945,
+        50.95075988769531,
+        538.5999755859375,
+        246.6507568359375
+      ],
+      "caption_bbox": [
+        194.5,
+        252.060791015625,
+        203.5,
+        265.0928039550781
+      ]
+    },
+    {
+      "figure": 6,
+      "page": 10,
+      "caption": "图6 LOCF 代表方案的年度状态与养护安排",
+      "same_page_as_image": true,
+      "image_bbox": [
+        56.70000076293945,
+        50.950775146484375,
+        538.5999755859375,
+        412.05078125
+      ],
+      "caption_bbox": [
+        212.60000610351562,
+        417.46075439453125,
+        221.60000610351562,
+        430.4927673339844
+      ]
+    },
+    {
+      "figure": 7,
+      "page": 11,
+      "caption": "图7 年评分下降量敏感性",
+      "same_page_as_image": true,
+      "image_bbox": [
+        56.70000076293945,
+        50.950775146484375,
+        538.5999755859375,
+        404.85076904296875
+      ],
+      "caption_bbox": [
+        248.5,
+        410.2607727050781,
+        257.5,
+        423.29278564453125
+      ]
+    }
+  ],
+  "rendered_non_note_text_lengths": [
+    18188,
+    18188
+  ],
+  "independent_scientific_source_file_count": 22,
+  "numeric_data_audit_paths": [
+    "/workspace/revision17_work/f123_final_audit.json",
+    "/workspace/revision17_work/f45_final_audit.json",
+    "/workspace/revision17_work/f67_final_audit.json"
+  ],
+  "review_artifacts": {
+    "all_page_contact_sheet": "/workspace/revision17_work/independent_final17_all_pages.jpg",
+    "figure_context_pngs": [
+      "/workspace/revision17_work/independent_final17_figure1_in_context.png",
+      "/workspace/revision17_work/independent_final17_figure2_in_context.png",
+      "/workspace/revision17_work/independent_final17_figure3_in_context.png",
+      "/workspace/revision17_work/independent_final17_figure4_in_context.png",
+      "/workspace/revision17_work/independent_final17_figure5_in_context.png",
+      "/workspace/revision17_work/independent_final17_figure6_in_context.png",
+      "/workspace/revision17_work/independent_final17_figure7_in_context.png"
+    ]
+  },
+  "visual_inspection_completed": true,
+  "all_automated_checks_passed": true,
+  "visual_inspection": {
+    "all_15_pages_viewed": true,
+    "pages_viewed_at_readable_resolution": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "all_seven_figure_in_context_pages_viewed": true,
+    "all_seven_actual_embedded_before_after_comparisons_viewed": true,
+    "all_figure_caption_notes_complete_on_same_page": true,
+    "figure5_long_note_complete_on_page9": true,
+    "no_observed_clipping_overlap_or_page_separation": true,
+    "consistent_white_backgrounds_light_grids_legends_fonts_and_symbols": true,
+    "scientific_visuals_preserve_adverse_and_special_cases": true,
+    "observations": [
+      "图1年度图压缩、矩阵增高及图例缩短可见；缺测灰色减淡，两个矩阵行列对齐。",
+      "图2信息位置与散点规格一致；图3图例缩小并保留负差值、16箱频数和6个实测叉号。",
+      "图4/5的B刻度仅以3位显示；图4/5/7移出的说明完整留在各自图注，同页未挤压。",
+      "图5局部下降、独立最好值和已验证可行下界均保留；图6最低值74.89、年度行动数及两条阈值语义保留。",
+      "图7原始点透明度降低，三情景样本数56/56/54和所有年度曲线保留。"
+    ]
+  },
+  "reviewed_final_docx_sha256": "c6abd40e9b690ecf81991e4b859cc863683e7c267b2a5df750e5e5ffd6ffcfbc",
+  "reviewed_final_pdf_sha256": "f408a778f2851c627f89ebc6ed45570cb4fcad7fd80d6e47d9866997eba6b9c3",
+  "all_checks_passed": true,
+  "unresolved_issues": []
+}
