@@ -1,0 +1,25 @@
+{
+  "source": "/workspace/attachments/de14efc9-2a87-42c9-85c7-d55cf3324699/小论文_中文终稿候选_目录优化版.docx",
+  "output": "/workspace/output_figure_redesign/小论文_中文终稿候选_图表重构版.docx",
+  "source_unchanged": true,
+  "source_sha256": "b0ca9b0ab9f1bbc9d37665ef696f66662bbf43cab0e60ecae05ed7cd00465c5f",
+  "output_sha256": "f03fa6465c53a849b1e6a3bf76a0fcdcf2928d1ae232acd5c79603bae202ec34",
+  "changed_parts": [
+    "word/document.xml",
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png"
+  ],
+  "caption_note_paragraphs": [
+    45,
+    56,
+    64,
+    71,
+    81
+  ],
+  "all_other_paragraphs_and_xml_preserved": true
+}

@@ -1,0 +1,1549 @@
+{
+  "scope": "图表重构：输入只读审查，未执行模型训练或优化求解",
+  "model_fits": 0,
+  "optimization_runs": 0,
+  "paths": {
+    "current_word": {
+      "path": "/workspace/attachments/de14efc9-2a87-42c9-85c7-d55cf3324699/小论文_中文终稿候选_目录优化版.docx",
+      "bytes": 2946640,
+      "sha256": "b0ca9b0ab9f1bbc9d37665ef696f66662bbf43cab0e60ecae05ed7cd00465c5f"
+    },
+    "whole_xlsx": {
+      "path": "/workspace/attachments/4d53c21a-a6c3-440a-b240-173e8151a09d/全桥数据2012-2024.xlsx",
+      "bytes": 20628,
+      "sha256": "257e5f760b7c298927c3062db5d4083aea7cea8f45bde8ed6e23dfb7a28a282e"
+    },
+    "super_xlsx": {
+      "path": "/workspace/attachments/1b2bce8f-a36d-41b2-83ad-6f01dc6724a9/上部结构数据 2012-2024.xlsx",
+      "bytes": 14997,
+      "sha256": "c4afcaa88e4b81f0e784b8b7420c355018d5b03b3227c8aae2196618cf725627"
+    },
+    "reference_pdf": {
+      "path": "/workspace/attachments/174cf5a1-ea38-4102-b928-d2e80345238f/参考图.pdf",
+      "bytes": 5283177,
+      "sha256": "9411579e85328e926cbce47211ed1bbd17096d8d7a10eafb6822a218b4c885cc"
+    },
+    "instructions_docx": {
+      "path": "/workspace/attachments/4cfb2ef4-35b9-4c92-988f-f84db509e20d/绘图指令.docx",
+      "bytes": 28040,
+      "sha256": "522352941c25db9bb7a3bebebdd644ddc7248a9a827fe546e61c2eefc6f94977"
+    },
+    "templates": [
+      {
+        "path": "/workspace/attachments/e7630217-96c4-4f91-8b62-c7f91d424495/参考模板（仅参考格式排版）.docx",
+        "bytes": 2383874,
+        "sha256": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+        "readable": true,
+        "styles": 168,
+        "sections": 1,
+        "use": "仅检查排版样式，不复制科研内容"
+      },
+      {
+        "path": "/workspace/attachments/733a666a-44fe-459e-8271-335ac4c3b9e7/参考模板（仅参考格式排版）.docx",
+        "bytes": 2383874,
+        "sha256": "8ae7d40c9ad66fc36fc6f623c30a82314c9018a41c0207543e8be2c0c64ebc71",
+        "readable": true,
+        "styles": 168,
+        "sections": 1,
+        "use": "仅检查排版样式，不复制科研内容"
+      }
+    ],
+    "existing_scripts": [
+      {
+        "path": "/workspace/output_scripts_final/figure17_style.py",
+        "bytes": 4383,
+        "sha256": "524f8ad06881afc44b271a4d25285836b75acad08c0ba4450a22359cf6c55478"
+      },
+      {
+        "path": "/workspace/output_scripts_final/figures17_123.py",
+        "bytes": 20266,
+        "sha256": "4628027f2560fd59de877f676b4321036f0aa4b019e958b99a7e8fc6b1a23e83"
+      },
+      {
+        "path": "/workspace/output_scripts_final/figures17_45.py",
+        "bytes": 14284,
+        "sha256": "af02e4497577179716e6b86564ca498d2513c292bd6a5ae8be4e74156467d364"
+      },
+      {
+        "path": "/workspace/output_scripts_final/figures17_67.py",
+        "bytes": 19894,
+        "sha256": "6ae440efc326cb958722742af95b3a952de139b275f92af413e525dff0bb4f5d"
+      },
+      {
+        "path": "/workspace/output_scripts_final/refine_all_figures.py",
+        "bytes": 2875,
+        "sha256": "04d982dfcb8e3eb116d32e85b576e366b9b092169b533d889098acca6aa76d49"
+      }
+    ],
+    "figure_data_sources": {
+      "1": [
+        "source_data/observations_long.csv",
+        "source_data/yearly_observation_count.csv"
+      ],
+      "2": [
+        "source_data/continuous_predictions.csv",
+        "source_data/continuous_model_comparison.csv"
+      ],
+      "3": [
+        "source_data/initial_state_2024.csv"
+      ],
+      "4": [
+        "results/paired_schedule_comparison_runs_15y.csv",
+        "results/paired_schedule_comparison_summary_15y.csv"
+      ],
+      "5": [
+        "results/resource_level_runs_15y.csv",
+        "results/resource_level_summary_15y.csv",
+        "results/resource_lower_bound_summary_15y.csv"
+      ],
+      "6": [
+        "results/representative_annual_metrics_15y.csv"
+      ],
+      "7": [
+        "results/deterioration_runs_analyzed_15y.csv",
+        "results/deterioration_summary_15y.csv",
+        "results/deterioration_annual_15y.csv",
+        "results/deterioration_timing_15y.csv",
+        "results/deterioration_runs_15y.csv"
+      ]
+    },
+    "canonical_data_files": {
+      "results/deterioration_annual_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/deterioration_annual_15y.csv",
+        "bytes": 7772,
+        "sha256": "acad130a3fbc5cae9a417d5d08362f2fef5dc7db4989cb336256fa07a5981a90"
+      },
+      "results/deterioration_runs_analyzed_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/deterioration_runs_analyzed_15y.csv",
+        "bytes": 69224,
+        "sha256": "bc557bdc66d17ee1559b55db2e430ee92ec33670181ac6d2a0c44ff84185f8e4"
+      },
+      "results/deterioration_summary_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/deterioration_summary_15y.csv",
+        "bytes": 3785,
+        "sha256": "85c3792847f1d04986345f9121c0734244f89806c5aaf171fef89d4da9a54575"
+      },
+      "results/deterioration_timing_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/deterioration_timing_15y.csv",
+        "bytes": 5684,
+        "sha256": "4c5e3db52c9bf75cc5b097865aaba88f9f1af39260dcf0221d7be0ceb433d262"
+      },
+      "results/paired_schedule_comparison_runs_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/paired_schedule_comparison_runs_15y.csv",
+        "bytes": 47221,
+        "sha256": "456cad2a77c25544e8fec205df6e48f1cf5445771a36b260f32b2a9fef941bb1"
+      },
+      "results/paired_schedule_comparison_summary_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/paired_schedule_comparison_summary_15y.csv",
+        "bytes": 8427,
+        "sha256": "3c363a28862d59ddc8e05cf9f42f8fd79e03ce11f71cdb711b92ec640d71fc1a"
+      },
+      "results/representative_annual_metrics_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/representative_annual_metrics_15y.csv",
+        "bytes": 6033,
+        "sha256": "08b5f786f70f90c5d72c18a3183f4e486bacaf799fadf77b2af309070730ddbe"
+      },
+      "results/resource_level_runs_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/resource_level_runs_15y.csv",
+        "bytes": 296336,
+        "sha256": "072ca030a284668f08fc156d817ebe53a0ce285d05eb837708111ccdda50f4cb"
+      },
+      "results/resource_level_summary_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/resource_level_summary_15y.csv",
+        "bytes": 13748,
+        "sha256": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00"
+      },
+      "results/resource_lower_bound_summary_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/resource_lower_bound_summary_15y.csv",
+        "bytes": 3346,
+        "sha256": "8476b991b56d25502664b9be347284908f283bb68fb0996fcd22803fe12ef5e8"
+      },
+      "source_data/continuous_model_comparison.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source_data/continuous_model_comparison.csv",
+        "bytes": 4082,
+        "sha256": "a58208b77a7f28ab15ee5260b2d77799981a2de4183b391c05d0156dfdccc769"
+      },
+      "source_data/continuous_predictions.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source_data/continuous_predictions.csv",
+        "bytes": 74947,
+        "sha256": "5490875cce76d6d4e5f444268443ea15105e69108da15b8b1f8eb9667aa2401f"
+      },
+      "source_data/initial_state_2024.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source_data/initial_state_2024.csv",
+        "bytes": 7509,
+        "sha256": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b"
+      },
+      "source_data/observations_long.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source_data/observations_long.csv",
+        "bytes": 14989,
+        "sha256": "5fc5468a9444b7dd9e79d67846c59353607cd5123a2a48d022662eb14d1eec6d"
+      },
+      "source_data/yearly_observation_count.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source_data/yearly_observation_count.csv",
+        "bytes": 332,
+        "sha256": "cd9d8fd9ba89d04772c88c32dfcfad61dee19130fd9a769f12933b95d545af6e"
+      },
+      "results/deterioration_runs_15y.csv": {
+        "path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/deterioration_runs_15y.csv",
+        "bytes": 65648,
+        "sha256": "5841954f0e0d36243f8738ef9052f3db0c3cdb81a90334092dba02c9255606fe"
+      }
+    }
+  },
+  "checks": {
+    "latest_word_selection": {
+      "same_as_previous_outline_output": true,
+      "basis": "本次新上传唯一论文；逐正文图号、参数及表1—6交叉核验最终15年数据，不以文件名和时间戳单独判断"
+    },
+    "word_structure": {
+      "paragraphs": 139,
+      "physical_tables": 8,
+      "inline_figures": 7,
+      "planning_years_2025_2039_in_body": true
+    },
+    "raw_workbooks_vs_canonical": {
+      "whole": {
+        "worksheet": "全桥评分",
+        "units": 59,
+        "ids_unique": true,
+        "unit_ids": [
+          "Br01",
+          "Br02",
+          "Br03",
+          "Br04",
+          "Br05",
+          "Br06",
+          "Br07",
+          "Br08",
+          "Br09",
+          "Br10",
+          "Br11",
+          "Br12",
+          "Br13",
+          "Br14",
+          "Br15",
+          "Br16",
+          "Br17",
+          "Br18",
+          "Br19",
+          "Br20",
+          "Br21",
+          "Br22",
+          "Br23",
+          "Br24",
+          "Br25",
+          "Br26",
+          "Br27",
+          "Br28",
+          "Br29",
+          "Br30",
+          "Br31",
+          "Br32",
+          "Br33",
+          "Br34",
+          "Br35",
+          "Br36",
+          "Br37",
+          "Br38",
+          "Br39",
+          "Br40",
+          "Br41",
+          "Br42",
+          "Br43",
+          "Br44",
+          "Br45",
+          "Br46",
+          "Br47",
+          "Br48",
+          "Br49",
+          "Br50",
+          "Br51",
+          "Br52",
+          "Br53",
+          "Br54",
+          "Br55",
+          "Br56",
+          "Br57",
+          "Br58",
+          "Br59"
+        ],
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "positions": 767,
+        "nonmissing_scores": 387,
+        "missing_scores": 380,
+        "canonical_value_and_missingness_mismatches": [],
+        "area_length_width_mismatches": [],
+        "exact_value_and_missingness_match": true
+      },
+      "super": {
+        "worksheet": "上部结构评分",
+        "units": 59,
+        "ids_unique": true,
+        "unit_ids": [
+          "Br01",
+          "Br02",
+          "Br03",
+          "Br04",
+          "Br05",
+          "Br06",
+          "Br07",
+          "Br08",
+          "Br09",
+          "Br10",
+          "Br11",
+          "Br12",
+          "Br13",
+          "Br14",
+          "Br15",
+          "Br16",
+          "Br17",
+          "Br18",
+          "Br19",
+          "Br20",
+          "Br21",
+          "Br22",
+          "Br23",
+          "Br24",
+          "Br25",
+          "Br26",
+          "Br27",
+          "Br28",
+          "Br29",
+          "Br30",
+          "Br31",
+          "Br32",
+          "Br33",
+          "Br34",
+          "Br35",
+          "Br36",
+          "Br37",
+          "Br38",
+          "Br39",
+          "Br40",
+          "Br41",
+          "Br42",
+          "Br43",
+          "Br44",
+          "Br45",
+          "Br46",
+          "Br47",
+          "Br48",
+          "Br49",
+          "Br50",
+          "Br51",
+          "Br52",
+          "Br53",
+          "Br54",
+          "Br55",
+          "Br56",
+          "Br57",
+          "Br58",
+          "Br59"
+        ],
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "positions": 767,
+        "nonmissing_scores": 380,
+        "missing_scores": 387,
+        "canonical_value_and_missingness_mismatches": [],
+        "area_length_width_mismatches": [],
+        "exact_value_and_missingness_match": true
+      }
+    },
+    "annual_observation_counts": [
+      {
+        "year": 2012,
+        "whole_valid": 57,
+        "super_valid": 57,
+        "both_present": 57,
+        "both_missing": 2,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2013,
+        "whole_valid": 55,
+        "super_valid": 48,
+        "both_present": 48,
+        "both_missing": 4,
+        "whole_only": 7,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2014,
+        "whole_valid": 0,
+        "super_valid": 0,
+        "both_present": 0,
+        "both_missing": 59,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2015,
+        "whole_valid": 0,
+        "super_valid": 0,
+        "both_present": 0,
+        "both_missing": 59,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2016,
+        "whole_valid": 59,
+        "super_valid": 59,
+        "both_present": 59,
+        "both_missing": 0,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2017,
+        "whole_valid": 0,
+        "super_valid": 0,
+        "both_present": 0,
+        "both_missing": 59,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2018,
+        "whole_valid": 57,
+        "super_valid": 57,
+        "both_present": 57,
+        "both_missing": 2,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2019,
+        "whole_valid": 10,
+        "super_valid": 10,
+        "both_present": 10,
+        "both_missing": 49,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2020,
+        "whole_valid": 59,
+        "super_valid": 59,
+        "both_present": 59,
+        "both_missing": 0,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2021,
+        "whole_valid": 19,
+        "super_valid": 19,
+        "both_present": 19,
+        "both_missing": 40,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2022,
+        "whole_valid": 59,
+        "super_valid": 59,
+        "both_present": 59,
+        "both_missing": 0,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2023,
+        "whole_valid": 6,
+        "super_valid": 6,
+        "both_present": 6,
+        "both_missing": 53,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      },
+      {
+        "year": 2024,
+        "whole_valid": 6,
+        "super_valid": 6,
+        "both_present": 6,
+        "both_missing": 53,
+        "whole_only": 0,
+        "super_only": 0,
+        "saved_counts_match": true
+      }
+    ],
+    "frozen_science_manifest": {
+      "manifest": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source/frozen_scientific_inputs.json",
+      "listed_count": 661,
+      "actual_entries": 661,
+      "missing": [],
+      "changed": [],
+      "all_match": true
+    },
+    "prior_plot_bundle_csvs": [
+      {
+        "relative_path": "results/deterioration_annual_15y.csv",
+        "bytes": 7772,
+        "sha256": "acad130a3fbc5cae9a417d5d08362f2fef5dc7db4989cb336256fa07a5981a90",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/deterioration_summary_15y.csv",
+        "bytes": 3785,
+        "sha256": "85c3792847f1d04986345f9121c0734244f89806c5aaf171fef89d4da9a54575",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/deterioration_timing_15y.csv",
+        "bytes": 5684,
+        "sha256": "4c5e3db52c9bf75cc5b097865aaba88f9f1af39260dcf0221d7be0ceb433d262",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/paired_schedule_comparison_runs_15y.csv",
+        "bytes": 47221,
+        "sha256": "456cad2a77c25544e8fec205df6e48f1cf5445771a36b260f32b2a9fef941bb1",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/paired_schedule_comparison_summary_15y.csv",
+        "bytes": 8427,
+        "sha256": "3c363a28862d59ddc8e05cf9f42f8fd79e03ce11f71cdb711b92ec640d71fc1a",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/representative_annual_metrics_15y.csv",
+        "bytes": 6033,
+        "sha256": "08b5f786f70f90c5d72c18a3183f4e486bacaf799fadf77b2af309070730ddbe",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/resource_level_summary_15y.csv",
+        "bytes": 13748,
+        "sha256": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/resource_lower_bound_summary_15y.csv",
+        "bytes": 3346,
+        "sha256": "8476b991b56d25502664b9be347284908f283bb68fb0996fcd22803fe12ef5e8",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/bridge_group_mapping.csv",
+        "bytes": 4078,
+        "sha256": "a75e3ef781c77a1010d0980ebb6a750f08770d449aa34cf83a22c861c576f735",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/continuous_model_comparison.csv",
+        "bytes": 4082,
+        "sha256": "a58208b77a7f28ab15ee5260b2d77799981a2de4183b391c05d0156dfdccc769",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/continuous_predictions.csv",
+        "bytes": 74947,
+        "sha256": "5490875cce76d6d4e5f444268443ea15105e69108da15b8b1f8eb9667aa2401f",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/data_audit.csv",
+        "bytes": 549,
+        "sha256": "e92b5b531e7bb35e33cc056e655c2ac06f89e9a2d275818a0339c0269192618d",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/feature_dictionary.csv",
+        "bytes": 1209,
+        "sha256": "549f4012e3ebef22b768e5942943bd65f9aefd3aa34bc431259b51165ec9042e",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/grade_distribution.csv",
+        "bytes": 135,
+        "sha256": "1ce47daf3d42f0a53cf1758296e4776e913afff7b73204a64a83f8ab14f051a0",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_2024.csv",
+        "bytes": 7509,
+        "sha256": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_difference.csv",
+        "bytes": 228,
+        "sha256": "43c039df4402fd3e0fc2ef2f1145fdd2b6d164fc61a204ece5f431938be5e4cc",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_ridge_features.csv",
+        "bytes": 3908,
+        "sha256": "85411f74ebc56c1ee89a9934cc64112e6d1c05bed2d8e57d5d5124373522c2fe",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_statistics.csv",
+        "bytes": 195,
+        "sha256": "0d9d36879c89843c55a49b4379776986df77c605c59887c515a3c70e31efe315",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/leakage_checks.csv",
+        "bytes": 1660,
+        "sha256": "2be768a4cb7fce4eb1df0d026c107eb5fae825a4ec5e7a5658d68dc977f1f7de",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/observations_long.csv",
+        "bytes": 14989,
+        "sha256": "5fc5468a9444b7dd9e79d67846c59353607cd5123a2a48d022662eb14d1eec6d",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/temporal_validation_splits.csv",
+        "bytes": 751,
+        "sha256": "61055f707d30dd5796202e8a682754a6d9669c7deb2f5b088b86f6384418c771",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/yearly_observation_count.csv",
+        "bytes": 332,
+        "sha256": "cd9d8fd9ba89d04772c88c32dfcfad61dee19130fd9a769f12933b95d545af6e",
+        "canonical_equal": true
+      }
+    ],
+    "final_run_populations": {
+      "resource_rows": 420,
+      "sensitivity_rows_including_reused_reference": 90,
+      "unique_runs_across_both": 480,
+      "new_runs_executed_this_task": 0,
+      "groups": [
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "LOCF",
+            "level_id": 0
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.4210854715202004e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "LOCF",
+            "level_id": 1
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.4210854715202004e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "LOCF",
+            "level_id": 2
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.970645868709653e-15,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "LOCF",
+            "level_id": 3
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 2.842170943040401e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "LOCF",
+            "level_id": 4
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 4.246603069191224e-15,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "LOCF",
+            "level_id": 5
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.4210854715202004e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "LOCF",
+            "level_id": 6
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.4210854715202004e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "Ridge",
+            "level_id": 0
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 2.842170943040401e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "Ridge",
+            "level_id": 1
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 4.263256414560601e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "Ridge",
+            "level_id": 2
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.4210854715202004e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "Ridge",
+            "level_id": 3
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.4210854715202004e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "Ridge",
+            "level_id": 4
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 2.842170943040401e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "Ridge",
+            "level_id": 5
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.4210854715202004e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "resource",
+          "group": {
+            "initial_condition": "Ridge",
+            "level_id": 6
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 2.842170943040401e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "sensitivity",
+          "group": {
+            "d": 0.45
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 1.3600232051658168e-15,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "sensitivity",
+          "group": {
+            "d": 0.65
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 2.842170943040401e-14,
+          "saved_matches_repeated_runs": true
+        },
+        {
+          "dataset": "sensitivity",
+          "group": {
+            "d": 0.8499999999999999
+          },
+          "n": 30,
+          "all_feasible": true,
+          "planning_horizon": [
+            15
+          ],
+          "start_year": [
+            2025
+          ],
+          "end_year": [
+            2039
+          ],
+          "max_abs_saved_summary_difference": 2.498001805406602e-16,
+          "saved_matches_repeated_runs": true
+        }
+      ],
+      "sensitivity_reference_reuse": true
+    },
+    "word_numeric_tables": [
+      {
+        "name": "表3：216条时间外预测的3模型指标",
+        "checked_rows": 3,
+        "mismatches": [],
+        "pass": true
+      },
+      {
+        "name": "表4：两套初值及15年无养护基线",
+        "checked_rows": 2,
+        "mismatches": [],
+        "pass": true
+      },
+      {
+        "name": "表5：7档×2初值的资源统计",
+        "checked_rows": 14,
+        "mismatches": [],
+        "pass": true
+      },
+      {
+        "name": "表6A：代表资源初值比较",
+        "checked_rows": 2,
+        "mismatches": [],
+        "pass": true
+      },
+      {
+        "name": "表6B：3个下降量敏感性情景",
+        "checked_rows": 3,
+        "mismatches": [],
+        "pass": true
+      },
+      {
+        "name": "表6C：代表资源30组配对统计",
+        "checked_rows": 1,
+        "mismatches": [],
+        "pass": true
+      }
+    ],
+    "prediction_metrics_from_saved_predictions": [
+      {
+        "model": "LOCF",
+        "records": 216,
+        "target_years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "max_abs_metric_difference": 2.2226664952995634e-12,
+        "all_match": true
+      },
+      {
+        "model": "Ridge",
+        "records": 216,
+        "target_years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "max_abs_metric_difference": 4.444444812179427e-12,
+        "all_match": true
+      },
+      {
+        "model": "XGBoost",
+        "records": 216,
+        "target_years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "max_abs_metric_difference": 2.9625191189097677e-12,
+        "all_match": true
+      }
+    ],
+    "figure_media_mapping": [
+      {
+        "figure_number": 1,
+        "word_part": "word/media/image1.png",
+        "relationship_id": "rId8",
+        "word_media_sha256": "50a8468c112d7f30a5251d9add286022a7e1505d443cfb2cc1b1737c157ea2ea",
+        "previous_final_png_path": "/workspace/output_figures_final/Figure_01_final.png",
+        "matches_previous_final_png": true
+      },
+      {
+        "figure_number": 2,
+        "word_part": "word/media/image2.png",
+        "relationship_id": "rId9",
+        "word_media_sha256": "7bdf643fc379f54920cf907ef3501278cfae58e566b67a2a0640ed6e521d9d7e",
+        "previous_final_png_path": "/workspace/output_figures_final/Figure_02_final.png",
+        "matches_previous_final_png": true
+      },
+      {
+        "figure_number": 3,
+        "word_part": "word/media/image3.png",
+        "relationship_id": "rId10",
+        "word_media_sha256": "97f4293ee8d330631ee6d2ff3c6bce5f2c5149af6367edb3c3576d645f855768",
+        "previous_final_png_path": "/workspace/output_figures_final/Figure_03_final.png",
+        "matches_previous_final_png": true
+      },
+      {
+        "figure_number": 4,
+        "word_part": "word/media/image4.png",
+        "relationship_id": "rId11",
+        "word_media_sha256": "bab11d13b8462dfb4d2533c607aaa5c09649d339c9f9fbdf95ab34651ac49a22",
+        "previous_final_png_path": "/workspace/output_figures_final/Figure_04_final.png",
+        "matches_previous_final_png": true
+      },
+      {
+        "figure_number": 5,
+        "word_part": "word/media/image5.png",
+        "relationship_id": "rId12",
+        "word_media_sha256": "f48b215bb5d361de2dc7d439f0e206db82d85b821ef521745edde2544d3fe688",
+        "previous_final_png_path": "/workspace/output_figures_final/Figure_05_final.png",
+        "matches_previous_final_png": true
+      },
+      {
+        "figure_number": 6,
+        "word_part": "word/media/image6.png",
+        "relationship_id": "rId13",
+        "word_media_sha256": "2fd6b7ba74b3beb859bccc773aaa34c5d207b5a3c51e7b340729fbcc37f17633",
+        "previous_final_png_path": "/workspace/output_figures_final/Figure_06_final.png",
+        "matches_previous_final_png": true
+      },
+      {
+        "figure_number": 7,
+        "word_part": "word/media/image7.png",
+        "relationship_id": "rId14",
+        "word_media_sha256": "c61299e493093c67f494111acc8f7f29cf1fa3da58af462d82dc93894e3c443d",
+        "previous_final_png_path": "/workspace/output_figures_final/Figure_07_final.png",
+        "matches_previous_final_png": true
+      }
+    ],
+    "annual_planning_ranges": {
+      "representative_by_initial": {
+        "LOCF": [
+          2025,
+          2026,
+          2027,
+          2028,
+          2029,
+          2030,
+          2031,
+          2032,
+          2033,
+          2034,
+          2035,
+          2036,
+          2037,
+          2038,
+          2039
+        ],
+        "Ridge": [
+          2025,
+          2026,
+          2027,
+          2028,
+          2029,
+          2030,
+          2031,
+          2032,
+          2033,
+          2034,
+          2035,
+          2036,
+          2037,
+          2038,
+          2039
+        ]
+      },
+      "sensitivity_by_d": {
+        "0.45": [
+          2025,
+          2026,
+          2027,
+          2028,
+          2029,
+          2030,
+          2031,
+          2032,
+          2033,
+          2034,
+          2035,
+          2036,
+          2037,
+          2038,
+          2039
+        ],
+        "0.65": [
+          2025,
+          2026,
+          2027,
+          2028,
+          2029,
+          2030,
+          2031,
+          2032,
+          2033,
+          2034,
+          2035,
+          2036,
+          2037,
+          2038,
+          2039
+        ],
+        "0.8499999999999999": [
+          2025,
+          2026,
+          2027,
+          2028,
+          2029,
+          2030,
+          2031,
+          2032,
+          2033,
+          2034,
+          2035,
+          2036,
+          2037,
+          2038,
+          2039
+        ]
+      }
+    },
+    "special_semantics": {
+      "initial_2024_observed": 6,
+      "initial_2024_estimated": 53,
+      "paired_valid_MAE_counts_by_level": {
+        "0": 28,
+        "1": 30,
+        "2": 30,
+        "3": 30,
+        "4": 30,
+        "5": 30,
+        "6": 30
+      },
+      "first_maintenance_year_by_d": {
+        "0.45": {
+          "all_units": 59,
+          "observed_first_years": 56,
+          "never_maintained": 3,
+          "first_years_for_maintained_only": true,
+          "no_zero_coding": true
+        },
+        "0.65": {
+          "all_units": 59,
+          "observed_first_years": 56,
+          "never_maintained": 3,
+          "first_years_for_maintained_only": true,
+          "no_zero_coding": true
+        },
+        "0.8499999999999999": {
+          "all_units": 59,
+          "observed_first_years": 54,
+          "never_maintained": 5,
+          "first_years_for_maintained_only": true,
+          "no_zero_coding": true
+        }
+      },
+      "verified_bounds_separate_from_30run_statistics": true,
+      "groups_with_independent_best_below_bound": [
+        {
+          "initial_condition": "LOCF",
+          "level_id": 5,
+          "B_limit": 1.9153373769198752,
+          "independent_GJO_J_best": 91.66152542372876,
+          "verified_feasible_J_lower_bound": 91.67091525423724
+        }
+      ]
+    },
+    "overall_ready_for_redrawing": true,
+    "new_redesign_bundle_csvs": [
+      {
+        "relative_path": "results/deterioration_annual_15y.csv",
+        "sha256": "acad130a3fbc5cae9a417d5d08362f2fef5dc7db4989cb336256fa07a5981a90",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/deterioration_runs_15y.csv",
+        "sha256": "5841954f0e0d36243f8738ef9052f3db0c3cdb81a90334092dba02c9255606fe",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/deterioration_summary_15y.csv",
+        "sha256": "85c3792847f1d04986345f9121c0734244f89806c5aaf171fef89d4da9a54575",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/deterioration_timing_15y.csv",
+        "sha256": "4c5e3db52c9bf75cc5b097865aaba88f9f1af39260dcf0221d7be0ceb433d262",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/paired_schedule_comparison_runs_15y.csv",
+        "sha256": "456cad2a77c25544e8fec205df6e48f1cf5445771a36b260f32b2a9fef941bb1",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/paired_schedule_comparison_summary_15y.csv",
+        "sha256": "3c363a28862d59ddc8e05cf9f42f8fd79e03ce11f71cdb711b92ec640d71fc1a",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/representative_annual_metrics_15y.csv",
+        "sha256": "08b5f786f70f90c5d72c18a3183f4e486bacaf799fadf77b2af309070730ddbe",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/resource_level_runs_15y.csv",
+        "sha256": "072ca030a284668f08fc156d817ebe53a0ce285d05eb837708111ccdda50f4cb",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/resource_level_summary_15y.csv",
+        "sha256": "7b4a2dc640af9a2206d969c7b8a71a7bd8d16ce0debb5cc66d58e4e822927e00",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "results/resource_lower_bound_summary_15y.csv",
+        "sha256": "8476b991b56d25502664b9be347284908f283bb68fb0996fcd22803fe12ef5e8",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/bridge_group_mapping.csv",
+        "sha256": "a75e3ef781c77a1010d0980ebb6a750f08770d449aa34cf83a22c861c576f735",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/continuous_model_comparison.csv",
+        "sha256": "a58208b77a7f28ab15ee5260b2d77799981a2de4183b391c05d0156dfdccc769",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/continuous_predictions.csv",
+        "sha256": "5490875cce76d6d4e5f444268443ea15105e69108da15b8b1f8eb9667aa2401f",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/data_audit.csv",
+        "sha256": "e92b5b531e7bb35e33cc056e655c2ac06f89e9a2d275818a0339c0269192618d",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/feature_dictionary.csv",
+        "sha256": "549f4012e3ebef22b768e5942943bd65f9aefd3aa34bc431259b51165ec9042e",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/grade_distribution.csv",
+        "sha256": "1ce47daf3d42f0a53cf1758296e4776e913afff7b73204a64a83f8ab14f051a0",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_2024.csv",
+        "sha256": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_difference.csv",
+        "sha256": "43c039df4402fd3e0fc2ef2f1145fdd2b6d164fc61a204ece5f431938be5e4cc",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_ridge_features.csv",
+        "sha256": "85411f74ebc56c1ee89a9934cc64112e6d1c05bed2d8e57d5d5124373522c2fe",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/initial_state_statistics.csv",
+        "sha256": "0d9d36879c89843c55a49b4379776986df77c605c59887c515a3c70e31efe315",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/leakage_checks.csv",
+        "sha256": "2be768a4cb7fce4eb1df0d026c107eb5fae825a4ec5e7a5658d68dc977f1f7de",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/observations_long.csv",
+        "sha256": "5fc5468a9444b7dd9e79d67846c59353607cd5123a2a48d022662eb14d1eec6d",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/temporal_validation_splits.csv",
+        "sha256": "61055f707d30dd5796202e8a682754a6d9669c7deb2f5b088b86f6384418c771",
+        "canonical_equal": true
+      },
+      {
+        "relative_path": "source_data/yearly_observation_count.csv",
+        "sha256": "cd9d8fd9ba89d04772c88c32dfcfad61dee19130fd9a769f12933b95d545af6e",
+        "canonical_equal": true
+      }
+    ],
+    "sensitivity_raw_vs_analyzed": {
+      "raw_shape": [
+        90,
+        63
+      ],
+      "analyzed_shape": [
+        90,
+        66
+      ],
+      "common_columns": 61,
+      "same_row_order_and_run_ids": true,
+      "raw_only_columns": [
+        "reference_reuse_in_sensitivity",
+        "sensitivity_source"
+      ],
+      "analyzed_only_columns": [
+        "minimum_management_count",
+        "minimum_management_count_margin",
+        "score_floor_margin",
+        "years_at_annual_capacity",
+        "years_at_minimum_good_count"
+      ],
+      "max_abs_numeric_difference": 2.2737367544323206e-13,
+      "non_numeric_or_missingness_mismatches": [],
+      "scientific_values_agree_at_1e_10": true,
+      "numeric_difference_by_field": {
+        "planning_horizon": 0.0,
+        "start_year": 0.0,
+        "end_year": 0.0,
+        "d": 1.1102230246251565e-16,
+        "level_id": 0.0,
+        "rho": 0.0,
+        "B": 0.0,
+        "B_limit": 0.0,
+        "seed": 0.0,
+        "n_evaluations": 0.0,
+        "FE": 0.0,
+        "population": 0.0,
+        "public_candidate_preprocessing_evaluations": 0.0,
+        "seconds": 1.1102230246251565e-16,
+        "runtime": 1.1102230246251565e-16,
+        "violation": 0.0,
+        "J": 5.684341886080802e-14,
+        "resource": 2.220446049250313e-16,
+        "terminal_mean": 2.842170943040401e-14,
+        "minimum_score": 1.4210854715202004e-14,
+        "min_good_count": 0.0,
+        "min_good_ratio": 0.0,
+        "min_management_count": 0.0,
+        "maintenance_count": 0.0,
+        "annual_mean_count": 8.881784197001252e-16,
+        "max_annual_count": 0.0,
+        "max_unit_count": 0.0,
+        "min_gap": 0.0,
+        "first_violation_year": 0.0,
+        "violation_types": 0.0,
+        "utility": 2.842170943040401e-14,
+        "B_used": 8.881784197001252e-16,
+        "resource_utilization": 4.440892098500626e-16,
+        "J_no_maintenance": 0.0,
+        "DeltaJ": 2.842170943040401e-14,
+        "Delta_J": 2.842170943040401e-14,
+        "number_of_units_maintained": 0.0,
+        "mean_maintenance_per_maintained_unit": 2.220446049250313e-16,
+        "first_year_mean": 2.2737367544323206e-13,
+        "first_year_median": 0.0,
+        "2039_mean_score": 2.842170943040401e-14,
+        "minimum_grade12_count": 0.0,
+        "minimum_grade12_ratio": 0.0,
+        "annual_mean_maintenance_count": 8.881784197001252e-16,
+        "max_annual_maintenance_count": 0.0,
+        "first_maintenance_year_mean": 2.2737367544323206e-13,
+        "first_maintenance_year_median": 0.0,
+        "solver_utility": 2.842170943040401e-14
+      },
+      "note": "同一90个运行的原始表与已存复算分析表有浮点表示/复算精度差异，非逐字节相同；图7使用最终summary与annual/timing，原90次表仅作真实运行证据。"
+    },
+    "representative_body_fig6_consistency": {
+      "run_id": "y15__locf__d065__level3__gjo__seed20261039",
+      "paragraph_index_zero_based": 73,
+      "stored_values_displayed": {
+        "J": "91.4646",
+        "Delta_J": "6.0229",
+        "B_used": "1.149885",
+        "maintenance_count": "93",
+        "number_of_units_maintained": "56",
+        "2039_mean_score": "90.3097",
+        "minimum_score": "74.89",
+        "minimum_grade12_count": "58"
+      },
+      "all_display_tokens_present": true,
+      "years_at_8_capacity": 10,
+      "annual_counts_2025_to_2039": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        6,
+        2,
+        3,
+        2,
+        0
+      ]
+    },
+    "word_table1_observation_counts": {
+      "units": 59,
+      "potential_positions": 767,
+      "whole_valid_missing": [
+        387,
+        380
+      ],
+      "super_valid_missing": [
+        380,
+        387
+      ],
+      "2024_observed_estimated": [
+        6,
+        53
+      ],
+      "checked_against_canonical": true,
+      "status": "人工逐行核对，数值一致"
+    },
+    "word_table2_method_settings": {
+      "planning_horizon_15_2025_2039": "与最终运行元数据一致",
+      "decline_scenarios": [
+        0.45,
+        0.65,
+        0.85
+      ],
+      "population_30_and_FE_10000": "与420次资源和90次敏感性已存运行一致",
+      "annual_capacity_8": "与正文及代表年度表相符；未重跑求解器",
+      "management_targets": "与当前正文及既有结果定义一致；本任务保留，不重新设计约束"
+    }
+  },
+  "unverified": [
+    "未对原始模型重新拟合或重新执行规划求解；本任务审查已存结果与观测、当前Word的一致性。",
+    "参考图A/B/C/D已由主代理实际查看2页PDF；本代理未独立逐页视觉复审，记录主代理读取事实。",
+    "原始两Excel的桥名、建成年份和所有静态属性未逐字段全面核对；图1使用的全部评分与缺失状态已逐值核对，且全桥长度×净宽与规划面积已核对。"
+  ],
+  "blocking_missing": []
+}

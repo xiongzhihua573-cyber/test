@@ -1,0 +1,80 @@
+[
+  {
+    "body_index": 45,
+    "figure": 1,
+    "before": "2012—2024年59个检测单元的年度覆盖及逐单元观测分布；缺失表示没有可用检测记录。",
+    "after": "2012—2024年59个检测单元的年度覆盖及逐单元观测分布；缺失表示没有可用检测记录。(a)为年度有效观测数量的分组柱状图，(b)(c)为观测矩阵；缺测不表示零评分。",
+    "changes": {
+      "append": "(a)为年度有效观测数量的分组柱状图，(b)(c)为观测矩阵；缺测不表示零评分。"
+    },
+    "format_compatibility": {
+      "eastAsia_font": "Noto Sans CJK SC",
+      "baseline_actual_CJK_font_preserved_visually": true,
+      "other_run_style_properties_preserved": true
+    }
+  },
+  {
+    "body_index": 56,
+    "figure": 3,
+    "before": "LOCF与Ridge均保留6条2024年实测值，其余53个单元为估计值。",
+    "after": "LOCF与Ridge均保留6条2024年实测值，其余53个单元为估计值。右图底部短线为53个估计差值的原值，6个当年实测单元差值均为0。",
+    "changes": {
+      "append": "右图底部短线为53个估计差值的原值，6个当年实测单元差值均为0。"
+    },
+    "format_compatibility": {
+      "eastAsia_font": "Noto Sans CJK SC",
+      "baseline_actual_CJK_font_preserved_visually": true,
+      "other_run_style_properties_preserved": true
+    }
+  },
+  {
+    "body_index": 64,
+    "figure": 4,
+    "before": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。菱形为均值。",
+    "after": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。菱形为均值。点仅横移，箱中心为实际B。",
+    "changes": {
+      "append": "点仅横移，箱中心为实际B。"
+    },
+    "format_compatibility": {
+      "eastAsia_font": "Noto Sans CJK SC",
+      "baseline_actual_CJK_font_preserved_visually": true,
+      "other_run_style_properties_preserved": true
+    }
+  },
+  {
+    "body_index": 71,
+    "figure": 5,
+    "before": "各点和误差线为当档30次GJO的均值与样本标准差，最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。已验证可行下界单独展示，不计入当档30次独立运行统计，亦非全局最优；LOCF在B=1.915337时独立最好值低于该下界，反映有限搜索不足。",
+    "after": "均值曲线为当档30次GJO的均值；半透明带表示均值±样本SD，空心菱形最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。已验证可行下界单独展示，不计入当档30次独立运行统计，亦非全局最优；LOCF在B=1.915337时独立最好值低于该下界，反映有限搜索不足。连线与区间连接仅辅助观察离散资源档，不表示新增中间资源计算。",
+    "changes": {
+      "replace": {
+        "各点和误差线为当档": "均值曲线为当档",
+        "的均值与样本标准差，最好值来自同一组": "的均值；半透明带表示均值±样本SD，空心菱形最好值来自同一组"
+      },
+      "append": "连线与区间连接仅辅助观察离散资源档，不表示新增中间资源计算。"
+    },
+    "format_compatibility": {
+      "eastAsia_font": "Noto Sans CJK SC",
+      "baseline_actual_CJK_font_preserved_visually": true,
+      "other_run_style_properties_preserved": true
+    }
+  },
+  {
+    "body_index": 81,
+    "figure": 7,
+    "before": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)为均值、样本标准差及本组最好值；(c)为各d最好可行代表的年度评分，(d)为各代表内已养护单元的首次养护年份分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。(d)中的点为已养护单元的原始首次养护年份，仅作横向排布，年份值不变；三个情景样本数依次为56、56、54。",
+    "after": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)示均值±样本SD及空心菱形最好值；浅色点为30次独立结果，仅横向错排；连线只辅助比较已计算情景。(c)为各d最好可行代表的年度评分，(d)为各代表首次养护分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。(d)散点为实际首次养护年份，仅横向错排，样本数依次为56、56、54；未养护3、3、5个单元不编码年份。",
+    "changes": {
+      "replace": {
+        "为均值、样本标准差及本组最好值；": "示均值±样本SD及空心菱形最好值；浅色点为30次独立结果，仅横向错排；连线只辅助比较已计算情景。",
+        "为各代表内已养护单元的首次养护年份分布。": "为各代表首次养护分布。",
+        "(d)中的点为已养护单元的原始首次养护年份，仅作横向排布，年份值不变；三个情景样本数依次为56、56、54。": "(d)散点为实际首次养护年份，仅横向错排，样本数依次为56、56、54；未养护3、3、5个单元不编码年份。"
+      }
+    },
+    "format_compatibility": {
+      "eastAsia_font": "Noto Sans CJK SC",
+      "baseline_actual_CJK_font_preserved_visually": true,
+      "other_run_style_properties_preserved": true
+    }
+  }
+]

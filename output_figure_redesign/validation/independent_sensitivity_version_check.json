@@ -1,0 +1,381 @@
+{
+  "purpose": "独立解释敏感性raw/analyzed版本差异；不更新原始数据或汇总值。",
+  "raw": "deterioration_runs_15y.csv",
+  "analyzed": "deterioration_runs_analyzed_15y.csv",
+  "run_ids_count": [
+    90,
+    90
+  ],
+  "run_ids_exact": true,
+  "common_columns_excluding_key": 60,
+  "raw_only_columns": [
+    "reference_reuse_in_sensitivity",
+    "sensitivity_source"
+  ],
+  "analyzed_only_columns": [
+    "minimum_management_count",
+    "minimum_management_count_margin",
+    "score_floor_margin",
+    "years_at_annual_capacity",
+    "years_at_minimum_good_count"
+  ],
+  "columns": [
+    {
+      "column": "case_id",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "study",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "planning_horizon",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "start_year",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "end_year",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "initial",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "initial_condition",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "mode",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "d",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "column": "level_id",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "rho",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "B",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "B_limit",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "algorithm",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "seed",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "n_evaluations",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "FE",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "population",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "public_candidate_preprocessing_evaluations",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "public_preprocessing_shared_within_case",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "common_initial_candidate",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "common_initial_vector_sha256",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "seconds",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "column": "schedule_replay_passed",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "source_new_vsreuse",
+      "type": "text",
+      "exact_equal_na_normalized": true
+    },
+    {
+      "column": "runtime",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "column": "feasible",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "violation",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "J",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "resource",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "column": "terminal_mean",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "column": "minimum_score",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 1.4210854715202004e-14
+    },
+    {
+      "column": "min_good_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "min_good_ratio",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "min_management_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "maintenance_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "annual_mean_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "column": "max_annual_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "max_unit_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "min_gap",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "first_violation_year",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": null
+    },
+    {
+      "column": "violation_types",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": null
+    },
+    {
+      "column": "utility",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "column": "B_used",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "column": "resource_utilization",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "column": "J_no_maintenance",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "DeltaJ",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "column": "Delta_J",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "column": "number_of_units_maintained",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "mean_maintenance_per_maintained_unit",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "column": "first_year_mean",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.2737367544323206e-13
+    },
+    {
+      "column": "first_year_median",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "2039_mean_score",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "column": "minimum_grade12_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "minimum_grade12_ratio",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "annual_mean_maintenance_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "column": "max_annual_maintenance_count",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "first_maintenance_year_mean",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.2737367544323206e-13
+    },
+    {
+      "column": "first_maintenance_year_median",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "column": "solver_utility",
+      "type": "numeric",
+      "equal_within_roundoff": true,
+      "maximum_absolute_difference": 2.842170943040401e-14
+    }
+  ],
+  "all_common_values_match": true,
+  "tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-10
+  },
+  "interpretation": "两个文件分别含不同的来源标志和派生管理字段。90个运行按run_id对齐后所有共同结果列一致；浮点CSV往返舍入容差内相等，不是科研结果冲突。"
+}

@@ -1,0 +1,129 @@
+{
+  "figures": [
+    {
+      "figure": 1,
+      "four_formats_present": true,
+      "png_byte_exactly_reproduced": true,
+      "tiff_pixels": [
+        4015,
+        2526
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "pdf_vector_path_groups": 3126,
+      "pdf_embedded_raster_images": 0,
+      "svg_is_vector": true
+    },
+    {
+      "figure": 2,
+      "four_formats_present": true,
+      "png_byte_exactly_reproduced": true,
+      "tiff_pixels": [
+        4015,
+        3546
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "pdf_vector_path_groups": 736,
+      "pdf_embedded_raster_images": 0,
+      "svg_is_vector": true
+    },
+    {
+      "figure": 3,
+      "four_formats_present": true,
+      "png_byte_exactly_reproduced": true,
+      "tiff_pixels": [
+        4015,
+        1602
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "pdf_vector_path_groups": 184,
+      "pdf_embedded_raster_images": 0,
+      "svg_is_vector": true
+    },
+    {
+      "figure": 4,
+      "four_formats_present": true,
+      "png_byte_exactly_reproduced": true,
+      "tiff_pixels": [
+        4015,
+        1696
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "pdf_vector_path_groups": 577,
+      "pdf_embedded_raster_images": 0,
+      "svg_is_vector": true
+    },
+    {
+      "figure": 5,
+      "four_formats_present": true,
+      "png_byte_exactly_reproduced": true,
+      "tiff_pixels": [
+        4015,
+        1630
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "pdf_vector_path_groups": 116,
+      "pdf_embedded_raster_images": 0,
+      "svg_is_vector": true
+    },
+    {
+      "figure": 6,
+      "four_formats_present": true,
+      "png_byte_exactly_reproduced": true,
+      "tiff_pixels": [
+        4015,
+        3009
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "pdf_vector_path_groups": 162,
+      "pdf_embedded_raster_images": 0,
+      "svg_is_vector": true
+    },
+    {
+      "figure": 7,
+      "four_formats_present": true,
+      "png_byte_exactly_reproduced": true,
+      "tiff_pixels": [
+        4015,
+        2948
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "pdf_vector_path_groups": 506,
+      "pdf_embedded_raster_images": 0,
+      "svg_is_vector": true
+    }
+  ],
+  "all_7_reproduced": true,
+  "all_28_export_files_valid": true,
+  "all_24_csv_unchanged": true,
+  "all_661_frozen_science_files_unchanged": true,
+  "models_trained": 0,
+  "optimizations_run": 0,
+  "final_script_sha256": {
+    "figures_45.py": "afa93e8bad735c25e2ce33f445d36b448afeffbcf62c063675d40a5bee2e9a4b",
+    "figure_style.py": "16adfae4da4a81795819f780602b8b656d5e311ce264c2ede1225ae5889356ff",
+    "redraw_figures.py": "1b1b1d6a52eb0d621fa59164cba66e989d9ba4765ccec4964c50df48631b5081",
+    "figures_67.py": "45637f8a12a049cf1e98095538a32622d3759168bf955d562603d3439a9a5ecc",
+    "figures_123.py": "3b12cd0b312066df24a302c95316ff6a22a6f938e4e115efded23c1172bea3d6"
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "checks": {
+    "estimated_scatter_xy_exact_original": true,
+    "observed_scatter_xy_exact_original": true,
+    "identity_line_exact_80_100": true,
+    "original_16_bins_exact": true,
+    "original_53_histogram_values_exact": true,
+    "all_histogram_patch_edges_exact": true,
+    "all_histogram_patch_heights_exact": true,
+    "all_53_estimated_differences_retained": true,
+    "rug_exact_53_raw_signed_differences": true,
+    "six_measured_marker_exact_0_6": true,
+    "all_six_measured_differences_exactly_zero": true,
+    "sample_split_53_and_6": true,
+    "sign_definition_Ridge_minus_LOCF": true
+  },
+  "arrays": {
+    "estimated_xy": {
+      "shape": [
+        53,
+        2
+      ],
+      "sha256_float64_le": "3a281c9915a1318d1e1dfa59c0d686891fcd9739bc2cbe1c7808fe1eb19a50fa",
+      "values": [
+        [
+          81.81,
+          87.5614093351
+        ],
+        [
+          84.72,
+          88.4392279169
+        ],
+        [
+          86.94,
+          89.5270545193
+        ],
+        [
+          87.45,
+          89.2501484076
+        ],
+        [
+          82.37,
+          87.5224825782
+        ],
+        [
+          81.18,
+          87.1640466637
+        ],
+        [
+          86.26,
+          88.4420348687
+        ],
+        [
+          88.17,
+          89.0117650935
+        ],
+        [
+          91.13,
+          92.0145244254
+        ],
+        [
+          91.7,
+          92.2465393853
+        ],
+        [
+          84.79,
+          87.3088418299
+        ],
+        [
+          90.24,
+          91.9332134808
+        ],
+        [
+          87.95,
+          91.4920653547
+        ],
+        [
+          93.78,
+          93.8833726678
+        ],
+        [
+          93.82,
+          94.0388635866
+        ],
+        [
+          94.65,
+          97.1631679576
+        ],
+        [
+          97.11,
+          97.7121301016
+        ],
+        [
+          98.51,
+          98.3200300451
+        ],
+        [
+          97.68,
+          98.4093302907
+        ],
+        [
+          94.09,
+          94.9852317787
+        ],
+        [
+          93.86,
+          94.6274428194
+        ],
+        [
+          93.32,
+          94.549013188
+        ],
+        [
+          95.59,
+          95.4748414741
+        ],
+        [
+          89.25,
+          92.5510163213
+        ],
+        [
+          90.45,
+          93.2550386669
+        ],
+        [
+          94.8,
+          94.4632334564
+        ],
+        [
+          95.75,
+          95.1444092679
+        ],
+        [
+          90.6,
+          93.6037603928
+        ],
+        [
+          90.49,
+          93.4584248657
+        ],
+        [
+          89.77,
+          92.9965515263
+        ],
+        [
+          88.63,
+          92.8529603589
+        ],
+        [
+          94.16,
+          94.5672791592
+        ],
+        [
+          94.68,
+          94.4257710339
+        ],
+        [
+          93.65,
+          94.3875281274
+        ],
+        [
+          95.22,
+          94.6590201424
+        ],
+        [
+          90.83,
+          93.0770842392
+        ],
+        [
+          91.27,
+          93.2790907529
+        ],
+        [
+          95.19,
+          94.6898408731
+        ],
+        [
+          90.74,
+          93.392332869
+        ],
+        [
+          91.24,
+          93.3982364497
+        ],
+        [
+          90.0,
+          93.0177056615
+        ],
+        [
+          88.52,
+          92.5127417299
+        ],
+        [
+          92.71,
+          93.5595667927
+        ],
+        [
+          88.3,
+          92.2186506393
+        ],
+        [
+          93.51,
+          93.9283318344
+        ],
+        [
+          92.12,
+          93.0067728851
+        ],
+        [
+          92.28,
+          93.1512871606
+        ],
+        [
+          87.88,
+          91.1920610663
+        ],
+        [
+          89.32,
+          91.4415306477
+        ],
+        [
+          90.77,
+          92.529543303
+        ],
+        [
+          89.97,
+          92.1623494828
+        ],
+        [
+          93.26,
+          93.5166658092
+        ],
+        [
+          90.06,
+          92.612900914
+        ]
+      ]
+    },
+    "estimated_unit_ids_original_order": [
+      "Br01",
+      "Br02",
+      "Br03",
+      "Br04",
+      "Br05",
+      "Br06",
+      "Br07",
+      "Br08",
+      "Br09",
+      "Br10",
+      "Br11",
+      "Br12",
+      "Br13",
+      "Br14",
+      "Br15",
+      "Br18",
+      "Br19",
+      "Br20",
+      "Br21",
+      "Br24",
+      "Br25",
+      "Br26",
+      "Br27",
+      "Br28",
+      "Br29",
+      "Br30",
+      "Br31",
+      "Br32",
+      "Br33",
+      "Br34",
+      "Br35",
+      "Br36",
+      "Br37",
+      "Br38",
+      "Br39",
+      "Br40",
+      "Br41",
+      "Br44",
+      "Br45",
+      "Br46",
+      "Br47",
+      "Br48",
+      "Br49",
+      "Br50",
+      "Br51",
+      "Br52",
+      "Br53",
+      "Br54",
+      "Br55",
+      "Br56",
+      "Br57",
+      "Br58",
+      "Br59"
+    ],
+    "observed_xy": {
+      "shape": [
+        6,
+        2
+      ],
+      "sha256_float64_le": "e0c443987deb2de768b488cb5cdc9696c8aa01197f8b745c0fca90717e454996",
+      "values": [
+        [
+          86.8,
+          86.8
+        ],
+        [
+          84.64,
+          84.64
+        ],
+        [
+          88.92,
+          88.92
+        ],
+        [
+          89.67,
+          89.67
+        ],
+        [
+          88.32,
+          88.32
+        ],
+        [
+          86.97,
+          86.97
+        ]
+      ]
+    },
+    "observed_unit_ids_original_order": [
+      "Br16",
+      "Br17",
+      "Br22",
+      "Br23",
+      "Br42",
+      "Br43"
+    ],
+    "estimated_differences_exact_original": {
+      "shape": [
+        53
+      ],
+      "sha256_float64_le": "b87ce7c5080ea12321226d13a9c0f97be7e67b74590dea6e6b0393847e4cb406",
+      "values": [
+        5.751409335099993,
+        3.719227916899996,
+        2.587054519299997,
+        1.8001484075999912,
+        5.152482578199994,
+        5.984046663699999,
+        2.1820348687000006,
+        0.8417650935000012,
+        0.8845244254000022,
+        0.5465393852999938,
+        2.5188418298999977,
+        1.6932134808000114,
+        3.5420653547,
+        0.1033726678000022,
+        0.21886358660000838,
+        2.5131679575999897,
+        0.6021301015999967,
+        -0.18996995490000756,
+        0.7293302906999912,
+        0.8952317786999942,
+        0.7674428194000029,
+        1.2290131880000104,
+        -0.11515852590000009,
+        3.301016321299997,
+        2.8050386669000034,
+        -0.3367665435999925,
+        -0.6055907320999978,
+        3.003760392800004,
+        2.968424865700001,
+        3.2265515262999998,
+        4.222960358900011,
+        0.4072791592000016,
+        -0.25422896610000123,
+        0.7375281273999974,
+        -0.5609798576000031,
+        2.2470842392000066,
+        2.0090907529000077,
+        -0.5001591269000016,
+        2.6523328690000056,
+        2.1582364496999986,
+        3.0177056615000026,
+        3.992741729900004,
+        0.8495667927000028,
+        3.9186506392999974,
+        0.4183318343999929,
+        0.886772885100001,
+        0.871287160600005,
+        3.3120610663000036,
+        2.1215306477000127,
+        1.759543303000001,
+        2.1923494827999974,
+        0.25666580920000115,
+        2.5529009139999914
+      ]
+    },
+    "measured_differences": {
+      "shape": [
+        6
+      ],
+      "sha256_float64_le": "17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "histogram_edges_exact_original": {
+      "shape": [
+        17
+      ],
+      "sha256_float64_le": "69fe8f6a75b5c267b86d5f0f1f70c2ed475b3a734c9c62e190709ffdc05b219d",
+      "values": [
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        6.0
+      ]
+    },
+    "histogram_counts_exact_original": {
+      "shape": [
+        16
+      ],
+      "sha256_float64_le": "7e202e2f8515a5a3c97062c69cd0aa8cc5a630e811a3eef3b74f5d8866ceb41e",
+      "values": [
+        0.0,
+        0.0,
+        3.0,
+        4.0,
+        5.0,
+        11.0,
+        1.0,
+        3.0,
+        6.0,
+        7.0,
+        5.0,
+        4.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "measured_histogram_marker": {
+      "shape": [
+        1,
+        2
+      ],
+      "sha256_float64_le": "dc0b3bab2f1e23407187c280c999d28a52e7d0560e9d1ec70d777cd1a9accf48",
+      "values": [
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  },
+  "old_chart_type": "paired scatter and signed histogram",
+  "new_chart_type": "open estimated circles / measured crosses with identity reference; signed histogram with raw-value rug",
+  "refinements": [
+    "open circles separate the 53 estimated units from the six measured crosses",
+    "placed the shared 2024 reference year in panel title and shortened axis labels",
+    "retained exact 16 original bins and their frequencies",
+    "added a compact rug containing all 53 exact signed differences",
+    "explicitly identified six observed units as zero-difference measurements"
+  ],
+  "difference_direction": "Ridge_score minus LOCF_score",
+  "all_59_units_accounted_for": true,
+  "scientific_models_fitted": 0,
+  "maintenance_optimizations_run": 0,
+  "number": 3,
+  "clipped_text": [],
+  "physical_size_cm": [
+    17,
+    6.782488888888889
+  ],
+  "formats": [
+    "PNG600dpi",
+    "SVG",
+    "PDF",
+    "TIFF600dpi"
+  ],
+  "all_input_arrays_match_original": true,
+  "output_sha256": {
+    "png": "d96922fdf172e2eb4ca31a62fe17d1b84f8a3b4743ae90065ce25e95c63bfe1f",
+    "svg": "26aeeb0ae49a3eb3f27d222e46c39a51586af819679d9628a9d5474e2991a50c",
+    "pdf": "1cf2e6e2e1be64b64cc31f5b4b7da0b5e3a80b87048b905c083a25cd3064d33e",
+    "tiff": "cdcdc4925e2882b54f482b48db7ae18d66b446248a02dfb418a90eafa45c936e"
+  },
+  "raster_size_px": [
+    4015,
+    1602
+  ],
+  "raster_dpi": [
+    599.9988,
+    599.9988
+  ],
+  "white_background_corners": true,
+  "visual_difference_from_previous": {
+    "same_canvas": true,
+    "changed_pixel_count": 902842,
+    "png_changed": true,
+    "old_sha256": "97f4293ee8d330631ee6d2ff3c6bce5f2c5149af6367edb3c3576d645f855768",
+    "new_sha256": "d96922fdf172e2eb4ca31a62fe17d1b84f8a3b4743ae90065ce25e95c63bfe1f"
+  },
+  "source_files": {
+    "initial_state_2024.csv": {
+      "sha256": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b",
+      "relative_path": "source_data/initial_state_2024.csv",
+      "exact_original_frozen_file": true
+    }
+  },
+  "source_sha256_unchanged_after_plotting": true,
+  "preview_visually_inspected": true,
+  "visual_review_record": "Root opened and inspected all seven exported PNG previews; plotting agent inspected this figure after export."
+}

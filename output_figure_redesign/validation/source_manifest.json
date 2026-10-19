@@ -1,0 +1,43 @@
+{
+  "source_docx": "/workspace/attachments/de14efc9-2a87-42c9-85c7-d55cf3324699/小论文_中文终稿候选_目录优化版.docx",
+  "source_sha256": "b0ca9b0ab9f1bbc9d37665ef696f66662bbf43cab0e60ecae05ed7cd00465c5f",
+  "canonical_project": "/workspace/revision15_work/prior_project/manuscript_sci_stage12",
+  "latest_source_scripts": "/workspace/output_scripts_final",
+  "latest_source_figures": "/workspace/output_figures_final",
+  "reference_pdf": "/workspace/attachments/174cf5a1-ea38-4102-b928-d2e80345238f/参考图.pdf",
+  "instruction": "/workspace/attachments/4cfb2ef4-35b9-4c92-988f-f84db509e20d/绘图指令.docx",
+  "reference_panels_actually_read": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "input_part_digests": {
+    "[Content_Types].xml": "bb20ca5f86b2a6eda78fcafa41c2c782212a2f5bafc1dc326ad056224f188afe",
+    "_rels/.rels": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df",
+    "word/document.xml": "7875089d122982e2e38d0fd55ec81fab96e31ec3b3823b605645d4bdd8132c67",
+    "word/_rels/document.xml.rels": "c17bb30954747369ede2d0803d41e0a938123d4889c61494b1eabdb1f7110753",
+    "word/footnotes.xml": "1e80e249a414154602ad9ac2779d9d2b90c849b0ad769446a48917a15fc5a557",
+    "word/endnotes.xml": "adb73d33cb6f9eea9c88ba860c7bbc07e5823cec88529c5b3659ef306389bb9e",
+    "word/header1.xml": "8336b484bb8b9d33c6362111f0d00145bf016eb669436a001a889b5cd05b72c3",
+    "word/footer1.xml": "742b09fe00f284d32fe4e0a922690a5149ae1b9e397ca29b2e95f977b1e6f61f",
+    "word/media/image1.png": "50a8468c112d7f30a5251d9add286022a7e1505d443cfb2cc1b1737c157ea2ea",
+    "word/media/image2.png": "7bdf643fc379f54920cf907ef3501278cfae58e566b67a2a0640ed6e521d9d7e",
+    "word/media/image3.png": "97f4293ee8d330631ee6d2ff3c6bce5f2c5149af6367edb3c3576d645f855768",
+    "word/media/image4.png": "bab11d13b8462dfb4d2533c607aaa5c09649d339c9f9fbdf95ab34651ac49a22",
+    "word/media/image5.png": "f48b215bb5d361de2dc7d439f0e206db82d85b821ef521745edde2544d3fe688",
+    "word/media/image6.png": "2fd6b7ba74b3beb859bccc773aaa34c5d207b5a3c51e7b340729fbcc37f17633",
+    "word/media/image7.png": "c61299e493093c67f494111acc8f7f29cf1fa3da58af462d82dc93894e3c443d",
+    "word/theme/theme1.xml": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2",
+    "word/settings.xml": "e9a6cd6a1f6ebc33862b1c2e04e2df83ae38c0d394cb73d4b0cf2d0e62a08468",
+    "customXml/item1.xml": "fd38bf9d14299ec0909557ff8b08b38816a6860d488f11a7c53dc63eb13ee44f",
+    "customXml/itemProps1.xml": "4c998dc0bc6eb6f38ecc20856255fff6891d5b6345a7260698c53063da4bc5f2",
+    "word/numbering.xml": "f8aa3f3a870a3973ef33dc9bb8e0c1bc73116893583866ca6e0d614ded58771e",
+    "word/styles.xml": "b301ec37bc4c7660695c598a7af234e4c555f48496416dfe12bf838d02c88b77",
+    "word/webSettings.xml": "246ca94e5cbe02df81802f83f143f829966fdef93bc242fa568e1de2497ecdea",
+    "word/fontTable.xml": "f37e7158376ceff7f53b0e72a37443149d3bc9decaff06ca389104eb130e6354",
+    "docProps/core.xml": "7717eb3b004066e7c9a3f8bb92021e6c4e2237b696dcbc931d82dacd7ed6150c",
+    "docProps/app.xml": "3a0dba26757890f42ea8d19ffa300c1a9753447711710676b3e386ab5c77a2de",
+    "customXml/_rels/item1.xml.rels": "80482f86e196171d66001e0e74d1900408a3aaf2463e54005d251b5f2db9a0b0"
+  }
+}

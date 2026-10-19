@@ -1,0 +1,876 @@
+{
+  "source": "/workspace/attachments/de14efc9-2a87-42c9-85c7-d55cf3324699/小论文_中文终稿候选_目录优化版.docx",
+  "target": "/workspace/output_figure_redesign/小论文_中文终稿候选_图表重构版.docx",
+  "checks": {
+    "source_sha256_unchanged": true,
+    "docx_member_set_identical": true,
+    "only_document_and_seven_media_changed": true,
+    "all_other_18_parts_byte_identical": true,
+    "body_node_count_identical": true,
+    "only_explicit_caption_nodes_changed": true,
+    "explicit_caption_before_after_exact": true,
+    "whitelisted_nodes_all_are_existing_figure_caption_or_note": true,
+    "caption_pPr_and_other_ordered_run_style_groups_preserved_allow_documented_CJK_font_fix": true,
+    "all_nonwhitelisted_nodes_c14n_exact": true,
+    "all_tables_exact": true,
+    "all_math_exact": true,
+    "manual_page_breaks_and_section_properties_exact": true,
+    "all_seven_figure_placements_relationships_extents_exact": true,
+    "all_seven_embedded_pngs_match_final_exports": true,
+    "all_seven_png_tiff_pdf_svg_exist": true,
+    "all_pngs_effectively_600dpi_allow_integer_rounding": true,
+    "all_tiffs_metadata_600dpi": true,
+    "all_tiffs_same_image_pixels_as_png": true,
+    "all_image_aspect_errors_below_0_1percent": true,
+    "all_pdfs_have_vector_drawings": true,
+    "all_svgs_have_vector_paths": true,
+    "pdf_page_count_preserved_15": true,
+    "all_page_texts_exact_except_explicit_caption_edits": true,
+    "all_pdf_figure_boxes_identical": true,
+    "no_blank_or_text_outside_pages": true,
+    "all_7_figures_captions_notes_together_correct_pages": true
+  },
+  "allowed_caption_changes": [
+    {
+      "body_index": 47,
+      "figure": 1,
+      "before": "2012—2024年59个检测单元的年度覆盖及逐单元观测分布；缺失表示没有可用检测记录。",
+      "after": "2012—2024年59个检测单元的年度覆盖及逐单元观测分布；缺失表示没有可用检测记录。(a)为年度有效观测数量的分组柱状图，(b)(c)为观测矩阵；缺测不表示零评分。",
+      "changes": {
+        "append": "(a)为年度有效观测数量的分组柱状图，(b)(c)为观测矩阵；缺测不表示零评分。"
+      },
+      "format_compatibility": {
+        "eastAsia_font": "Noto Sans CJK SC",
+        "baseline_actual_CJK_font_preserved_visually": true,
+        "other_run_style_properties_preserved": true
+      },
+      "declared_paragraph_index": 45
+    },
+    {
+      "body_index": 59,
+      "figure": 3,
+      "before": "LOCF与Ridge均保留6条2024年实测值，其余53个单元为估计值。",
+      "after": "LOCF与Ridge均保留6条2024年实测值，其余53个单元为估计值。右图底部短线为53个估计差值的原值，6个当年实测单元差值均为0。",
+      "changes": {
+        "append": "右图底部短线为53个估计差值的原值，6个当年实测单元差值均为0。"
+      },
+      "format_compatibility": {
+        "eastAsia_font": "Noto Sans CJK SC",
+        "baseline_actual_CJK_font_preserved_visually": true,
+        "other_run_style_properties_preserved": true
+      },
+      "declared_paragraph_index": 56
+    },
+    {
+      "body_index": 68,
+      "figure": 4,
+      "before": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。菱形为均值。",
+      "after": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。菱形为均值。点仅横移，箱中心为实际B。",
+      "changes": {
+        "append": "点仅横移，箱中心为实际B。"
+      },
+      "format_compatibility": {
+        "eastAsia_font": "Noto Sans CJK SC",
+        "baseline_actual_CJK_font_preserved_visually": true,
+        "other_run_style_properties_preserved": true
+      },
+      "declared_paragraph_index": 64
+    },
+    {
+      "body_index": 76,
+      "figure": 5,
+      "before": "各点和误差线为当档30次GJO的均值与样本标准差，最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。已验证可行下界单独展示，不计入当档30次独立运行统计，亦非全局最优；LOCF在B=1.915337时独立最好值低于该下界，反映有限搜索不足。",
+      "after": "均值曲线为当档30次GJO的均值；半透明带表示均值±样本SD，空心菱形最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。已验证可行下界单独展示，不计入当档30次独立运行统计，亦非全局最优；LOCF在B=1.915337时独立最好值低于该下界，反映有限搜索不足。连线与区间连接仅辅助观察离散资源档，不表示新增中间资源计算。",
+      "changes": {
+        "replace": {
+          "各点和误差线为当档": "均值曲线为当档",
+          "的均值与样本标准差，最好值来自同一组": "的均值；半透明带表示均值±样本SD，空心菱形最好值来自同一组"
+        },
+        "append": "连线与区间连接仅辅助观察离散资源档，不表示新增中间资源计算。"
+      },
+      "format_compatibility": {
+        "eastAsia_font": "Noto Sans CJK SC",
+        "baseline_actual_CJK_font_preserved_visually": true,
+        "other_run_style_properties_preserved": true
+      },
+      "declared_paragraph_index": 71
+    },
+    {
+      "body_index": 86,
+      "figure": 7,
+      "before": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)为均值、样本标准差及本组最好值；(c)为各d最好可行代表的年度评分，(d)为各代表内已养护单元的首次养护年份分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。(d)中的点为已养护单元的原始首次养护年份，仅作横向排布，年份值不变；三个情景样本数依次为56、56、54。",
+      "after": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)示均值±样本SD及空心菱形最好值；浅色点为30次独立结果，仅横向错排；连线只辅助比较已计算情景。(c)为各d最好可行代表的年度评分，(d)为各代表首次养护分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。(d)散点为实际首次养护年份，仅横向错排，样本数依次为56、56、54；未养护3、3、5个单元不编码年份。",
+      "changes": {
+        "replace": {
+          "为均值、样本标准差及本组最好值；": "示均值±样本SD及空心菱形最好值；浅色点为30次独立结果，仅横向错排；连线只辅助比较已计算情景。",
+          "为各代表内已养护单元的首次养护年份分布。": "为各代表首次养护分布。",
+          "(d)中的点为已养护单元的原始首次养护年份，仅作横向排布，年份值不变；三个情景样本数依次为56、56、54。": "(d)散点为实际首次养护年份，仅横向错排，样本数依次为56、56、54；未养护3、3、5个单元不编码年份。"
+        }
+      },
+      "format_compatibility": {
+        "eastAsia_font": "Noto Sans CJK SC",
+        "baseline_actual_CJK_font_preserved_visually": true,
+        "other_run_style_properties_preserved": true
+      },
+      "declared_paragraph_index": 81
+    }
+  ],
+  "image_exports": [
+    {
+      "figure": 1,
+      "media": "word/media/image1.png",
+      "caption": "图1 检测覆盖与缺失",
+      "png_pixels": [
+        4015,
+        2526
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi": [
+        599.8882352941176,
+        599.8130270300591
+      ],
+      "files": {
+        "png": "/workspace/output_figure_redesign/fig1/Figure_01_redesigned.png",
+        "pdf": "/workspace/output_figure_redesign/fig1/Figure_01_redesigned.pdf",
+        "tiff": "/workspace/output_figure_redesign/fig1/Figure_01_redesigned.tiff",
+        "svg": "/workspace/output_figure_redesign/fig1/Figure_01_redesigned.svg"
+      },
+      "export_exists": {
+        "png": true,
+        "pdf": true,
+        "tiff": true,
+        "svg": true
+      },
+      "inserted_aspect_error": 0.00012538617980828448,
+      "embedded_png_matches_export": true,
+      "tiff_pixels": [
+        4015,
+        2526
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_pixel_content_equals_png": true,
+      "pdf_pages": 1,
+      "pdf_vector_drawing_count": 3126,
+      "pdf_raster_image_count": 0,
+      "svg_has_paths": true,
+      "svg_has_embedded_raster": false
+    },
+    {
+      "figure": 2,
+      "media": "word/media/image2.png",
+      "caption": "图2 LOCF、Ridge与XGBoost的连续评分预测结果",
+      "png_pixels": [
+        4015,
+        3546
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi": [
+        599.8882352941176,
+        599.8985387282706
+      ],
+      "files": {
+        "png": "/workspace/output_figure_redesign/fig2/Figure_02_redesigned.png",
+        "pdf": "/workspace/output_figure_redesign/fig2/Figure_02_redesigned.pdf",
+        "tiff": "/workspace/output_figure_redesign/fig2/Figure_02_redesigned.tiff",
+        "svg": "/workspace/output_figure_redesign/fig2/Figure_02_redesigned.svg"
+      },
+      "export_exists": {
+        "png": true,
+        "pdf": true,
+        "tiff": true,
+        "svg": true
+      },
+      "inserted_aspect_error": 1.7175294633742233e-05,
+      "embedded_png_matches_export": true,
+      "tiff_pixels": [
+        4015,
+        3546
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_pixel_content_equals_png": true,
+      "pdf_pages": 1,
+      "pdf_vector_drawing_count": 736,
+      "pdf_raster_image_count": 0,
+      "svg_has_paths": true,
+      "svg_has_embedded_raster": false
+    },
+    {
+      "figure": 3,
+      "media": "word/media/image3.png",
+      "caption": "图3 两套2024年规划初始状态",
+      "png_pixels": [
+        4015,
+        1602
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi": [
+        599.8882352941176,
+        599.9390587526048
+      ],
+      "files": {
+        "png": "/workspace/output_figure_redesign/fig3/Figure_03_redesigned.png",
+        "pdf": "/workspace/output_figure_redesign/fig3/Figure_03_redesigned.pdf",
+        "tiff": "/workspace/output_figure_redesign/fig3/Figure_03_redesigned.tiff",
+        "svg": "/workspace/output_figure_redesign/fig3/Figure_03_redesigned.svg"
+      },
+      "export_exists": {
+        "png": true,
+        "pdf": true,
+        "tiff": true,
+        "svg": true
+      },
+      "inserted_aspect_error": 8.47143684774565e-05,
+      "embedded_png_matches_export": true,
+      "tiff_pixels": [
+        4015,
+        1602
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_pixel_content_equals_png": true,
+      "pdf_pages": 1,
+      "pdf_vector_drawing_count": 184,
+      "pdf_raster_image_count": 0,
+      "svg_has_paths": true,
+      "svg_has_embedded_raster": false
+    },
+    {
+      "figure": 4,
+      "media": "word/media/image4.png",
+      "caption": "图4 同随机种子配对排程的行动重合与首次养护年份平均绝对差",
+      "png_pixels": [
+        4015,
+        1696
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi": [
+        599.8882352941176,
+        599.9925717752219
+      ],
+      "files": {
+        "png": "/workspace/output_figure_redesign/fig4/Figure_04_redesigned.png",
+        "pdf": "/workspace/output_figure_redesign/fig4/Figure_04_redesigned.pdf",
+        "tiff": "/workspace/output_figure_redesign/fig4/Figure_04_redesigned.tiff",
+        "svg": "/workspace/output_figure_redesign/fig4/Figure_04_redesigned.svg"
+      },
+      "export_exists": {
+        "png": true,
+        "pdf": true,
+        "tiff": true,
+        "svg": true
+      },
+      "inserted_aspect_error": 0.0001738962880749595,
+      "embedded_png_matches_export": true,
+      "tiff_pixels": [
+        4015,
+        1696
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_pixel_content_equals_png": true,
+      "pdf_pages": 1,
+      "pdf_vector_drawing_count": 577,
+      "pdf_raster_image_count": 0,
+      "svg_has_paths": true,
+      "svg_has_embedded_raster": false
+    },
+    {
+      "figure": 5,
+      "media": "word/media/image5.png",
+      "caption": "图5 共同资源上限下的长期平均评分及相对养护增益",
+      "png_pixels": [
+        4015,
+        1630
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi": [
+        599.8882352941176,
+        599.7957316116197
+      ],
+      "files": {
+        "png": "/workspace/output_figure_redesign/fig5/Figure_05_redesigned.png",
+        "pdf": "/workspace/output_figure_redesign/fig5/Figure_05_redesigned.pdf",
+        "tiff": "/workspace/output_figure_redesign/fig5/Figure_05_redesigned.tiff",
+        "svg": "/workspace/output_figure_redesign/fig5/Figure_05_redesigned.svg"
+      },
+      "export_exists": {
+        "png": true,
+        "pdf": true,
+        "tiff": true,
+        "svg": true
+      },
+      "inserted_aspect_error": 0.0001542253097557289,
+      "embedded_png_matches_export": true,
+      "tiff_pixels": [
+        4015,
+        1630
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_pixel_content_equals_png": true,
+      "pdf_pages": 1,
+      "pdf_vector_drawing_count": 116,
+      "pdf_raster_image_count": 0,
+      "svg_has_paths": true,
+      "svg_has_embedded_raster": false
+    },
+    {
+      "figure": 6,
+      "media": "word/media/image6.png",
+      "caption": "图6 LOCF代表方案的年度状态与养护安排",
+      "png_pixels": [
+        4015,
+        3009
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi": [
+        599.8882352941176,
+        599.9863928370498
+      ],
+      "files": {
+        "png": "/workspace/output_figure_redesign/fig6/Figure_06_redesigned.png",
+        "pdf": "/workspace/output_figure_redesign/fig6/Figure_06_redesigned.pdf",
+        "tiff": "/workspace/output_figure_redesign/fig6/Figure_06_redesigned.tiff",
+        "svg": "/workspace/output_figure_redesign/fig6/Figure_06_redesigned.svg"
+      },
+      "export_exists": {
+        "png": true,
+        "pdf": true,
+        "tiff": true,
+        "svg": true
+      },
+      "inserted_aspect_error": 0.0001635996150979313,
+      "embedded_png_matches_export": true,
+      "tiff_pixels": [
+        4015,
+        3009
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_pixel_content_equals_png": true,
+      "pdf_pages": 1,
+      "pdf_vector_drawing_count": 162,
+      "pdf_raster_image_count": 0,
+      "svg_has_paths": true,
+      "svg_has_embedded_raster": false
+    },
+    {
+      "figure": 7,
+      "media": "word/media/image7.png",
+      "caption": "图7 年评分下降量敏感性",
+      "png_pixels": [
+        4015,
+        2948
+      ],
+      "png_dpi_metadata": [
+        599.9988,
+        599.9988
+      ],
+      "effective_dpi": [
+        599.8882352941176,
+        599.8236343735404
+      ],
+      "files": {
+        "png": "/workspace/output_figure_redesign/fig7/Figure_07_redesigned.png",
+        "pdf": "/workspace/output_figure_redesign/fig7/Figure_07_redesigned.pdf",
+        "tiff": "/workspace/output_figure_redesign/fig7/Figure_07_redesigned.tiff",
+        "svg": "/workspace/output_figure_redesign/fig7/Figure_07_redesigned.svg"
+      },
+      "export_exists": {
+        "png": true,
+        "pdf": true,
+        "tiff": true,
+        "svg": true
+      },
+      "inserted_aspect_error": 0.00010769985855030306,
+      "embedded_png_matches_export": true,
+      "tiff_pixels": [
+        4015,
+        2948
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_pixel_content_equals_png": true,
+      "pdf_pages": 1,
+      "pdf_vector_drawing_count": 506,
+      "pdf_raster_image_count": 0,
+      "svg_has_paths": true,
+      "svg_has_embedded_raster": false
+    }
+  ],
+  "changed_parts": [
+    "word/document.xml",
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png"
+  ],
+  "actual_body_changes": [
+    {
+      "body_index": 47,
+      "before": "2012—2024年59个检测单元的年度覆盖及逐单元观测分布；缺失表示没有可用检测记录。",
+      "after": "2012—2024年59个检测单元的年度覆盖及逐单元观测分布；缺失表示没有可用检测记录。(a)为年度有效观测数量的分组柱状图，(b)(c)为观测矩阵；缺测不表示零评分。"
+    },
+    {
+      "body_index": 59,
+      "before": "LOCF与Ridge均保留6条2024年实测值，其余53个单元为估计值。",
+      "after": "LOCF与Ridge均保留6条2024年实测值，其余53个单元为估计值。右图底部短线为53个估计差值的原值，6个当年实测单元差值均为0。"
+    },
+    {
+      "body_index": 68,
+      "before": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。菱形为均值。",
+      "after": "每档30对。(a)单元—年份行动集合的Jaccard相似系数；(b)双方均养护单元首次养护年份平均绝对差（MAE），只画非NA值，最低档有效n=28，其余档n=30。箱体为Q25—Q75，中线为中位数，须线延伸至1.5倍四分位距以内的最远观测，圈点为其外观测。未养护年份不编码为0。菱形为均值。点仅横移，箱中心为实际B。"
+    },
+    {
+      "body_index": 76,
+      "before": "各点和误差线为当档30次GJO的均值与样本标准差，最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。已验证可行下界单独展示，不计入当档30次独立运行统计，亦非全局最优；LOCF在B=1.915337时独立最好值低于该下界，反映有限搜索不足。",
+      "after": "均值曲线为当档30次GJO的均值；半透明带表示均值±样本SD，空心菱形最好值来自同一组30次运行；ΔJ分别扣除同规划初始状态、同d的无养护基线。B为累计归一化养护资源上限，以无量纲全网络面积当量表示；最低档B=0.013815，不是零资源。已验证可行下界单独展示，不计入当档30次独立运行统计，亦非全局最优；LOCF在B=1.915337时独立最好值低于该下界，反映有限搜索不足。连线与区间连接仅辅助观察离散资源档，不表示新增中间资源计算。"
+    },
+    {
+      "body_index": 86,
+      "before": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)为均值、样本标准差及本组最好值；(c)为各d最好可行代表的年度评分，(d)为各代表内已养护单元的首次养护年份分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。(d)中的点为已养护单元的原始首次养护年份，仅作横向排布，年份值不变；三个情景样本数依次为56、56、54。",
+      "after": "LOCF、固定B=1.154729；d=0.45、0.65、0.85分/年，各30次。(a)(b)示均值±样本SD及空心菱形最好值；浅色点为30次独立结果，仅横向错排；连线只辅助比较已计算情景。(c)为各d最好可行代表的年度评分，(d)为各代表首次养护分布。箱体与中线分别为四分位区间和中位数，须线按1.5倍四分位距确定。ΔJ采用各自同d无养护基线。(d)散点为实际首次养护年份，仅横向错排，样本数依次为56、56、54；未养护3、3、5个单元不编码年份。"
+    }
+  ],
+  "documented_caption_CJK_font_fallback_fix": [
+    {
+      "body_index": 47,
+      "explicit_eastAsia_fonts": [
+        "Noto Sans CJK SC"
+      ]
+    },
+    {
+      "body_index": 59,
+      "explicit_eastAsia_fonts": [
+        "Noto Sans CJK SC"
+      ]
+    },
+    {
+      "body_index": 68,
+      "explicit_eastAsia_fonts": [
+        "Noto Sans CJK SC"
+      ]
+    },
+    {
+      "body_index": 76,
+      "explicit_eastAsia_fonts": [
+        "Noto Sans CJK SC"
+      ]
+    },
+    {
+      "body_index": 86,
+      "explicit_eastAsia_fonts": [
+        "Noto Sans CJK SC"
+      ]
+    }
+  ],
+  "caption_formatting_scope": "Only necessary caption text/run splitting and explicit Noto CJK eastAsia fallback are allowed; all paragraph properties and other ordered run style groups remain source-identical.",
+  "source_sha256": "b0ca9b0ab9f1bbc9d37665ef696f66662bbf43cab0e60ecae05ed7cd00465c5f",
+  "target_sha256": "f03fa6465c53a849b1e6a3bf76a0fcdcf2928d1ae232acd5c79603bae202ec34",
+  "pdf_pages": [
+    {
+      "page": 1,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 2,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 3,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 4,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 5,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95074462890625,
+            538.5999755859375,
+            354.1507568359375
+          ],
+          "width": 2007,
+          "height": 1263
+        }
+      ],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 6,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            476.55078125
+          ],
+          "width": 2006,
+          "height": 1772
+        }
+      ],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 7,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95074462890625,
+            538.5999755859375,
+            243.20074462890625
+          ],
+          "width": 2005,
+          "height": 800
+        }
+      ],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 8,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95079040527344,
+            538.5999755859375,
+            254.50079345703125
+          ],
+          "width": 2005,
+          "height": 847
+        }
+      ],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 9,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.95075988769531,
+            538.5999755859375,
+            246.6507568359375
+          ],
+          "width": 2009,
+          "height": 816
+        }
+      ],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 10,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            412.05078125
+          ],
+          "width": 2006,
+          "height": 1503
+        }
+      ],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 11,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [
+        {
+          "bbox": [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            404.85076904296875
+          ],
+          "width": 2009,
+          "height": 1475
+        }
+      ],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 12,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 13,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 14,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    },
+    {
+      "page": 15,
+      "size": [
+        595.303955078125,
+        841.8897705078125
+      ],
+      "text_identical_excluding_allowed_captions": true,
+      "image_boxes_identical": true,
+      "images": [],
+      "page_has_content": true,
+      "out_of_page_words": []
+    }
+  ],
+  "figure_caption_pages": [
+    {
+      "figure": 1,
+      "caption_pages": [
+        5
+      ],
+      "caption_note_together_same_page": true,
+      "image_same_page": true,
+      "expected_page": 5,
+      "caption_after_image": true
+    },
+    {
+      "figure": 2,
+      "caption_pages": [
+        6
+      ],
+      "caption_note_together_same_page": true,
+      "image_same_page": true,
+      "expected_page": 6,
+      "caption_after_image": true
+    },
+    {
+      "figure": 3,
+      "caption_pages": [
+        7
+      ],
+      "caption_note_together_same_page": true,
+      "image_same_page": true,
+      "expected_page": 7,
+      "caption_after_image": true
+    },
+    {
+      "figure": 4,
+      "caption_pages": [
+        8
+      ],
+      "caption_note_together_same_page": true,
+      "image_same_page": true,
+      "expected_page": 8,
+      "caption_after_image": true
+    },
+    {
+      "figure": 5,
+      "caption_pages": [
+        9
+      ],
+      "caption_note_together_same_page": true,
+      "image_same_page": true,
+      "expected_page": 9,
+      "caption_after_image": true
+    },
+    {
+      "figure": 6,
+      "caption_pages": [
+        10
+      ],
+      "caption_note_together_same_page": true,
+      "image_same_page": true,
+      "expected_page": 10,
+      "caption_after_image": true
+    },
+    {
+      "figure": 7,
+      "caption_pages": [
+        11
+      ],
+      "caption_note_together_same_page": true,
+      "image_same_page": true,
+      "expected_page": 11,
+      "caption_after_image": true
+    }
+  ],
+  "manual_visual_review": "completed_all_15_page_contacts_and_7_in_word_figure_zooms; separately reviewed final pages 8,9,11 at full-page resolution",
+  "all_automated_checks_passed": true,
+  "manual_visual_review_checks": {
+    "all_15_pages_visually_reviewed_for_pagination": true,
+    "all_7_figures_zooms_visually_reviewed": true,
+    "no_figure_clipping_or_deformation_observed": true,
+    "all_7_figure_captions_follow_images_on_same_pages": true,
+    "page8_actual_B_and_horizontal_offset_note_complete": true,
+    "page8_unmodified_table5_note_no_missing_characters": true,
+    "page9_figure5_note_complete_no_right_edge_overflow": true,
+    "page11_figure7_note_complete_no_table6_collision": true,
+    "all_15_pages_no_abnormal_blank_or_new_overflow_observed": true
+  },
+  "visual_evidence": {
+    "directory": "/workspace/output_figure_redesign/validation/independent_visual",
+    "page_images": "page_01.png through page_15.png",
+    "figure_zooms": "figure_01_in_word.png through figure_07_in_word.png",
+    "contact_sheets": [
+      "contact_01_05.png",
+      "contact_06_10.png",
+      "contact_11_15.png"
+    ]
+  },
+  "scientific_data_evidence_review": {
+    "reviewed_actual_per_figure_arrays_and_checks": [
+      "fig1_data_audit.json",
+      "fig2_data_audit.json",
+      "fig3_data_audit.json",
+      "fig4_data_audit.json",
+      "fig5_data_audit.json",
+      "fig6_data_audit.json",
+      "fig7_data_audit.json"
+    ],
+    "raw_vs_analyzed_sensitivity_independently_checked": "independent_sensitivity_version_check.json",
+    "all_661_frozen_scientific_input_digests_independently_checked": "independent_frozen_source_check.json",
+    "scope": "Saved scientific output, plotted values, raw runs/statistical consistency, observational presence and Word preservation. No scientific models or maintenance optimizations rerun; methodology and global optimality not newly certified."
+  },
+  "all_independent_document_checks_passed": true
+}
