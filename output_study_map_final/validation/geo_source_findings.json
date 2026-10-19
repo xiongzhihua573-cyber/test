@@ -1,0 +1,118 @@
+{
+  "scope": "Read-only verification of openly accessible GIS vectors; no AI tracing, geocoding or bridge placement.",
+  "bbox_wgs84": [
+    121.4,
+    29.7,
+    121.95,
+    30.05
+  ],
+  "network_policy": {
+    "mode": "restricted",
+    "state": "enforced",
+    "allowed_sources_used": [
+      "github.com",
+      "raw.githubusercontent.com"
+    ],
+    "forbidden_workarounds_used": false,
+    "note": "Overpass/OSM API probes and environment network draft are managed by parent, not this task."
+  },
+  "usable_layers": {
+    "roads": {
+      "features": 15,
+      "bytes": 11666,
+      "source_sha256": "66a0c7b438e92fd124822cc5921cfa11042f48c294ade5e0f03f2c6640fd0248",
+      "output_sha256": "8b8f19db21d4056769de85959609b0df520e0ee695a0a510cbcab856e49188ea",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_roads.geojson",
+      "source_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_roads.geojson"
+    },
+    "rivers_lake_centerlines": {
+      "features": 0,
+      "bytes": 83,
+      "source_sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+      "output_sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "source_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_rivers_lake_centerlines.geojson"
+    },
+    "lakes": {
+      "features": 0,
+      "bytes": 83,
+      "source_sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+      "output_sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes.geojson",
+      "source_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_lakes.geojson"
+    },
+    "coastline": {
+      "features": 3,
+      "bytes": 1957,
+      "source_sha256": "6f75ae0e0de157b14946e2255eb1f5486d9a13819032e26d4610852d296788f6",
+      "output_sha256": "27d9277d3b8e16b0468c9aca5761a5ec7d35d3556592a437fbcb829615898eda",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_coastline.geojson",
+      "source_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_coastline.geojson"
+    },
+    "ocean": {
+      "features": 1,
+      "bytes": 1653,
+      "source_sha256": "f9696a1337c746a0f6c8c13bc60d0f230d2ef8d105198d5657726c8f8e763fc2",
+      "output_sha256": "6573ccbbffbff6fbe921db5e46daef0ae770c7097d6a9145f712a361965ebed0",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_ocean.geojson",
+      "source_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_ocean.geojson"
+    },
+    "land": {
+      "features": 3,
+      "bytes": 2019,
+      "source_sha256": "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416",
+      "output_sha256": "ea43d6a162d6b5256c0825ec4fdea83154de1b55bea9a7669c0963e8df3aff5d",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "source_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_land.geojson"
+    }
+  },
+  "usable_layers_limits": [
+    "Natural Earth scale 1:10 million is a generalized small-scale geographic dataset. It does not support city-level precise route or bridge validation.",
+    "Clipping intersects real source geometries and does not trace any screenshot. Clipped ocean and land retain real source boundaries, including multipart geometry.",
+    "No source river or lake intersects the requested local bbox. No river or lake has been invented or sketched; these layers must remain empty.",
+    "15 road source geometries intersect bbox; every retained road lacks name, route ref, routeraw and label. They may be shown as generalized background roads, but no retained road is confirmed to be S1.",
+    "S1 mainline, exact study start/end and surveyed 59 detection-unit locations have not been verified by this task."
+  ],
+  "repository_checks": [
+    {
+      "repository": "yzengal/RoadNetwork-China-City",
+      "head": "e253328044002801a47a7b63866caf0b323b60d3",
+      "result": "True OpenStreetMap road network archive, but cities list does not include Ningbo; only Beijing Chengdu Chongqing Guangzhou Haikou Hongkong Nanjing Shanghai Shenzhen Tianjin Xian."
+    },
+    {
+      "repository": "malin84/transportation_networks_of_china",
+      "result": "Academic named transportation segment and 509.7m raster dataset. Road_1044 notes 宁波到北仑 but path_name blank and construction year2005. Insufficient to identify historical study S1 alignment, not adopted as S1."
+    },
+    {
+      "repository": "qingwalashi/nignbohub",
+      "result": "Only district/site/CBG/hospital/school boundaries and live browser maps, no retained road/water vector source."
+    },
+    {
+      "repository": "ZhaoyangLiu-Leo/mobike-hotspot-public",
+      "result": "README references OSM but exported raw data subset contains only subway/business/light data, no Ningbo route vector."
+    },
+    {
+      "repository": "giserrui/Ningbo_Exposure_Simulation_HumanVehicleFlow",
+      "result": "宁波市成果/完整路网空间句法指标.csv contains only centroids x/y, road_length and computed topology indices, no original line geometry or road names. Cannot reconstruct authentic road lines from centroids."
+    },
+    {
+      "repository": "yizirui/Distributed-Road-Network-Monitoring-System",
+      "result": "Recursive repository tree inspected: no GeoJSON/OSM/PBF/GraphML/shapefile/vector road archive. Live web map UI is not a local source geometry."
+    },
+    {
+      "repository": "VIKI1109/Distribute_Road_Monitoring_System",
+      "head": "2d0294dca02b743dfcb9a612173353dc09fb565e",
+      "result": "Recursive tree inspected; no .osm/.pbf/.graphml/.geojson/.csv/.shp/.kml/.gpkg/.sqlite vector or map archive; no city GIS source geometry available."
+    }
+  ],
+  "recommended_honest_fallback": "A single local map may show only verified generalized land/ocean/coast/background roads plus city reference point; leave unverifiable S1 corridor/59 bridge markers off. Explicitly label partial geographic verification and absence of verified bridge positions. Do not claim a precise submission-ready bridge map.",
+  "manifest_path": "gis/GIS_source_manifest.json",
+  "reproduction_script": "prepare_verified_gis.py",
+  "pinning_verification": "Original bytes are positive matches to fixed-commit native git tree blob hashes; see gis/natural_earth_pinned_verification.json. Version at commit is5.2.0-pre."
+}

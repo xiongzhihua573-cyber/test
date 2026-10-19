@@ -1,0 +1,8 @@
+{
+  "bbox_degree2": 0.19249999999999978,
+  "land_degree2": 0.1635954100557267,
+  "ocean_degree2": 0.02890458994427307,
+  "land_ocean_overlap_degree2": 0.0,
+  "land_ocean_uncovered_degree2": 0.0,
+  "note": "Areas are in square degrees only for topological coverage QA, not physical area claims. Natural Earth land/ocean generalized boundaries are mutually consistent."
+}

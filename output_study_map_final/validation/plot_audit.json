@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "projection": "EPSG:32651",
+  "bbox_lon_lat": [
+    121.4,
+    29.7,
+    121.95,
+    30.05
+  ],
+  "inputs": {
+    "ocean": {
+      "path": "ningbo_ne_10m_ocean_clipped.geojson",
+      "sha256": "6573ccbbffbff6fbe921db5e46daef0ae770c7097d6a9145f712a361965ebed0",
+      "exists": true,
+      "features": 1
+    },
+    "land": {
+      "path": "ningbo_ne_10m_land_clipped.geojson",
+      "sha256": "ea43d6a162d6b5256c0825ec4fdea83154de1b55bea9a7669c0963e8df3aff5d",
+      "exists": true,
+      "features": 3
+    },
+    "lakes": {
+      "path": "ningbo_ne_10m_lakes_clipped.geojson",
+      "sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "exists": true,
+      "features": 0
+    },
+    "rivers": {
+      "path": "ningbo_ne_10m_rivers_lake_centerlines_clipped.geojson",
+      "sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "exists": true,
+      "features": 0
+    },
+    "coastline": {
+      "path": "ningbo_ne_10m_coastline_clipped.geojson",
+      "sha256": "27d9277d3b8e16b0468c9aca5761a5ec7d35d3556592a437fbcb829615898eda",
+      "exists": true,
+      "features": 3
+    },
+    "generalized_roads": {
+      "path": "ningbo_ne_10m_roads_clipped.geojson",
+      "sha256": "8b8f19db21d4056769de85959609b0df520e0ee695a0a510cbcab856e49188ea",
+      "exists": true,
+      "features": 15
+    },
+    "local_water_polygons": {
+      "exists": false,
+      "features": 0
+    },
+    "local_water_lines": {
+      "exists": false,
+      "features": 0
+    },
+    "bridge_locations_check": {
+      "path": "bridge_locations_check.csv",
+      "sha256": "38709e2f6010a550ae6e6ed7ce3fb7b9eccc14cf098c5b6175f5076b2bfcb87d",
+      "rows": 59
+    },
+    "ningbo_reference": {
+      "path": "ningbo_city_reference_point_wgs84.geojson",
+      "sha256": "0533238270c5b4aaf3815e7b66187a5f19d1002497442095c7a89660efed0b05",
+      "exists": true,
+      "features": 1
+    },
+    "district_labels": {
+      "exists": false,
+      "features": 0
+    }
+  },
+  "layers": {
+    "ocean": 2,
+    "land": 3,
+    "lakes": 0,
+    "rivers": 0,
+    "coastline": 4,
+    "generalized_roads": 15,
+    "local_water_polygons": 0,
+    "local_water_lines": 0,
+    "s1": 0
+  },
+  "font_family": "Nimbus Roman",
+  "bridges": {
+    "total_units": 59,
+    "verified_units": 0,
+    "unresolved_units": 59,
+    "plotted_units": 0,
+    "plotted_unique_sites": 0,
+    "points_generated_by_interpolation": false
+  },
+  "north_arrow": {
+    "method": "project a geographic meridian at arrow location",
+    "reference_lon_lat": [
+      121.91945621169288,
+      29.99734297137999
+    ],
+    "bearing_degrees_from_projected_y": 0.5405222460906997
+  },
+  "scale_bar": {
+    "crs": "EPSG:32651",
+    "projection_length_m": 10000.0,
+    "geodesic_endpoint_distance_m": 10002.542141147273,
+    "relative_error": 0.00025421411472725596,
+    "endpoints_wgs84": [
+      [
+        121.82459587084753,
+        29.71983459431825
+      ],
+      [
+        121.9279703139616,
+        29.720712060698837
+      ]
+    ]
+  },
+  "extent_projected_m": [
+    345211.3512427255,
+    3286004.854847114,
+    398777.8895283891,
+    3325404.443795913
+  ],
+  "unverified_bridge_markers_drawn": false,
+  "ai_reference_traced": false,
+  "geographic_names_from_unverified_reference_used": false,
+  "canvas_cm": [
+    20,
+    15
+  ],
+  "svg": {
+    "images": 0,
+    "paths": 37,
+    "editable_texts": 12,
+    "embedded_raster_data": false
+  },
+  "pdf": {
+    "pages": 1,
+    "embedded_images": 0,
+    "vector_drawing_objects": 36
+  },
+  "png": {
+    "pixels": [
+      4724,
+      3543
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "outputs": {
+    "Fig1_StudyArea_Final.svg": {
+      "bytes": 15909,
+      "sha256": "9e40c0535fe41c8e787dce3a4d05ec6f0665cfbd689a3d059c7c2b3f58115a07"
+    },
+    "Fig1_StudyArea_Final.pdf": {
+      "bytes": 15438,
+      "sha256": "436e94af5eabae74b694d5b89824de904f31566115fe8ef49bfff948d0f55955"
+    },
+    "Fig1_StudyArea_Final.png": {
+      "bytes": 510173,
+      "sha256": "936b1c1fae2aa68172677016074ed27c97690d81f873bfb00f06170a616cc824"
+    }
+  }
+}

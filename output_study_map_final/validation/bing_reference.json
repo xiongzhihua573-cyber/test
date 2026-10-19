@@ -1,0 +1,28 @@
+{
+  "provided_by_user": true,
+  "reference_type": "Bing Maps online search link and user-confirmed real screenshot",
+  "url": "https://cn.bing.com/maps/search?FORM=HDRSC6&q=%E7%94%AC%E5%8F%B0%E6%B8%A9%E9%AB%98%E9%80%9F&cp=nzfdq1v4cw6p&lvl=10.7&style=r",
+  "query_parameters": {
+    "FORM": [
+      "HDRSC6"
+    ],
+    "q": [
+      "甬台温高速"
+    ],
+    "cp": [
+      "nzfdq1v4cw6p"
+    ],
+    "lvl": [
+      "10.7"
+    ],
+    "style": [
+      "r"
+    ]
+  },
+  "network_access_result": "Proxy CONNECT 403 Forbidden in current runtime",
+  "cp_decoded_to_wgs84": false,
+  "cp_used_as_coordinates": false,
+  "zoom_used_to_infer_scale": false,
+  "reference_used_for_bridge_unit_geolocation": false,
+  "status": "Source recorded; exact map georeferencing and bridge-unit association remain unverified"
+}

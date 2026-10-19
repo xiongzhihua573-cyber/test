@@ -1,0 +1,49 @@
+{
+  "natural_earth_git_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+  "all_original_bytes_match_pinned_commit": true,
+  "git_blob_checks": [
+    {
+      "file": "ne_10m_roads.geojson",
+      "computed_git_blob_sha1": "6f294f88d319791af216bcc394aed19a6b0148d6",
+      "repository_git_blob_sha1": "6f294f88d319791af216bcc394aed19a6b0148d6",
+      "match": true
+    },
+    {
+      "file": "ne_10m_rivers_lake_centerlines.geojson",
+      "computed_git_blob_sha1": "61a0d7137a6ff1113cc259525e7479c63d5fec86",
+      "repository_git_blob_sha1": "61a0d7137a6ff1113cc259525e7479c63d5fec86",
+      "match": true
+    },
+    {
+      "file": "ne_10m_lakes.geojson",
+      "computed_git_blob_sha1": "e48ec603e0943b62f8c81960fb990bb6bab4a4a8",
+      "repository_git_blob_sha1": "e48ec603e0943b62f8c81960fb990bb6bab4a4a8",
+      "match": true
+    },
+    {
+      "file": "ne_10m_coastline.geojson",
+      "computed_git_blob_sha1": "ff2cb1a203a39eff0d202302b72e234733dd9bdf",
+      "repository_git_blob_sha1": "ff2cb1a203a39eff0d202302b72e234733dd9bdf",
+      "match": true
+    },
+    {
+      "file": "ne_10m_ocean.geojson",
+      "computed_git_blob_sha1": "7f5c93c471dc99e34976ed760593f8e91c330226",
+      "repository_git_blob_sha1": "7f5c93c471dc99e34976ed760593f8e91c330226",
+      "match": true
+    },
+    {
+      "file": "ne_10m_land.geojson",
+      "computed_git_blob_sha1": "2d76878175b8054acd9c5a52917ee9ea59a36fc5",
+      "repository_git_blob_sha1": "2d76878175b8054acd9c5a52917ee9ea59a36fc5",
+      "match": true
+    },
+    {
+      "file": "ne_10m_populated_places.geojson",
+      "computed_git_blob_sha1": "376fb028c390a7a23213800ae4babaa6f534a0f3",
+      "repository_git_blob_sha1": "376fb028c390a7a23213800ae4babaa6f534a0f3",
+      "match": true
+    }
+  ],
+  "version_file": "5.2.0-pre"
+}

@@ -1,0 +1,167 @@
+{
+  "repository": "https://github.com/jixuanliu21/LogiRoute",
+  "head_commit": "85b33bcc64b12ee045da3ebd58353b8423b48702",
+  "author_time": "2026-10-19T16:46:51+08:00",
+  "committer_time": "2026-10-19T16:46:51+08:00",
+  "commit_subject": "Update README with demo and source code links",
+  "access": {
+    "github_git": "success via ordinary native git HTTPS",
+    "github_api": "api.github.com tunnel returned 403; no attempt to bypass policy",
+    "out_of_allowlist_endpoints_contacted": false
+  },
+  "tree": [
+    {
+      "path": ".gitignore",
+      "git_blob": "8831e6d124f97ba3a7d962d7ae671aacff154ce6",
+      "bytes": 75
+    },
+    {
+      "path": "README.md",
+      "git_blob": "171b6090ac7864d1a56072edde42b75b15592f00",
+      "bytes": 2233
+    },
+    {
+      "path": "app.py",
+      "git_blob": "8ce0468fd67818c46b3e32098a28963bdc89bad5",
+      "bytes": 10606
+    },
+    {
+      "path": "data/sample_geo_orders.csv",
+      "git_blob": "1816ca5401c1f8c8ed58b2e603ebef2795cd1b39",
+      "bytes": 376
+    },
+    {
+      "path": "data/sample_orders.csv",
+      "git_blob": "e0ae0b0188f87dccd771b4e11fee56e8eaa63910",
+      "bytes": 498
+    },
+    {
+      "path": "experiments/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "experiments/benchmark.py",
+      "git_blob": "b5813691adb0e7f6d7238ec5488f641c94b38eaf",
+      "bytes": 2057
+    },
+    {
+      "path": "figures/.gitkeep",
+      "git_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "bytes": 1
+    },
+    {
+      "path": "figures/logiroute_demo.png",
+      "git_blob": "2923a02fc1a41b8bae51c5cb3a6f2f5be0bc72b3",
+      "bytes": 4409180
+    },
+    {
+      "path": "requirements-advanced.txt",
+      "git_blob": "c903a93a788bc28ec00a5271394a2f84fd6fa06b",
+      "bytes": 86
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "b5cbb3bfa160be2c66de284690ba846b2cc3d31b",
+      "bytes": 163
+    },
+    {
+      "path": "src/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "src/io_utils.py",
+      "git_blob": "e3829368959f7b25946e57860dc130f1d9df961b",
+      "bytes": 1277
+    },
+    {
+      "path": "src/reporting.py",
+      "git_blob": "4eff3bc02c33c26657bd95d3f410c3f38528ff1a",
+      "bytes": 1129
+    },
+    {
+      "path": "src/road_network.py",
+      "git_blob": "7bc354b7ffb40009837f972ed9badcd57c489642",
+      "bytes": 2099
+    },
+    {
+      "path": "src/routing.py",
+      "git_blob": "eee7d322fe26104d6e4447aef43882529383d814",
+      "bytes": 6282
+    },
+    {
+      "path": "src/traffic_ml.py",
+      "git_blob": "0b738261db3fb8cd5c1617471325a196460a875d",
+      "bytes": 5115
+    },
+    {
+      "path": "tests/test_advanced.py",
+      "git_blob": "6507c3ddc5c88dbf89ee50386c94f9666e75f293",
+      "bytes": 1136
+    },
+    {
+      "path": "tests/test_reporting.py",
+      "git_blob": "e3ef587a264520c4ae0542580736ad98816950c1",
+      "bytes": 709
+    },
+    {
+      "path": "tests/test_routing.py",
+      "git_blob": "2f5c0eed835b75f36aae94fc2eb4a0dccf3fc9bb",
+      "bytes": 1317
+    },
+    {
+      "path": "tests/test_v2.py",
+      "git_blob": "7bd9f231c1c4a142546bad7627042962aa7fa248",
+      "bytes": 1044
+    }
+  ],
+  "bundled_ningbo_road_vectors_present": false,
+  "bundled_graphml_present": false,
+  "bundled_shp_geojson_gpkg_kml_osm_pbf_present": false,
+  "bundled_osm_node_way_tags_present": false,
+  "road_data_crs_verifiable": false,
+  "road_snapshot_date_verifiable": false,
+  "csv_coordinate_points": {
+    "path": "data/sample_geo_orders.csv",
+    "rows": 13,
+    "description": "one depot plus 12 delivery-customer points, not road or study-bridge data",
+    "columns": [
+      "id",
+      "lat",
+      "lon",
+      "demand"
+    ],
+    "source_or_crs_statement": null,
+    "coordinate_minmax": {
+      "lat": [
+        29.858753,
+        29.87664
+      ],
+      "lon": [
+        121.5269,
+        121.558118
+      ]
+    },
+    "cannot_be_used_as_bridge_locations": true
+  },
+  "readme_evidence": [
+    "Road networks: OSMnx and NetworkX for shortest-path calculations on real roads, with a sample scenario in Ningbo, China.",
+    "The road-network module uses real OpenStreetMap road geometry and distances, but does not include live traffic conditions."
+  ],
+  "app_evidence": [
+    "@st.cache_data(ttl=3600, show_spinner='Downloading OSM road network and computing shortest paths...')",
+    "from src.road_network import road_distance_matrix",
+    "OSM mode requires internet on first use. Routes follow downloaded drivable streets; distances are road lengths, not live traffic times."
+  ],
+  "missing_referenced_paths": [],
+  "conclusion": "No usable road/GIS dataset is stored at the audited HEAD (21 files). Code calls OSMnx graph_from_point to download a drive graph on demand. Only one screenshot and synthetic/delivery sample points are bundled; none establishes S1 geometry or any of the 59 study bridge locations. Exclude as map geographic evidence.",
+  "downloaded_via_source_code_but_no_online_osm_calls": true,
+  "audit_stopped_after_local_repository_file_check": true,
+  "road_network_source_checked": "src/road_network.py",
+  "road_network_evidence": [
+    "Requires internet on the first graph download. Coordinates: longitude, latitude.",
+    "graph = ox.graph_from_point(tuple(center), dist=int(max(radius_m, approx_radius + 1200)), network_type='drive')",
+    "No GraphML or GIS load/save/cached-file access in road_network.py; graph is downloaded on demand."
+  ]
+}

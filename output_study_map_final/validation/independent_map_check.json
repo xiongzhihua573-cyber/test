@@ -1,0 +1,367 @@
+{
+  "independent_acceptance_passed": true,
+  "scientific_status": "Verified generalized geographic context only. Exact S1 study alignment, corridor and all 59 bridge-unit positions remain unverified and deliberately unmapped. Not a submission-ready precise bridge-distribution map.",
+  "no_word_or_source_data_modified": true,
+  "external_original_input_preservation_status": "checked",
+  "formal_map_assets_unchanged_by_audit": true,
+  "svg": {
+    "images": 0,
+    "paths": 37,
+    "editable_texts": 12,
+    "raster_payloads": false,
+    "all_ids": [
+      "figure_1",
+      "patch_1",
+      "axes_1",
+      "patch_2",
+      "ocean-00000-0",
+      "ocean-00000-1",
+      "land-00000-0",
+      "land-00001-0",
+      "land-00002-0",
+      "matplotlib.axis_1",
+      "matplotlib.axis_2",
+      "coastline-00000-0",
+      "coastline-00000-1",
+      "coastline-00001-0",
+      "coastline-00002-0",
+      "generalized-road-00000-0",
+      "generalized-road-00001-0",
+      "generalized-road-00002-0",
+      "generalized-road-00003-0",
+      "generalized-road-00004-0",
+      "generalized-road-00005-0",
+      "generalized-road-00006-0",
+      "generalized-road-00007-0",
+      "generalized-road-00008-0",
+      "generalized-road-00009-0",
+      "generalized-road-00010-0",
+      "generalized-road-00011-0",
+      "generalized-road-00012-0",
+      "generalized-road-00013-0",
+      "generalized-road-00014-0",
+      "city-label-ningbo",
+      "patch_3",
+      "true-north-arrow-outline",
+      "true-north-arrow-left-fill",
+      "north-label",
+      "projection-scale-0",
+      "projection-scale-1",
+      "scale-label-0",
+      "scale-label-5",
+      "scale-label-10",
+      "scale-unit",
+      "map-legend-conventions",
+      "patch_4",
+      "text_1",
+      "line2d_1",
+      "mb3cb8dc163",
+      "text_2",
+      "line2d_2",
+      "text_3",
+      "line2d_3",
+      "text_4",
+      "unverified-layer-note",
+      "patch_5",
+      "p059f3585da"
+    ],
+    "text_content": [
+      "Ningbo",
+      "N",
+      "0",
+      "5",
+      "10",
+      "km",
+      "Legend",
+      "Study bridge locations",
+      "S1 Yongtaiwen Expressway",
+      "Study corridor",
+      "Pending verification — not mapped:",
+      "bridge locations, S1 study alignment, study corridor"
+    ],
+    "all_24_geographic_paths_match_projected_frozen_GIS_vertices": true,
+    "source_vertex_checks": [
+      {
+        "gid": "generalized-road-00000-0",
+        "vertices": 3,
+        "max_bidirectional_vertex_error_svg_pt": 7.1008475405169e-07
+      },
+      {
+        "gid": "generalized-road-00001-0",
+        "vertices": 3,
+        "max_bidirectional_vertex_error_svg_pt": 6.692692178145124e-07
+      },
+      {
+        "gid": "generalized-road-00002-0",
+        "vertices": 5,
+        "max_bidirectional_vertex_error_svg_pt": 8.204101244475557e-07
+      },
+      {
+        "gid": "generalized-road-00003-0",
+        "vertices": 2,
+        "max_bidirectional_vertex_error_svg_pt": 6.626772085492708e-07
+      },
+      {
+        "gid": "generalized-road-00004-0",
+        "vertices": 2,
+        "max_bidirectional_vertex_error_svg_pt": 7.857435433893241e-07
+      },
+      {
+        "gid": "generalized-road-00005-0",
+        "vertices": 5,
+        "max_bidirectional_vertex_error_svg_pt": 8.355380676236583e-07
+      },
+      {
+        "gid": "generalized-road-00006-0",
+        "vertices": 2,
+        "max_bidirectional_vertex_error_svg_pt": 6.942459775224812e-07
+      },
+      {
+        "gid": "generalized-road-00007-0",
+        "vertices": 4,
+        "max_bidirectional_vertex_error_svg_pt": 5.445359023544425e-07
+      },
+      {
+        "gid": "generalized-road-00008-0",
+        "vertices": 4,
+        "max_bidirectional_vertex_error_svg_pt": 5.445359023544425e-07
+      },
+      {
+        "gid": "generalized-road-00009-0",
+        "vertices": 3,
+        "max_bidirectional_vertex_error_svg_pt": 6.763470442228027e-07
+      },
+      {
+        "gid": "generalized-road-00010-0",
+        "vertices": 5,
+        "max_bidirectional_vertex_error_svg_pt": 4.495853071895543e-07
+      },
+      {
+        "gid": "generalized-road-00011-0",
+        "vertices": 12,
+        "max_bidirectional_vertex_error_svg_pt": 7.962226944615222e-07
+      },
+      {
+        "gid": "generalized-road-00012-0",
+        "vertices": 7,
+        "max_bidirectional_vertex_error_svg_pt": 9.339482939741165e-07
+      },
+      {
+        "gid": "generalized-road-00013-0",
+        "vertices": 2,
+        "max_bidirectional_vertex_error_svg_pt": 9.339482939741165e-07
+      },
+      {
+        "gid": "generalized-road-00014-0",
+        "vertices": 2,
+        "max_bidirectional_vertex_error_svg_pt": 8.450651904517693e-07
+      },
+      {
+        "gid": "coastline-00000-0",
+        "vertices": 9,
+        "max_bidirectional_vertex_error_svg_pt": 8.469850815311789e-07
+      },
+      {
+        "gid": "coastline-00000-1",
+        "vertices": 19,
+        "max_bidirectional_vertex_error_svg_pt": 8.928720630354736e-07
+      },
+      {
+        "gid": "coastline-00001-0",
+        "vertices": 18,
+        "max_bidirectional_vertex_error_svg_pt": 8.219092184137618e-07
+      },
+      {
+        "gid": "coastline-00002-0",
+        "vertices": 5,
+        "max_bidirectional_vertex_error_svg_pt": 7.767866101031385e-07
+      },
+      {
+        "gid": "ocean-00000-0",
+        "vertices": 10,
+        "max_bidirectional_vertex_error_svg_pt": 8.469850815311789e-07
+      },
+      {
+        "gid": "ocean-00000-1",
+        "vertices": 43,
+        "max_bidirectional_vertex_error_svg_pt": 8.928720630354736e-07
+      },
+      {
+        "gid": "land-00000-0",
+        "vertices": 30,
+        "max_bidirectional_vertex_error_svg_pt": 8.928720630354736e-07
+      },
+      {
+        "gid": "land-00001-0",
+        "vertices": 18,
+        "max_bidirectional_vertex_error_svg_pt": 8.219092184137618e-07
+      },
+      {
+        "gid": "land-00002-0",
+        "vertices": 5,
+        "max_bidirectional_vertex_error_svg_pt": 7.767866101031385e-07
+      }
+    ]
+  },
+  "pdf": {
+    "pages": 1,
+    "images": 0,
+    "vector_drawing_objects": 36,
+    "extractable_text": "Ningbo\nN\n0\n5\n10\nkm\nLegend\nStudy bridge locations\nS1 Yongtaiwen Expressway\nStudy corridor\nPending verification — not mapped:\nbridge locations, S1 study alignment, study corridor\n"
+  },
+  "png": {
+    "pixels": [
+      4724,
+      3543
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "GIS_layers": [
+    {
+      "layer": "roads",
+      "sha256": "8b8f19db21d4056769de85959609b0df520e0ee695a0a510cbcab856e49188ea",
+      "features": 15,
+      "all_valid": true,
+      "all_inside_bbox": true,
+      "original_source_geometry_and_metadata_equal": true
+    },
+    {
+      "layer": "rivers_lake_centerlines",
+      "sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "features": 0,
+      "all_valid": true,
+      "all_inside_bbox": true,
+      "original_source_geometry_and_metadata_equal": true
+    },
+    {
+      "layer": "lakes",
+      "sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "features": 0,
+      "all_valid": true,
+      "all_inside_bbox": true,
+      "original_source_geometry_and_metadata_equal": true
+    },
+    {
+      "layer": "coastline",
+      "sha256": "27d9277d3b8e16b0468c9aca5761a5ec7d35d3556592a437fbcb829615898eda",
+      "features": 3,
+      "all_valid": true,
+      "all_inside_bbox": true,
+      "original_source_geometry_and_metadata_equal": true
+    },
+    {
+      "layer": "ocean",
+      "sha256": "6573ccbbffbff6fbe921db5e46daef0ae770c7097d6a9145f712a361965ebed0",
+      "features": 1,
+      "all_valid": true,
+      "all_inside_bbox": true,
+      "original_source_geometry_and_metadata_equal": true
+    },
+    {
+      "layer": "land",
+      "sha256": "ea43d6a162d6b5256c0825ec4fdea83154de1b55bea9a7669c0963e8df3aff5d",
+      "features": 3,
+      "all_valid": true,
+      "all_inside_bbox": true,
+      "original_source_geometry_and_metadata_equal": true
+    },
+    {
+      "layer": "populated_places",
+      "sha256": "0533238270c5b4aaf3815e7b66187a5f19d1002497442095c7a89660efed0b05",
+      "features": 1,
+      "all_valid": true,
+      "all_inside_bbox": true,
+      "original_source_geometry_and_metadata_equal": true
+    }
+  ],
+  "natural_earth_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+  "map_source_scale": "1:10 million; generalized geographic context",
+  "all_actual_geographic_geometries_match_pinned_Natural_Earth": true,
+  "land_ocean_topology": {
+    "overlap_degree2": 0.0,
+    "uncovered_degree2": 0.0,
+    "physical_area_claim": false
+  },
+  "bridge_check": {
+    "units": 59,
+    "located": 0,
+    "unlocated": 59,
+    "plotted": 0,
+    "all_coordinate_and_unit_route_fields_blank": true,
+    "s1_geographic_features_drawn": 0,
+    "corridor_geographic_features_drawn": 0
+  },
+  "city_label_check": {
+    "Ningbo": "Only a source-defined populated-place label; not a bridge marker or verified district boundary."
+  },
+  "scale_check": {
+    "projection": "EPSG:32651",
+    "projection_length_m_from_SVG_geometry": 10000.000026293797,
+    "wgs84_endpoints_from_SVG_geometry": [
+      [
+        121.82459587083102,
+        29.719834594806773
+      ],
+      [
+        121.92797031421739,
+        29.720712061189584
+      ]
+    ],
+    "geodesic_distance_m": 10002.542167447276,
+    "relative_error": 0.00025421674472763696,
+    "percent_error": 0.025421674472763695
+  },
+  "north_check": {
+    "method": "Independent EPSG:32651 projection of meridian points (lon,lat) and (lon,lat+0.03); compare SVG tip-notch direction.",
+    "meridian_lonlat_points": [
+      [
+        121.91945621169288,
+        29.99734297137999
+      ],
+      [
+        121.91945621169288,
+        30.02734297137999
+      ]
+    ],
+    "expected_bearing_deg_from_grid_y": 0.5405222460886178,
+    "observed_SVG_bearing_deg_from_grid_y": 0.540521641048357,
+    "absolute_error_degrees": 6.050402607815641e-07
+  },
+  "reproduction": {
+    "Fig1_StudyArea_Final.svg": {
+      "sha256": "9e40c0535fe41c8e787dce3a4d05ec6f0665cfbd689a3d059c7c2b3f58115a07",
+      "byte_identical": true
+    },
+    "Fig1_StudyArea_Final.pdf": {
+      "sha256": "436e94af5eabae74b694d5b89824de904f31566115fe8ef49bfff948d0f55955",
+      "byte_identical": true
+    },
+    "Fig1_StudyArea_Final.png": {
+      "sha256": "936b1c1fae2aa68172677016074ed27c97690d81f873bfb00f06170a616cc824",
+      "byte_identical": true
+    }
+  },
+  "preserved_original_inputs": {
+    "/workspace/attachments/c091ac02-bc01-4017-811a-9acc1d0b0c8b/全桥数据2012-2024.xlsx": {
+      "sha256": "257e5f760b7c298927c3062db5d4083aea7cea8f45bde8ed6e23dfb7a28a282e",
+      "unchanged": true
+    },
+    "/workspace/attachments/556e67e4-97da-444f-9c1e-c4d88937f140/小论文_中文终稿候选_目录优化版.docx": {
+      "sha256": "9cbc37d605f867ac0d867fb5eac592124bf01f6b34de4958968e42a1f4c5acf7",
+      "unchanged": true
+    },
+    "/workspace/output_study_area_bridge_map/bridge_unit_locations.csv": {
+      "sha256": "88e776e4752fae4f3446ff6eccdf310a5275be2801e2503b05f01857faeb4fd9",
+      "unchanged": true
+    }
+  },
+  "limitations": [
+    "Natural Earth 1:10 million data provide generalized context, not local survey accuracy.",
+    "No verifiable local river/lake features intersect this coarse dataset window; empty water layers were not filled with invented features.",
+    "S1 and all 59 bridge locations are pending; legend conventions are accompanied by an explicit not-mapped note.",
+    "Exact bridge-distribution map remains incomplete; use this as the allowed verified-part delivery only."
+  ]
+}

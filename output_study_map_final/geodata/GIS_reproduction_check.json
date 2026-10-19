@@ -1,0 +1,45 @@
+{
+  "all_8_outputs_byte_identical": true,
+  "checks": [
+    {
+      "filename": "ningbo_ne_10m_roads_clipped.geojson",
+      "sha256": "8b8f19db21d4056769de85959609b0df520e0ee695a0a510cbcab856e49188ea",
+      "reproduced_identically": true
+    },
+    {
+      "filename": "ningbo_ne_10m_rivers_lake_centerlines_clipped.geojson",
+      "sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "reproduced_identically": true
+    },
+    {
+      "filename": "ningbo_ne_10m_lakes_clipped.geojson",
+      "sha256": "8ef41bbc78a07c80176286cb7b428adef7a104a0491f7e184950368d036fcfe9",
+      "reproduced_identically": true
+    },
+    {
+      "filename": "ningbo_ne_10m_coastline_clipped.geojson",
+      "sha256": "27d9277d3b8e16b0468c9aca5761a5ec7d35d3556592a437fbcb829615898eda",
+      "reproduced_identically": true
+    },
+    {
+      "filename": "ningbo_ne_10m_ocean_clipped.geojson",
+      "sha256": "6573ccbbffbff6fbe921db5e46daef0ae770c7097d6a9145f712a361965ebed0",
+      "reproduced_identically": true
+    },
+    {
+      "filename": "ningbo_ne_10m_land_clipped.geojson",
+      "sha256": "ea43d6a162d6b5256c0825ec4fdea83154de1b55bea9a7669c0963e8df3aff5d",
+      "reproduced_identically": true
+    },
+    {
+      "filename": "ningbo_city_reference_point_wgs84.geojson",
+      "sha256": "0533238270c5b4aaf3815e7b66187a5f19d1002497442095c7a89660efed0b05",
+      "reproduced_identically": true
+    },
+    {
+      "filename": "GIS_source_manifest.json",
+      "sha256": "113047275d340ef49a47e5cd837d25366cb8148a1f7fa1dfffa74627ce8806d9",
+      "reproduced_identically": true
+    }
+  ]
+}

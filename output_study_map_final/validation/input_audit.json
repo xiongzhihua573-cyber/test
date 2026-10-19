@@ -1,0 +1,924 @@
+{
+  "scope": "Read-only checks of current Excel and manuscript; no network, geocoding, map tracing, or Word edits.",
+  "input_sha256_before": {
+    "/workspace/attachments/c091ac02-bc01-4017-811a-9acc1d0b0c8b/全桥数据2012-2024.xlsx": "257e5f760b7c298927c3062db5d4083aea7cea8f45bde8ed6e23dfb7a28a282e",
+    "/workspace/attachments/556e67e4-97da-444f-9c1e-c4d88937f140/小论文_中文终稿候选_目录优化版.docx": "9cbc37d605f867ac0d867fb5eac592124bf01f6b34de4958968e42a1f4c5acf7"
+  },
+  "input_sha256_after": {
+    "/workspace/attachments/c091ac02-bc01-4017-811a-9acc1d0b0c8b/全桥数据2012-2024.xlsx": "257e5f760b7c298927c3062db5d4083aea7cea8f45bde8ed6e23dfb7a28a282e",
+    "/workspace/attachments/556e67e4-97da-444f-9c1e-c4d88937f140/小论文_中文终稿候选_目录优化版.docx": "9cbc37d605f867ac0d867fb5eac592124bf01f6b34de4958968e42a1f4c5acf7"
+  },
+  "inputs_unchanged": true,
+  "new_excel_identical_to_previous_uploaded_workbook": true,
+  "excel": {
+    "sheet_names": [
+      "全桥评分"
+    ],
+    "n_rows": 61,
+    "worksheet_formatted_max_columns": 36,
+    "populated_columns": 20,
+    "header_rows": [
+      [
+        "桥名",
+        "编号",
+        "建成年份",
+        "2012年时服役龄",
+        "桥梁全长（m）",
+        "桥面净宽（m）",
+        "桥梁类型",
+        "整体评分",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "bridge_units": 59,
+    "coordinate_or_gis_columns_present": false
+  },
+  "inventory": {
+    "input_excel": "input_data/全桥数据2012-2024.xlsx",
+    "input_excel_sha256": "257e5f760b7c298927c3062db5d4083aea7cea8f45bde8ed6e23dfb7a28a282e",
+    "canonical_input": "input_data/initial_state_2024.csv",
+    "canonical_input_sha256": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b",
+    "location_csv": "bridge_unit_locations.csv",
+    "location_csv_sha256": "88e776e4752fae4f3446ff6eccdf310a5275be2801e2503b05f01857faeb4fd9",
+    "unit_count": 59,
+    "exact_name_matches": 59,
+    "unit_id_serial_matches": 59,
+    "area_matches": 59,
+    "last_observation_and_LOCF_matches": 59,
+    "exact_coordinate_locations": 0,
+    "chainage_alignment_locations": 0,
+    "approximate_locations": 0,
+    "manual_verified_locations": 0,
+    "unlocated_units": 59,
+    "canonical_name_association_group_count": 34,
+    "left_right_name_association_pair_count": 25,
+    "singleton_name_association_group_count": 9,
+    "verified_physical_bridge_count": null,
+    "verified_map_point_count": 0,
+    "carriageway_counts": {
+      "未注明": 9,
+      "左幅": 25,
+      "右幅": 25
+    },
+    "bridge_type_counts": {
+      "匝道桥": 9,
+      "主线桥": 46,
+      "通道桥": 4
+    },
+    "literal_class_info_counts": {
+      "3类": 4,
+      "未标注": 54,
+      "2类": 1
+    },
+    "all_geographic_fields_empty": true,
+    "all_units_have_pending_location_status": true,
+    "source_names_preserved_without_correction": true,
+    "special_literal_chainage_discrepancies": [
+      {
+        "group_id": "G18",
+        "unit_ids": [
+          "Br26",
+          "Br27"
+        ],
+        "chainages": [
+          "K15+471",
+          "K15+472"
+        ],
+        "difference_m": 1
+      },
+      {
+        "group_id": "G25",
+        "unit_ids": [
+          "Br40",
+          "Br41"
+        ],
+        "chainages": [
+          "K27+428",
+          "K27+429"
+        ],
+        "difference_m": 1
+      }
+    ],
+    "geographic_verification_complete": false,
+    "inventory_validation_passed": true,
+    "limits": [
+      "Location validation remains pending: report archive and matching route alignments were not available for unit-level verification.",
+      "59 detection units and 34 canonical name groups do not imply 59 or 34 distinct bridge coordinates.",
+      "Literal chainage values are not projected coordinates or a verified common route system.",
+      "Study-project attribution comes only from the user's task document, not a unit-level route verification."
+    ],
+    "unit_checks": [
+      {
+        "unit_id": "Br01",
+        "source_row": 3,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br02",
+        "source_row": 4,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br03",
+        "source_row": 5,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br04",
+        "source_row": 6,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br05",
+        "source_row": 7,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br06",
+        "source_row": 8,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br07",
+        "source_row": 9,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br08",
+        "source_row": 10,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br09",
+        "source_row": 11,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br10",
+        "source_row": 12,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br11",
+        "source_row": 13,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br12",
+        "source_row": 14,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br13",
+        "source_row": 15,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br14",
+        "source_row": 16,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br15",
+        "source_row": 17,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br16",
+        "source_row": 18,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br17",
+        "source_row": 19,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br18",
+        "source_row": 20,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br19",
+        "source_row": 21,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br20",
+        "source_row": 22,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br21",
+        "source_row": 23,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br22",
+        "source_row": 24,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br23",
+        "source_row": 25,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br24",
+        "source_row": 26,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br25",
+        "source_row": 27,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br26",
+        "source_row": 28,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br27",
+        "source_row": 29,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br28",
+        "source_row": 30,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br29",
+        "source_row": 31,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br30",
+        "source_row": 32,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br31",
+        "source_row": 33,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br32",
+        "source_row": 34,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br33",
+        "source_row": 35,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br34",
+        "source_row": 36,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br35",
+        "source_row": 37,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br36",
+        "source_row": 38,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br37",
+        "source_row": 39,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br38",
+        "source_row": 40,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br39",
+        "source_row": 41,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br40",
+        "source_row": 42,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br41",
+        "source_row": 43,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br42",
+        "source_row": 44,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br43",
+        "source_row": 45,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br44",
+        "source_row": 46,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br45",
+        "source_row": 47,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br46",
+        "source_row": 48,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br47",
+        "source_row": 49,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br48",
+        "source_row": 50,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br49",
+        "source_row": 51,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br50",
+        "source_row": 52,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br51",
+        "source_row": 53,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br52",
+        "source_row": 54,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br53",
+        "source_row": 55,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br54",
+        "source_row": 56,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br55",
+        "source_row": 57,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br56",
+        "source_row": 58,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br57",
+        "source_row": 59,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br58",
+        "source_row": 60,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      },
+      {
+        "unit_id": "Br59",
+        "source_row": 61,
+        "exact_name_match": true,
+        "serial_match": true,
+        "area_match": true,
+        "historical_and_LOCF_match": true
+      }
+    ]
+  },
+  "fresh_excel_inventory_equals_previous_inventory": true,
+  "requested_location_csv": "/workspace/output_study_map_final/bridge_locations_check.csv",
+  "requested_location_csv_sha256": "38709e2f6010a550ae6e6ed7ce3fb7b9eccc14cf098c5b6175f5076b2bfcb87d",
+  "verified_coordinates": 0,
+  "unlocated_units": 59,
+  "map_plotted_unit_count": 0,
+  "geographic_fields_all_empty": true,
+  "manuscript": {
+    "table_count": 8,
+    "media": [
+      {
+        "part": "word/media/image1.png",
+        "format": "PNG",
+        "size_px": [
+          4015,
+          2526
+        ],
+        "metadata": {
+          "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "sha256": "50a8468c112d7f30a5251d9add286022a7e1505d443cfb2cc1b1737c157ea2ea",
+        "has_exif": false
+      },
+      {
+        "part": "word/media/image2.png",
+        "format": "PNG",
+        "size_px": [
+          4015,
+          3546
+        ],
+        "metadata": {
+          "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "sha256": "7bdf643fc379f54920cf907ef3501278cfae58e566b67a2a0640ed6e521d9d7e",
+        "has_exif": false
+      },
+      {
+        "part": "word/media/image3.png",
+        "format": "PNG",
+        "size_px": [
+          4015,
+          1602
+        ],
+        "metadata": {
+          "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "sha256": "97f4293ee8d330631ee6d2ff3c6bce5f2c5149af6367edb3c3576d645f855768",
+        "has_exif": false
+      },
+      {
+        "part": "word/media/image4.png",
+        "format": "PNG",
+        "size_px": [
+          4015,
+          1696
+        ],
+        "metadata": {
+          "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "sha256": "bab11d13b8462dfb4d2533c607aaa5c09649d339c9f9fbdf95ab34651ac49a22",
+        "has_exif": false
+      },
+      {
+        "part": "word/media/image5.png",
+        "format": "PNG",
+        "size_px": [
+          4015,
+          1630
+        ],
+        "metadata": {
+          "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "sha256": "f48b215bb5d361de2dc7d439f0e206db82d85b821ef521745edde2544d3fe688",
+        "has_exif": false
+      },
+      {
+        "part": "word/media/image6.png",
+        "format": "PNG",
+        "size_px": [
+          4015,
+          3009
+        ],
+        "metadata": {
+          "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "sha256": "2fd6b7ba74b3beb859bccc773aaa34c5d207b5a3c51e7b340729fbcc37f17633",
+        "has_exif": false
+      },
+      {
+        "part": "word/media/image7.png",
+        "format": "PNG",
+        "size_px": [
+          4015,
+          2948
+        ],
+        "metadata": {
+          "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "sha256": "c61299e493093c67f494111acc8f7f29cf1fa3da58af462d82dc93894e3c443d",
+        "has_exif": false
+      }
+    ],
+    "embeddings": [],
+    "external_relationships": [],
+    "custom_xml": {
+      "customXml/item1.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><b:Sources xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\" xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\" SelectedStyle=\"/APA.XSL\" StyleName=\"APA\"/>",
+      "customXml/itemProps1.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<ds:datastoreItem ds:itemID=\"{EF278816-EC6F-A645-907D-7F25AECB1D4A}\" xmlns:ds=\"http://schemas.openxmlformats.org/officeDocument/2006/customXml\"><ds:schemaRefs><ds:schemaRef ds:uri=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\"/></ds:schemaRefs></ds:datastoreItem>"
+    },
+    "document_properties": {
+      "docProps/core.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>低频检测数据下公路桥梁状态预测与预防性养护时机决策研究</dc:title><dc:subject>修改指令14：内容精修与参考模板排版；科学结果保持不变</dc:subject><dc:creator></dc:creator><cp:keywords>桥梁状态预测；规划初始状态；预防性养护；归一化养护资源</cp:keywords><dc:description>generated by python-docx</dc:description><cp:lastModifiedBy>志华 熊</cp:lastModifiedBy><cp:revision>22</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2013-12-23T23:15:00Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-19T19:06:00Z</dcterms:modified><cp:category></cp:category></cp:coreProperties>",
+      "docProps/app.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\" xmlns:vt=\"http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\"><Template>Normal.dotm</Template><TotalTime>76</TotalTime><Pages>15</Pages><Words>2989</Words><Characters>17042</Characters><Application>Microsoft Office Word</Application><DocSecurity>0</DocSecurity><Lines>142</Lines><Paragraphs>39</Paragraphs><ScaleCrop>false</ScaleCrop><HeadingPairs><vt:vector size=\"2\" baseType=\"variant\"><vt:variant><vt:lpstr>Title</vt:lpstr></vt:variant><vt:variant><vt:i4>1</vt:i4></vt:variant></vt:vector></HeadingPairs><TitlesOfParts><vt:vector size=\"1\" baseType=\"lpstr\"><vt:lpstr></vt:lpstr></vt:vector></TitlesOfParts><Manager></Manager><Company></Company><LinksUpToDate>false</LinksUpToDate><CharactersWithSpaces>19992</CharactersWithSpaces><SharedDoc>false</SharedDoc><HyperlinkBase></HyperlinkBase><HyperlinksChanged>false</HyperlinksChanged><AppVersion>16.0000</AppVersion></Properties>"
+    },
+    "map_related_text": [
+      "本文以甬台温高速公路宁波段一期桥梁为研究对象，选取沿线59个桥梁检测单元开展分析。研究对象包括主线桥和互通匝道桥，部分桥梁的左幅与右幅在检测台账中分别记录，因此59个检测单元并不等同于59座独立桥梁。研究路段及桥梁检测单元的空间分布如图1所示。本文以检测单元为基本分析对象，利用2012—2024年的历史检测记录开展全桥评分预测，并在此基础上进行2025—2039年的养护时机规划分析。",
+      "图1 甬台温高速公路宁波段一期研究路段及桥梁检测单元空间分布"
+    ],
+    "first_image_visual_review": "Annual inspection coverage and score-missingness figure, not a map.",
+    "spatial_metadata_found": false
+  },
+  "existing_zip_archives_searched": [
+    {
+      "path": "/workspace/condition_composition_deliverables.zip",
+      "entries": 36,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/condition_composition_final_deliverables.zip",
+      "entries": 36,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/figure_redesign_deliverables.zip",
+      "entries": 114,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/outline_final_deliverables.zip",
+      "entries": 2,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/output_figures.zip",
+      "entries": 21,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/output_figures_final.zip",
+      "entries": 21,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/output_figures_redrawn.zip",
+      "entries": 21,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/output_scripts.zip",
+      "entries": 30,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/output_scripts_final.zip",
+      "entries": 30,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/revision15_work/manuscript9.zip",
+      "entries": 669,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/revision15_work/results8.zip",
+      "entries": 625,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/revision17_deliverables.zip",
+      "entries": 53,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/condition_composition_deliverables.zip",
+      "entries": 36,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/condition_composition_final_deliverables.zip",
+      "entries": 36,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/figure_redesign_deliverables.zip",
+      "entries": 114,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/outline_final_deliverables.zip",
+      "entries": 2,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/output_figures.zip",
+      "entries": 21,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/output_figures_final.zip",
+      "entries": 21,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/output_figures_redrawn.zip",
+      "entries": 21,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/output_scripts.zip",
+      "entries": 30,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/output_scripts_final.zip",
+      "entries": 30,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/revision14_work/previous_sci_project.zip",
+      "entries": 787,
+      "potential_report_or_gis_members": []
+    },
+    {
+      "path": "/workspace/test/revision17_deliverables.zip",
+      "entries": 53,
+      "potential_report_or_gis_members": []
+    }
+  ],
+  "inspection_report_zip_found": false,
+  "limits": [
+    "No verified bridge coordinates, historical-to-current chainage conversion, or route alignment references accompany the 59-unit inventory.",
+    "All 59 units remain unlocated. Blank coordinates are intentional; no 59-point distribution is inferred from the reference screenshot.",
+    "34 name-association groups (25 left/right name pairs and 9 unlabelled sides) are not verified physical bridge sites.",
+    "Unprefixed chainages include both K0–K30 and K1504–K1517; eight letter-prefixed ramp chainage systems are also present.",
+    "Identifying a present-day S1 GIS polyline alone cannot establish unit-level route membership or a matching historical chainage datum."
+  ],
+  "inventory_read_check_passed": true,
+  "geographic_location_verification_complete": false
+}
