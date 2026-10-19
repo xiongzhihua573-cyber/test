@@ -1,0 +1,30 @@
+{
+  "scope": "fixed outline headings and two section merges only",
+  "source_docx": "/workspace/output_final/小论文_中文终稿候选_最终图表精修版.docx",
+  "renamed_heading_count": 11,
+  "removed_heading_count": 2,
+  "secondary_heading_counts": [
+    5,
+    4,
+    4
+  ],
+  "body_text_moved": false,
+  "scientific_data_changed": false,
+  "images_tables_formulas_changed": false,
+  "document_rendered_pages": 15,
+  "input_preserved": true,
+  "files": {
+    "output_outline_final/小论文_中文终稿候选_目录优化版.docx": {
+      "bytes": 2946640,
+      "sha256": "b0ca9b0ab9f1bbc9d37665ef696f66662bbf43cab0e60ecae05ed7cd00465c5f"
+    },
+    "output_outline_final/目录调整对照说明.md": {
+      "bytes": 2741,
+      "sha256": "30da8f7b44867c40efd45ed6ddcdb6644a7df29c0a9e8b77979104533f5f8d9b"
+    },
+    "outline_final_deliverables.zip": {
+      "bytes": 2577223,
+      "sha256": "5cbf2c6c13c99beab5c3d6f4f69cf5cea5db0a0928be36c77097aecf2ae163bf"
+    }
+  }
+}

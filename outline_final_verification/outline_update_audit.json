@@ -1,0 +1,124 @@
+{
+  "source": "/workspace/output_final/小论文_中文终稿候选_最终图表精修版.docx",
+  "target": "/workspace/output_outline_final/小论文_中文终稿候选_目录优化版.docx",
+  "source_sha256": "c6abd40e9b690ecf81991e4b859cc863683e7c267b2a5df750e5e5ffd6ffcfbc",
+  "source_unchanged": true,
+  "output_sha256": "b0ca9b0ab9f1bbc9d37665ef696f66662bbf43cab0e60ecae05ed7cd00465c5f",
+  "changed_package_parts": [
+    "word/document.xml"
+  ],
+  "other_25_parts_byte_identical": true,
+  "all_non_heading_xml_identical": true,
+  "heading_records": [
+    {
+      "source_paragraph_index": 11,
+      "paragraph_id": "611CF9EE",
+      "before": "2.1 检测数据与预测样本",
+      "after": "2.1 检测数据与预测样本",
+      "action": "unchanged"
+    },
+    {
+      "source_paragraph_index": 15,
+      "paragraph_id": "357A2F71",
+      "before": "2.2 时间外状态预测",
+      "after": "2.2 全桥评分预测与时间外验证",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 18,
+      "paragraph_id": "5BEC6078",
+      "before": "2.3 候选规划初始状态",
+      "after": "2.3 规划初始状态构建",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 20,
+      "paragraph_id": "5AFB5740",
+      "before": "2.4 养护行动、状态递推与资源",
+      "after": "2.4 养护规划模型",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 34,
+      "paragraph_id": "4BF37977",
+      "before": "2.5 共同资源水平与下降量情景",
+      "after": "2.5 情景设置与优化求解",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 37,
+      "paragraph_id": "167566B5",
+      "before": "2.6 养护时机求解与方案比较",
+      "after": null,
+      "action": "remove_merged_heading"
+    },
+    {
+      "source_paragraph_index": 42,
+      "paragraph_id": "5A24EA1C",
+      "before": "3.1 检测数据与状态预测结果",
+      "after": "3.1 检测覆盖与评分预测结果",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 53,
+      "paragraph_id": "6E521F07",
+      "before": "3.2 规划初始状态与养护时机",
+      "after": "3.2 规划初始状态与养护时机",
+      "action": "unchanged"
+    },
+    {
+      "source_paragraph_index": 66,
+      "paragraph_id": "11E611B1",
+      "before": "3.3 资源水平与长期状态",
+      "after": "3.3 资源水平与长期养护结果",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 74,
+      "paragraph_id": "0CD7FF65",
+      "before": "3.4 代表性养护排程",
+      "after": null,
+      "action": "remove_merged_heading"
+    },
+    {
+      "source_paragraph_index": 79,
+      "paragraph_id": "71D0EA80",
+      "before": "3.5 年评分下降量敏感性",
+      "after": "3.4 年评分下降量敏感性分析",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 90,
+      "paragraph_id": "650F282C",
+      "before": "4.1 低频检测条件下的状态推断",
+      "after": "4.1 低频检测与状态估计",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 94,
+      "paragraph_id": "3C8A615E",
+      "before": "4.2 规划初始状态与具体养护年份",
+      "after": "4.2 规划初始状态与排程差异",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 100,
+      "paragraph_id": "383E8469",
+      "before": "4.3 资源与评分下降情景的作用",
+      "after": "4.3 资源约束与情景参数",
+      "action": "rename"
+    },
+    {
+      "source_paragraph_index": 105,
+      "paragraph_id": "0208F346",
+      "before": "4.4 适用范围与限制",
+      "after": "4.4 研究局限性与实际应用",
+      "action": "rename"
+    }
+  ],
+  "body_order_unchanged": true,
+  "body_text_moved": false,
+  "old_section_references_requiring_changes": 0,
+  "models_fitted": 0,
+  "optimizations_run": 0
+}

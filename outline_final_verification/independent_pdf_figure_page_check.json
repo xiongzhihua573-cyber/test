@@ -1,0 +1,180 @@
+[
+  {
+    "page": 1,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 2,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 3,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 4,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 5,
+    "source_image_count": 1,
+    "final_image_count": 1,
+    "figure_captions_source": [
+      "图1 检测覆盖与缺失"
+    ],
+    "figure_captions_final": [
+      "图1 检测覆盖与缺失"
+    ],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 6,
+    "source_image_count": 1,
+    "final_image_count": 1,
+    "figure_captions_source": [
+      "图2 LOCF、Ridge 与XGBoost 的连续评分预测结果"
+    ],
+    "figure_captions_final": [
+      "图2 LOCF、Ridge 与XGBoost 的连续评分预测结果"
+    ],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 7,
+    "source_image_count": 1,
+    "final_image_count": 1,
+    "figure_captions_source": [
+      "图3 两套2024 年规划初始状态"
+    ],
+    "figure_captions_final": [
+      "图3 两套2024 年规划初始状态"
+    ],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 8,
+    "source_image_count": 1,
+    "final_image_count": 1,
+    "figure_captions_source": [
+      "图4 同随机种子配对排程的行动重合与首次养护年份平均绝对差"
+    ],
+    "figure_captions_final": [
+      "图4 同随机种子配对排程的行动重合与首次养护年份平均绝对差"
+    ],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 9,
+    "source_image_count": 1,
+    "final_image_count": 1,
+    "figure_captions_source": [
+      "图5 共同资源上限下的长期平均评分及相对养护增益"
+    ],
+    "figure_captions_final": [
+      "图5 共同资源上限下的长期平均评分及相对养护增益"
+    ],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 10,
+    "source_image_count": 1,
+    "final_image_count": 1,
+    "figure_captions_source": [
+      "图6 LOCF 代表方案的年度状态与养护安排"
+    ],
+    "figure_captions_final": [
+      "图6 LOCF 代表方案的年度状态与养护安排"
+    ],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 11,
+    "source_image_count": 1,
+    "final_image_count": 1,
+    "figure_captions_source": [
+      "图7 年评分下降量敏感性"
+    ],
+    "figure_captions_final": [
+      "图7 年评分下降量敏感性"
+    ],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 12,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 13,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 14,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  },
+  {
+    "page": 15,
+    "source_image_count": 0,
+    "final_image_count": 0,
+    "figure_captions_source": [],
+    "figure_captions_final": [],
+    "image_bboxes_same": true,
+    "page_number_visible": true,
+    "footer_text_and_coordinates_same": true
+  }
+]

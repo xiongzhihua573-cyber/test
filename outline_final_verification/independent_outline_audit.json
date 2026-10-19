@@ -1,0 +1,352 @@
+{
+  "source": "/workspace/output_final/小论文_中文终稿候选_最终图表精修版.docx",
+  "output": "/workspace/output_outline_final/小论文_中文终稿候选_目录优化版.docx",
+  "source_sha256": "c6abd40e9b690ecf81991e4b859cc863683e7c267b2a5df750e5e5ffd6ffcfbc",
+  "output_sha256": "b0ca9b0ab9f1bbc9d37665ef696f66662bbf43cab0e60ecae05ed7cd00465c5f",
+  "changed_parts": [
+    "word/document.xml"
+  ],
+  "checks": {
+    "same_part_names": true,
+    "only_document_xml_changed": true,
+    "all_25_other_parts_byte_identical": true,
+    "source_sha_still_same": true,
+    "paragraph_count_141_to_139": true,
+    "13_fixed_heading2_exact": true,
+    "heading2_counts_5_4_4": true,
+    "all_non_heading2_body_nodes_exact_same_order": true,
+    "retained_heading2_all_formatting_and_xml_structure_preserved": true,
+    "all_7_images_exact": true,
+    "all_8_physical_tables_exact": true,
+    "all_6_logical_table_captions_exact": true,
+    "all_7_figure_captions_exact": true,
+    "all_math_objects_exact": true,
+    "same_first_level_heading_texts_and_styles": true,
+    "all_non_heading2_paragraph_texts_exact_same_order": true,
+    "no_inserted_or_omitted_nonheading_paragraphs": true,
+    "no_explicit_obsolete_2_6_or_3_5_section_references": true,
+    "merged_method_2_5_and_2_6_all_content_same_order": true,
+    "merged_results_3_3_and_3_4_all_content_same_order": true
+  },
+  "all_structural_checks_passed": true,
+  "old_section_references_flagged": [],
+  "baseline": {
+    "source": "/workspace/output_final/小论文_中文终稿候选_最终图表精修版.docx",
+    "source_sha256": "c6abd40e9b690ecf81991e4b859cc863683e7c267b2a5df750e5e5ffd6ffcfbc",
+    "zip_parts": 26,
+    "paragraph_count": 141,
+    "heading2": [
+      "2.1 检测数据与预测样本",
+      "2.2 时间外状态预测",
+      "2.3 候选规划初始状态",
+      "2.4 养护行动、状态递推与资源",
+      "2.5 共同资源水平与下降量情景",
+      "2.6 养护时机求解与方案比较",
+      "3.1 检测数据与状态预测结果",
+      "3.2 规划初始状态与养护时机",
+      "3.3 资源水平与长期状态",
+      "3.4 代表性养护排程",
+      "3.5 年评分下降量敏感性",
+      "4.1 低频检测条件下的状态推断",
+      "4.2 规划初始状态与具体养护年份",
+      "4.3 资源与评分下降情景的作用",
+      "4.4 适用范围与限制"
+    ],
+    "physical_table_count": 8,
+    "figure_captions": [
+      "图1 检测覆盖与缺失",
+      "图2 LOCF、Ridge与XGBoost的连续评分预测结果",
+      "图3 两套2024年规划初始状态",
+      "图4 同随机种子配对排程的行动重合与首次养护年份平均绝对差",
+      "图5 共同资源上限下的长期平均评分及相对养护增益",
+      "图6 LOCF代表方案的年度状态与养护安排",
+      "图7 年评分下降量敏感性"
+    ],
+    "table_captions": [
+      "表1 检测数据与缺失情况",
+      "表2 规划参数及其性质",
+      "表3 连续全桥评分预测结果",
+      "表4 两套规划初始状态及无养护基线",
+      "表5 七档共同资源上限下的长期状态结果",
+      "表6 代表资源档规划初始状态比较、年评分下降量敏感性及配对排程"
+    ],
+    "media_sha256": {
+      "word/media/image1.png": "50a8468c112d7f30a5251d9add286022a7e1505d443cfb2cc1b1737c157ea2ea",
+      "word/media/image2.png": "7bdf643fc379f54920cf907ef3501278cfae58e566b67a2a0640ed6e521d9d7e",
+      "word/media/image3.png": "97f4293ee8d330631ee6d2ff3c6bce5f2c5149af6367edb3c3576d645f855768",
+      "word/media/image4.png": "bab11d13b8462dfb4d2533c607aaa5c09649d339c9f9fbdf95ab34651ac49a22",
+      "word/media/image5.png": "f48b215bb5d361de2dc7d439f0e206db82d85b821ef521745edde2544d3fe688",
+      "word/media/image6.png": "2fd6b7ba74b3beb859bccc773aaa34c5d207b5a3c51e7b340729fbcc37f17633",
+      "word/media/image7.png": "c61299e493093c67f494111acc8f7f29cf1fa3da58af462d82dc93894e3c443d"
+    },
+    "math_count": 5,
+    "baseline_pdf_pages": 15,
+    "expected_heading2": [
+      "2.1 检测数据与预测样本",
+      "2.2 全桥评分预测与时间外验证",
+      "2.3 规划初始状态构建",
+      "2.4 养护规划模型",
+      "2.5 情景设置与优化求解",
+      "3.1 检测覆盖与评分预测结果",
+      "3.2 规划初始状态与养护时机",
+      "3.3 资源水平与长期养护结果",
+      "3.4 年评分下降量敏感性分析",
+      "4.1 低频检测与状态估计",
+      "4.2 规划初始状态与排程差异",
+      "4.3 资源约束与情景参数",
+      "4.4 研究局限性与实际应用"
+    ],
+    "removed_heading2": [
+      "2.6 养护时机求解与方案比较",
+      "3.4 代表性养护排程"
+    ]
+  },
+  "final_heading2": [
+    "2.1 检测数据与预测样本",
+    "2.2 全桥评分预测与时间外验证",
+    "2.3 规划初始状态构建",
+    "2.4 养护规划模型",
+    "2.5 情景设置与优化求解",
+    "3.1 检测覆盖与评分预测结果",
+    "3.2 规划初始状态与养护时机",
+    "3.3 资源水平与长期养护结果",
+    "3.4 年评分下降量敏感性分析",
+    "4.1 低频检测与状态估计",
+    "4.2 规划初始状态与排程差异",
+    "4.3 资源约束与情景参数",
+    "4.4 研究局限性与实际应用"
+  ],
+  "pdf": {
+    "path": "/workspace/directory_revision_work/render_final/小论文_中文终稿候选_目录优化版.pdf",
+    "pages": 15,
+    "per_page": [
+      {
+        "page": 1,
+        "word_count": 78,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 2,
+        "word_count": 124,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 3,
+        "word_count": 123,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 4,
+        "word_count": 98,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 5,
+        "word_count": 66,
+        "images": 1,
+        "media_boxes": [
+          [
+            56.70000076293945,
+            50.95074462890625,
+            538.5999755859375,
+            354.1507568359375
+          ]
+        ],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 6,
+        "word_count": 26,
+        "images": 1,
+        "media_boxes": [
+          [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            476.55078125
+          ]
+        ],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 7,
+        "word_count": 99,
+        "images": 1,
+        "media_boxes": [
+          [
+            56.70000076293945,
+            50.95074462890625,
+            538.5999755859375,
+            243.20074462890625
+          ]
+        ],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 8,
+        "word_count": 123,
+        "images": 1,
+        "media_boxes": [
+          [
+            56.70000076293945,
+            50.95079040527344,
+            538.5999755859375,
+            254.50079345703125
+          ]
+        ],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 9,
+        "word_count": 62,
+        "images": 1,
+        "media_boxes": [
+          [
+            56.70000076293945,
+            50.95075988769531,
+            538.5999755859375,
+            246.6507568359375
+          ]
+        ],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 10,
+        "word_count": 41,
+        "images": 1,
+        "media_boxes": [
+          [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            412.05078125
+          ]
+        ],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 11,
+        "word_count": 94,
+        "images": 1,
+        "media_boxes": [
+          [
+            56.70000076293945,
+            50.950775146484375,
+            538.5999755859375,
+            404.85076904296875
+          ]
+        ],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 12,
+        "word_count": 75,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 13,
+        "word_count": 86,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 14,
+        "word_count": 633,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      },
+      {
+        "page": 15,
+        "word_count": 16,
+        "images": 0,
+        "media_boxes": [],
+        "has_text_or_image": true,
+        "page_size": [
+          595.303955078125,
+          841.8897705078125
+        ]
+      }
+    ],
+    "all_pages_have_text_or_images": true,
+    "visual_review_status": "completed; all 15 pages reviewed in contact sheets, pages 4/8/9/10/13/15 also reviewed at 1.25x raster",
+    "visual_directory": "/workspace/directory_revision_work/independent_visual",
+    "all_figure_image_rectangles_on_same_page_and_coordinates_as_source": true,
+    "all_figure_captions_on_same_pages_as_source": true,
+    "all_footer_page_numbers_visible_and_exact_same_coordinates": true,
+    "visual_findings": [
+      "未发现新增空白页、异常分页、重叠或裁切。",
+      "图1—图7及图题均与源文件位于相同页；所有图片位置和尺寸完全相同。",
+      "删去2.6和旧3.4标题后，原正文自然衔接，3.4敏感性分析标题及正文正常。",
+      "第15页仅含原有补充材料说明，其大块页白来自源文件既有独立末页，未新增空页；不为压缩页数修改作者原分页。",
+      "15页页码均存在，位置与源文件相同；页眉页脚部件逐字节相同。"
+    ]
+  }
+}
