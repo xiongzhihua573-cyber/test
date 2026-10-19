@@ -1,0 +1,22 @@
+﻿parameter,value,nature
+n_units,59,observed_data
+planning_horizon,15,planning_setting
+year_start,2025,planning_setting
+year_end,2039,planning_setting
+d,0.65,scenario_parameter_not_calibrated_from_real_events
+R,6,scenario_parameter_not_calibrated_from_real_events
+resource_formula,sum x_i_t * A_i / A_total,fixed_dimensionless_area_model
+objective,unit_equal_mean_59_by_15_year_end_scores,fixed_unit_equal_objective
+annual_capacity,8,planning_setting
+min_gap,3,planning_setting
+max_unit_actions,3,planning_setting
+score_floor,>60+1e-8,study_management_condition
+good_score,>75+1e-8,study_management_condition
+minimum_good_count,57/59,study_target_not_standard_mandate
+population,30,solver_setting
+candidate_evaluations,10000,solver_setting
+seeds,20261015-20261044,pre_fixed
+I_GJO,not_run_optional,no_legacy_20y_control_as_15y_result
+B_min_known_LOCF_15,0.0138153314153136,15y_new_best_known_endpoint_not_global_optimum
+B_ref_LOCF_15,2.2956417860207874,15y_new_best_known_endpoint_not_global_optimum
+B_min_known_Ridge_15,0.0,15y_new_best_known_endpoint_not_global_optimum

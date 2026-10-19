@@ -1,0 +1,28 @@
+{
+  "pdf_previews_actually_rendered": true,
+  "bar_pdf_and_area_title_crop_visually_reviewed": true,
+  "common_text_regions_pixel_verified": {
+    "header": {
+      "identical_shared_text_pixels": true,
+      "bars_dark_pixels": 7654,
+      "area_dark_pixels": 7654
+    },
+    "left_y_axis_labels": {
+      "identical_shared_text_pixels": true,
+      "bars_dark_pixels": 700,
+      "area_dark_pixels": 700
+    },
+    "right_y_axis_labels": {
+      "identical_shared_text_pixels": true,
+      "bars_dark_pixels": 707,
+      "area_dark_pixels": 707
+    },
+    "annual_action_strips": {
+      "identical_shared_text_pixels": true,
+      "bars_dark_pixels": 22066,
+      "area_dark_pixels": 22066
+    }
+  },
+  "note": "The actual PDF renderings have identical readable shared headings, axes, and action strips in both candidate layouts.",
+  "existing_data_modified": false
+}

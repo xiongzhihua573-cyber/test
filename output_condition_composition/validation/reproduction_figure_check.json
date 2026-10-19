@@ -1,0 +1,24 @@
+{
+  "condition_composition_stacked_bars.png": {
+    "byte_identical": true,
+    "sha256": "03cb53e74a56734be9446bc58612cf600798c56c28649b6a62c9b72f66655999"
+  },
+  "condition_composition_stacked_bars.tif": {
+    "byte_identical": true,
+    "sha256": "133cf19295a37822df3f8f32519e69c15e859da91b6269df0a4067d62fdccadd"
+  },
+  "condition_composition_stacked_area.png": {
+    "byte_identical": true,
+    "sha256": "a021ad515d9f581da6fc692cb9479a9156afcde8dba4f285d1c89e49158c5f5f"
+  },
+  "condition_composition_stacked_bars.pdf": {
+    "rendered_pixel_identical": true,
+    "raster_images": 0,
+    "vector_drawings": 1161
+  },
+  "condition_composition_stacked_area.pdf": {
+    "rendered_pixel_identical": true,
+    "raster_images": 0,
+    "vector_drawings": 947
+  }
+}

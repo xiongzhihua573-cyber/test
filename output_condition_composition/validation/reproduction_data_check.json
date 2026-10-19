@@ -1,0 +1,14 @@
+{
+  "condition_composition_by_year.csv": {
+    "identical": true,
+    "sha256": "2f0c419dd60da4e48f37dda86022122e9e7fbcbf50cb0da7c917af03b0b4a974"
+  },
+  "unit_year_scores.csv": {
+    "identical": true,
+    "sha256": "f997c33d24d55d5d14fb3a00f141ca0b9972aec325eea489f1120b35fe79abf0"
+  },
+  "scenario_selection.json": {
+    "identical": true,
+    "sha256": "08eb72dc3ca1f5f24dc664c4ff00e5e5929235f8014cd2cd98f243c6df4938ea"
+  }
+}
