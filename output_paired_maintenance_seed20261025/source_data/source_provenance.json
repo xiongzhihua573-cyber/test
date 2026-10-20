@@ -1,0 +1,30 @@
+{
+  "canonical_project": "/workspace/revision15_work/prior_project/manuscript_sci_stage12",
+  "frozen_manifest_path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source/frozen_scientific_inputs.json",
+  "sources": [
+    {
+      "original_path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/runs/y15__locf__d065__level3__gjo__seed20261025.json",
+      "packaged_path": "source_data/y15__locf__d065__level3__gjo__seed20261025.json",
+      "sha256": "d2b00f6a6ada81ef8e5d8e901d2023fed43a597b4e0239c1732168f317cf44cc",
+      "matches_frozen_manifest": true
+    },
+    {
+      "original_path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/results/runs/y15__ridge__d065__level3__gjo__seed20261025.json",
+      "packaged_path": "source_data/y15__ridge__d065__level3__gjo__seed20261025.json",
+      "sha256": "aee39ff567529965ac8b9e5712502bb2fdb19d10a0b11884b205c5dae87dbdbb",
+      "matches_frozen_manifest": true
+    },
+    {
+      "original_path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source_data/initial_state_2024.csv",
+      "packaged_path": "source_data/initial_state_2024.csv",
+      "sha256": "dbb09638cdaeb3b162aef6fed5c33422e8dfb384f74023f007906ec06e3c392b",
+      "matches_frozen_manifest": true
+    },
+    {
+      "original_path": "/workspace/revision15_work/prior_project/manuscript_sci_stage12/source_data/bridge_group_mapping.csv",
+      "packaged_path": "source_data/bridge_group_mapping.csv",
+      "sha256": "a75e3ef781c77a1010d0980ebb6a750f08770d449aa34cf83a22c861c576f735",
+      "matches_frozen_manifest": true
+    }
+  ]
+}
